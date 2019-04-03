@@ -1,4 +1,4 @@
-Welcome to Team A's repo! 
+Welcome to Team C's repo! 
 
 Describe here an 'advance organizer' for your repo. Your stakeholders will see this file and the Master branch, but none of your development branches. The description may contain information such as: 
 
