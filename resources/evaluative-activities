@@ -1,0 +1,9 @@
+digraph G {
+graph [fontsize=10 fontname="Verdana" compound=true style=filled shape=box bgcolor="PaleGreen"]
+node [fontsize=10 fontname="Verdana" style=filled];
+Evaluation [label = "Decision Making and Generating Commitment" shape=box style=filled color=DarkSeaGreen];
+DV [URL="https://github.sydney.edu.au/crli/EDPC5022-2019/blob/master/resources/ActivityModels/dot-voting.md"] [label="Dot Voting" color=DarkSeaGreen];
+RepGrid [URL="http://grid.eilab.ca"] [label="Repertory Grid Technique" color=DarkSeaGreen];
+FR [URL="https://github.sydney.edu.au/crli/EDPC5022-2019/blob/master/resources/ActivityModels/forced-ranking.md"] [label="Forced Ranking" color=DarkSeaGreen];
+Evaluation -> {RepGrid DV FR} [penwidth= 3 style=dotted color=SeaGreen];
+}
