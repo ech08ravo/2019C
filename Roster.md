@@ -1,4 +1,4 @@
-# Team roaster
+# Team roster
 
 Specify roles for facilitator and knowledge manager per week.
 
