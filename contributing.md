@@ -14,3 +14,14 @@ In short: We are social and constructive.
 2. We will update the Master branch at least once per week, by Tuesday evening after the group meeeting each week at the latest. 
 3. Based on decisions about goals and tasks made Tuesday evenings, we work on tasks (issues) by creating branches and pull requests by Wednesday evening. 
 4. We use Mondays and Tuesdays to discuss and decide on proposed changes to the Master branch (i.e., pull requests). 
+
+## Details of design and collaboration process
+The following documents are maintained and the dynamic ones get updated on a weekly basis:
+1. [Processes](https://github.sydney.edu.au/crli/EDPC5022-2019/blob/master/Processes.md)
+2. [Roster](https://github.sydney.edu.au/crli/EDPC5022-2019/blob/master/Roaster.md)
+3. [Insights](https://github.sydney.edu.au/crli/EDPC5022-2019/blob/master/Insights.md)
+4. [Meeting-DDMMM](https://github.sydney.edu.au/crli/EDPC5022-2019/blob/master/Meeting-DDMMM)
+5. following meeting
+6. following meeting
+
+(...)
