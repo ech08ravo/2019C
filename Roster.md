@@ -3,31 +3,31 @@
 Specify roles for facilitator and knowledge manager per week.
 
 #### Week 7 (9. April)
-Facilitator:
+Facilitator: Agustina
 
-Knowledge Manager:
+Knowledge Manager: Madeline
 
 #### Week 8 (16. April)
-Facilitator:
+Facilitator: Madeline
 
-Knowledge Manager:
+Knowledge Manager: Quang
 
 #### Week 9 (30. April)
-Facilitator:
+Facilitator: Dominique
 
-Knowledge Manager:
+Knowledge Manager: Daniela
 
 #### Week 10 (7. May)
-Facilitator:
+Facilitator: Kira
 
-Knowledge Manager:
+Knowledge Manager: Dominique
 
-#### Week 1 (14. May)
-Facilitator:
+#### Week 11 (14. May)
+Facilitator: Daniela
 
-Knowledge Manager:
+Knowledge Manager: Kira
 
 #### Week 12 (21. May)
-Facilitator:
+Facilitator: Quang
 
-Knowledge Manager:
+Knowledge Manager: Agustina
