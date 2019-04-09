@@ -4,21 +4,25 @@ The purpose of this document is to manage meetings and the knowledge that is cre
 
 # Meeting Agenda (Facilitator)
 
-**Date/Time:** goes here
+**Date/Time:** Tuesday 9/04
 
-**In attendance:** names go here 
+**In attendance:** Madeline, Dominique, Quang, Kira, Daniela, Agustina. 
 
-**Facilitator:** Name goes here
+**Facilitator:** **AGUSTINA**
 
-**Knowledge Manager:** Name goes here
+**Knowledge Manager:** **MADELINE**
 
 ## A. Topics/Goals
-
-1. top 1
-2. top 2
-3. (...)
+1. To understand and edit roster
+2. To arrange next meeting
+3. To define topic for next meeting
 
 ## B. Activities (Facilitator)
+
+1. Assigned names to Roster.md for the rest of the project
+2. Defined next meeting to be held on Thursday 11/04 at 7pm at AC meeting room. Link here:
+  [http://webconf.ucc.usyd.edu.au/rr98hyjpp6so/?proto=true]
+3. Madeline will assign one document to each of us randomly so that we review it and learn what it contains. We will discuss this next meeting. 
 
 (Activities are not identical to topics: Activities contribute to achieving topics, which are usually seen as goals.)
 
@@ -69,6 +73,7 @@ At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergr
 (Everything worth mentioning from the meeting that does not fit into the points above.)
 
 **Link to the recording:**
+[http://webconf.ucc.usyd.edu.au/pgbv8krb6d75/]
 
 *timestamp of relevant interaction*
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
