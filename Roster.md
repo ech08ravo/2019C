@@ -7,6 +7,12 @@ Facilitator: Agustina
 
 Knowledge Manager: Madeline
 
+### 11 April
+Facilitator: Madeline
+
+Knowledge Manager: Madeline
+
+
 #### Week 8 (16. April)
 Facilitator: Madeline
 
