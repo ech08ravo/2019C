@@ -8,7 +8,7 @@ Facilitator: Agustina
 Knowledge Manager: Madeline
 
 ### 11 April
-Facilitator: Madeline
+Facilitator: Agustina
 
 Knowledge Manager: Madeline
 
