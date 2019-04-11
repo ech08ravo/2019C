@@ -44,6 +44,7 @@ NA
 ## Follow up actions (Facilitator, Knowledge Manager)
 Dominique will send text of the use case model to Quang and he will model it in PlantText.  Dominique will put it int he UseCase.md file and use a pull request and assign Quang who will edit it with the model and merge it.  All other team members will then review and discuss at next meeting.
 
+Madeline to add link to how to create a folder in Github.
 
 # Additional notes taken during the meeting (Knowledge Manager, Facilitator)
 
@@ -74,6 +75,8 @@ Brainstorming on this week's task:
 - Use case models how the actors flow through the model
 - Components - create a model with the different components - the AI, the Designer, the Storage, et.
 -Add a learning analytics component int eh model that connects the first part of the content design with the data that gives feedback to the design patterns.
+
+- Link to how to create a folder in Github:  https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser
 
 
 # Notes from the meeting recording (Knowledge Manager)
