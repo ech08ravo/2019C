@@ -45,7 +45,53 @@ Learner --> (CoachU) :engages in AI suggested courses to meet academic needs
 
 ## Use Case 2
 
+Hey Qang - unsure if this is considered interaction or use case but I guess we will find out on tuesday if you no one else can shed any light. Enjoy!
 
-(...)
+
+User decides on key learning objectives of course she/he wishes to automate 
+
+
+
+User logs in to system 
+
+
+
+AI is analysing decisions made my user 
+
+
+
+
+
+User accesses search content function within system that links and has subscriptions to services like google, google scholar, educational databases, YouTube
+
+
+
+User enters key Bolean phrases representing the exact terms of her/his search, separating terms with the word AND. The more search terms, the more focused the course question.
+
+
+
+User can add limitations or more specific options such as researchers, theories and methodologies to focus on Or specific content to link to. However, this is not necessary as system is programmed to produce balanced, well researched content across all multimedia types.
+
+
+
+User selects the automate search button. 
+
+
+
+System produces a course based on user’s search terms.
+
+
+
+User has capability to edit, remove and add content from outside sources As well as via returning to the search function to look up specific content within the system by drag and drop 
+
+
+
+AI records users decisions for future uses, providing search suggestions and system function recommendations for creating a more efficient process 
+
+
+
+
+
+End 
 
 ## Use Case n
