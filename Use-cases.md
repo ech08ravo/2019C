@@ -94,4 +94,34 @@ AI records users decisions for future uses, providing search suggestions and sys
 
 End 
 
-## Use Case n
+## Use Case 3
+
+https://www.plantuml.com/plantuml/img/ZLD1RiCW4Bpp2ex98H_meKgLzjPAbVA0QWrhXnRlMh14okyBjXD5jME56p0pkpCB-oWG97LUAN7YKRycuGu4hJQSGaHjCRgMT9F8Y6C2x-IYbL8whyq7GY17hURw1_Fz6UDMxtOlUlE55bfkdG6lUn31G74xaZwPd70eD4AqLyPq37NkugPxDC7rCX4NDPybtqudGuOfIW17yhp66cBKE7XETbT3p052ajDeKvZz9B4261LkkkzqTe6fGv9jbRlkFLzY4L7gAF2B9_OMmp_I_HmgYuqZZ7FuV0AL8vjpbINqQdALuQvBD74FmvlvVXk0L_xosAg8FhVwWBCMKzK1GVkesdgtnLlKUSCQJ7xX9Cig2maLfSQrAGnEXpApclSpAvbchv0zQg3odxo7caUwKdiaM_xT7m00
+
+
+@startuml
+
+title Automated course design functionality 
+
+
+    (Learning objectives) --> (Pedagogical patterns)
+    (Monitoring needs) --> (Monitorable Learning Script)
+    (Pedagogical patterns) --> (Monitorable Learning Script)
+    (Learning design constraints) --> (Monitorable Learning Script)
+    (Monitorable Learning Script) --> (Cloud-based authoring tool)
+    (Cloud-based authoring tool) --> (Learning Environment): deploys
+   
+
+Stakeholder --> (Learning objectives) :defines
+Stakeholder --> (Monitoring needs) :indicates
+Stakeholder --> (Learning design constraints) :communicates
+Course_Designer --> (Pedagogical patterns) :selects
+Course_Designer --> (Cloud-based authoring tool) :manages
+Course_Designer --> (Learning design constraints) :takes into account
+Course_Designer --> (Monitoring needs) : configurates
+Learner --> (Learning Environment) :interacts and collaborates
+
+
+@enduml
+
+
