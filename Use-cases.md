@@ -45,8 +45,6 @@ Learner --> (CoachU) :engages in AI suggested courses to meet academic needs
 
 ## Use Case 2
 
-Hey Qang - unsure if this is considered interaction or use case but I guess we will find out on tuesday if you no one else can shed any light. Enjoy!
-
 
 User decides on key learning objectives of course she/he wishes to automate 
 
