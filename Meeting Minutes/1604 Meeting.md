@@ -15,7 +15,7 @@ The purpose of this document is to manage meetings and the knowledge that is cre
 ## A. Agenda: Topics/Goals
 1. Go through Use Case Model and discuss 
 2. Go through any outstanding issues
-3. Discuss next task of Component and Interaction models 
+3. Discuss next task of Component and Interaction models (deadline is 19/04/19), its tight cuz of Easter break.
 
 ## B. Activities (Facilitator)
 
