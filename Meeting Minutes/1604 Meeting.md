@@ -20,7 +20,6 @@ The purpose of this document is to manage meetings and the knowledge that is cre
 ## B. Discussion (Facilitator)
 1. Contributing File
 2. Use Case Models
-3. 
 
 ### Contributing File
 **Duration (5 minutes):**
