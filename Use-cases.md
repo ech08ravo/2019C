@@ -16,7 +16,7 @@ The proposed next-generation LDE involves:
 - CoachU: Through the tracking and monitoring of student interaction with the LE and progression throughout the course, the adaptive system will build further predictive models of best course pathways, especially for students at risk of completing the course successfully, if they are on track with course expectations, or if they need to study more or require additional instructional and/ or institutional support. The course designer will play a managing role rather than design.
 
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/jP8nJmCn38Nt_0gFxL2ntu1QjHsGEY0XvifDJB2KE5NiAvmG_vsKemXGGJ2GBR7pFRydpzMmMf-JSyQM21O1zyO7WiqARWOroiwvIjvGuh5yjHrVuSb1EvDhgbe44oiQ5u6rH1QQmcns2PDbwQkINgpbmBL89Z65PIfzW1NjYxALEan7qBlmej46Ow__mHhhlsEDkXl2AYmHFZI_OSwMJjEYlx-T7jlSitDZPjiLAKUX-XT7q6KKZEJ6zY-Cx-Blb0nsfPU0bKdFV_uXyWumfV80s5l9Q1JWBj4ZxpYn3UxL-8boFeMEnQYYRvPG0lYI4kvARIY50oDirfyffy0wajZSAh2qPGFjOxiSzVsO5bY1JCqSUWoKsOCG1MrBEYS9RP5V0000)
+![Submit Rule](https://www.plantuml.com/plantuml/img/jLJ1Ri8m3BtdAto40zgTmmGQErJgBl01AAGUYvGcB7QOqBH_dzC2Mmj3Y6szD8djvsS_9nDY7JdLJYcsx12cYKEj6IiePx3O4MEjb8feMFjrjXVBzXJU5SWtcEFMuXk1zjhjs1eQmcXq3uE7a28XpD64kaPVQRR1mqgJGCl2e_oR6B8qx48Hfmezmsj2ob4Pl8AP9PE86fIWOtLxdlyEQOaTgZ4fnboDQI5oSwFLZi1wg70Jo7A8kzlp55u0FJ949DJHl6J7Vh8XT5jy9QbzYoEsFCAps8bZCiqsg-8afRT-_GqY7slns5gsU6ZWbIp_BD_lC4vvxAdAfdnQm1sKZsSIdN4wpC9UJv6lIh4NS1p_YqwTSPyXsRN72DFD9eQjTjtvEJLteejwur0oSPEZ6zgpTMVvwvAh3wMcnO_MlkdAAwrQ4iiZ_yirmrWtIspGIAPh5P9ScYWQgZAht8Fe5pUsUIn5-9QF2SxfLP3M8y7MQX5G7Zyr4KtaYVm4)
 
 
 ```
@@ -123,10 +123,10 @@ Learner --> (Learning Environment) :interacts and collaborates
 @enduml
 
 
-##Use Case 4 - Futuristic Case
-In this case, the AI creates the entired course starting with needs assessment conducted from analytics and prior students.  Then the AI gathers and creates teaching and learning activities, sets up and designs the course in the Learning Environment / LMS.  The human course designer only approves the course and makes changes before the course goes live.
+## Use Case 4 - Futuristic Case
+In this case, the AI creates the entire course starting with needs assessment conducted from analytics and prior students.  Then the AI gathers and creates teaching and learning activities, sets up and designs the course in the Learning Environment / LMS.  The human course designer only approves the course and makes changes before the course goes live.
 
-![Submit Rule](https://www.planttext.com/?text=jLJ1Ri8m3BtdAto40zgTmmGQErJgBl01AAGUYvGcB7QOqBH_dzC2Mmj3Y6szD8djvsS_9nDY7JdLJYcsx12cYKEj6IiePx3O4MEjb8feMFjrjXVBzXJU5SWtcEFMuXk1zjhjs1eQmcXq3uE7a28XpD64kaPVQRR1mqgJGCl2e_oR6B8qx48Hfmezmsj2ob4Pl8AP9PE86fIWOtLxdlyEQOaTgZ4fnboDQI5oSwFLZi1wg70Jo7A8kzlp55u0FJ949DJHl6J7Vh8XT5jy9QbzYoEsFCAps8bZCiqsg-8afRT-_GqY7slns5gsU6ZWbIp_BD_lC4vvxAdAfdnQm1sKZsSIdN4wpC9UJv6lIh4NS1p_YqwTSPyXsRN72DFD9eQjTjtvEJLteejwur0oSPEZ6zgpTMVvwvAh3wMcnO_MlkdAAwrQ4iiZ_yirmrWtIspGIAPh5P9ScYWQgZAht8Fe5pUsUIn5-9QF2SxfLP3M8y7MQX5G7Zyr4KtaYVm4)
+![Submit Rule](https://www.plantuml.com/plantuml/img/jLJ1Ri8m3BtdAto40zgTmmGQErJgBl01AAGUYvGcB7QOqBH_dzC2Mmj3Y6szD8djvsS_9nDY7JdLJYcsx12cYKEj6IiePx3O4MEjb8feMFjrjXVBzXJU5SWtcEFMuXk1zjhjs1eQmcXq3uE7a28XpD64kaPVQRR1mqgJGCl2e_oR6B8qx48Hfmezmsj2ob4Pl8AP9PE86fIWOtLxdlyEQOaTgZ4fnboDQI5oSwFLZi1wg70Jo7A8kzlp55u0FJ949DJHl6J7Vh8XT5jy9QbzYoEsFCAps8bZCiqsg-8afRT-_GqY7slns5gsU6ZWbIp_BD_lC4vvxAdAfdnQm1sKZsSIdN4wpC9UJv6lIh4NS1p_YqwTSPyXsRN72DFD9eQjTjtvEJLteejwur0oSPEZ6zgpTMVvwvAh3wMcnO_MlkdAAwrQ4iiZ_yirmrWtIspGIAPh5P9ScYWQgZAht8Fe5pUsUIn5-9QF2SxfLP3M8y7MQX5G7Zyr4KtaYVm4)
 
 ```
 @startuml
