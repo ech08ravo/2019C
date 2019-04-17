@@ -123,3 +123,37 @@ Learner --> (Learning Environment) :interacts and collaborates
 @enduml
 
 
+##Use Case 4 - Futuristic Case
+In this case, the AI creates the entired course starting with needs assessment conducted from analytics and prior students.  Then the AI gathers and creates teaching and learning activities, sets up and designs the course in the Learning Environment / LMS.  The human course designer only approves the course and makes changes before the course goes live.
+
+https://www.plantuml.com/plantuml/img/jLJ1Ri8m3BtdAto40zgTmmGQErJgBl01AAGUYvGcB7QOqBH_dzC2Mmj3Y6szD8djvsS_9nDY7JdLJYcsx12cYKEj6IiePx3O4MEjb8feMFjrjXVBzXJU5SWtcEFMuXk1zjhjs1eQmcXq3uE7a28XpD64kaPVQRR1mqgJGCl2e_oR6B8qx48Hfmezmsj2ob4Pl8AP9PE86fIWOtLxdlyEQOaTgZ4fnboDQI5oSwFLZi1wg70Jo7A8kzlp55u0FJ949DJHl6J7Vh8XT5jy9QbzYoEsFCAps8bZCiqsg-8afRT-_GqY7slns5gsU6ZWbIp_BD_lC4vvxAdAfdnQm1sKZsSIdN4wpC9UJv6lIh4NS1p_YqwTSPyXsRN72DFD9eQjTjtvEJLteejwur0oSPEZ6zgpTMVvwvAh3wMcnO_MlkdAAwrQ4iiZ_yirmrWtIspGIAPh5P9ScYWQgZAht8Fe5pUsUIn5-9QF2SxfLP3M8y7MQX5G7Zyr4KtaYVm4
+
+@startuml
+
+title Automated LD System
+
+
+rectangle AI_System {
+    (Reviews analytics) --> (Course Recommendation based on need analysis)
+    (Reviews student questions and Discussion board) --> (Course Recommendation based on need analysis)
+    (Course Recommendation based on need analysis)
+    (Course Recommendation based on need analysis) --> (Reviews current course materials in depository)
+    (Course Recommendation based on need analysis) --> (Internet research on course materials) 
+    (Reviews current course materials in depository) --> (Creation of instruction and learning materials and activities)
+    (Internet research on course materials) --> (Creation of instruction and learning materials and activities)
+    (Creation of instruction and learning materials and activities) --> (Creation of course on LMS / LE)
+    (Creation of course on LMS / LE) --> (Recommended duration of course)
+    (Recommended duration of course) --> (Course Designer Approval)
+    (Course Designer Approval) --> (Course Implementation)
+    (Course Implementation) --> (Reviews analytics)
+}
+
+AI --> (Reviews analytics)
+AI --> (Reviews student questions and Discussion board)
+Course_Designer --> (Course Designer Approval) :approve and set boundaries
+Learner --> (Course Implementation) :interacts and collaborates via LE
+
+
+
+@enduml
+
