@@ -16,7 +16,7 @@ We propose two levels of future learning designs, one at an 'achievable' level a
 
 Consisted within the design framework are the compoents outlined below.
 
-* Link to [components document] (https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Components.md)
+* Link to [components document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Components.md)
 
 ### Interaction sequences
 
