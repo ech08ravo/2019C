@@ -4,7 +4,7 @@
 
 Outlines the weekly progression of day by day activities. The model illustrates the critical interaction points for the team and estbalishes a timeframe when meetings and specific interactions occur.
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/ZLHBQzmm4BxxLyoj44XxRqF8qX889PTkeUUnDBQ7rMChZTRDl-z8ZfDDkxJsmI1fvfllOVak2oOftdMTi3W2k8QT4JwnFC4NnZ6XXwvBT2IKhllu68F5fqzTY4BWQ90EuAQ_lKV3ZWKbffiF_ItexbKYpy5cyEHxIXdYyAQIOu1lCGkrZgNXn3HdUCYvKAux9kbKoe31GZcwY0eNw9Se9Wc7yPqUZQICQd4s4zcY4fuFWGFiREm9FiSGo4Y3uQ3IQ2MbVU_rMKHy3N5sP4U2HmoAkqXPEQoeAghKjOscU0goGYWDgAweIT-L_XQN9fM_Y1lMazT16wWbCZ6f9PbohdPM9C63OjJ1P-AkdajVHCG_h6arjNNfR4YeeAE2cXeLzcgi6kTRBXg6nUeYrloWJnZCTEx03xBXiWSxvrRpcuOvfaEbiqoZAY0VDkKoaJa0js-byJqMXKxqKzUItyGnbNIHonuzDIpCyCBulFC-yV_wLl3pjZrAILl43npGSQQ_rVzRTjwaUr-stDMQvn2TYxEcMfDeAOCjr6vWzBu4DZNjEcpIrtKyQUWpoxHSnWkOhooMFySyiTF5dUxhl-Ot)
+![Submit Rule](https://www.plantuml.com/plantuml/img/bLJ1ZjGm3BttAtn3McdX3glLZa0h8RGN1ebpchYjDMao9CwK-NliTBjqO5QK7YebyNlsUtRoaDaaBgDl6YRs270BEyjq8Zx39p9zCYCqJS8Z6cwQzqynE7F-q8J821uxRW3kslj7OyaJ6uxfxbrx3x9xat2au3ACEBQOCiJk8f9YWAynCrR433WHJXa-vrmmwuvDaXKpcE2W77qqGXVm9midCeN-ZHprA1LfSBO3kY8IdW-10knSR14-nX3GSgMX8D9mAKfmR-MRHNm9SVBeUeGd4uHtbhBKiB2AgA9h5sqPCV128MM0kY8cVPFojxWqYFnPNBUS_4wqeRI4DYQn96FEQgSoiJa8XoPUYRjv3dqH4V-mfiOeT4PM9YEalP1QRPLfnLWnRgnzaMOueouQxH-qoGGxh1tuZYvSzs3d_M9-rJ35TD1ovcoe0lBXiYyhssfXh_HfG7i0ghDJmuv5KYNy8MlE5-qPIhfQszwCMBbCXXS5Q-HZed_X5l8rR6-uf2rcT1ICfun_k_5_DkHDFkpBbhki_UwYzt6IhckdwXI0ArXlQ1p74iZgD6YoGNwtyIH3CH4FysMzphb6rjXNnvmZQ33f1Jv3B2nlLd0wnXVID8u7XLuVolaDcmRoidYGVNdrVW40)
 
 @startuml
 
@@ -39,7 +39,7 @@ end note
 note left
   <b>All members</b> work on assigned tasks
   ....
-  <b>Knowledge Manager</b> check issues and pull requests
+  <b>Facilitator and Knowledge Manager</b> check issues and pull requests
 end note
 
 :Thursday;
@@ -55,7 +55,7 @@ end note
 :Saturday;
 note left
   <b>All members</b> finalise assigned tasks
-  <b>Knowledge Manager</b> checks issues and pull requests
+  <b>Facilitator and Knowledge Manager</b> checks issues and pull requests
 end note
 
 :Sunday;
@@ -63,6 +63,7 @@ note left
   <b>Facilitator</b>
   *follow up on items due
   *communicate and hand-over with next <b>Facilitator</b>
+  *communicate with <b>Knowledge Manager</b> to commit any outstanding pull requests to the Master branch
 end note
 
 repeatwhile
