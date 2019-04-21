@@ -44,7 +44,7 @@ Processes to be left as the diagram.
 2. Dominique to model the Interactions.md
 3. Madeline will edit Use Case 1 model where people will be replaced entirely by AI (replacing course and system designer)
 4. Agustina will change Readme.md
-5. Quang will change Processes and Contributing.md: Quang has to change workflow diagram and add Madeline's idea of working with branches and name them with the corresponding week #. All of us will work in our branches with the component and interactions diagrams.
+5. Quang will change Processes and Contributing.md All of us will work in our branches with the component and interactions diagrams.
 6. Madeline to open an Issue for chatting
 
 # Additional notes taken during the meeting (Knowledge Manager, Facilitator)
