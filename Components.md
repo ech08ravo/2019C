@@ -4,20 +4,52 @@ Keep your components in this document, or create further documents of this kind 
 
 [Link to wiki page on component diagrams](https://github.sydney.edu.au/crli/EDPC5022-2019/wiki/Component-Diagrams) 
 
-
-
 ## Component diagram 1
+This component diagrams shows the different layers of which the system architecture is composed of. 
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+![component diagram #2](https://www.plantuml.com/plantuml/img/dPBFQiCm3CRlUGhJU_CCBSaEWsmKsblPGOb5OkPOGLPAozYxpqupah8Goax-8_q-IP-zym8iVMkJv6J4eigexSYX4vKRg1dQn956jSd82PEroAg06_96VINdZ7hsg7BqfdR87ydvAF293LcDxCEnGE0Xy3tA794lfa8_4tb7r34tLF32O9p4qm4rr5IR2gpgG0JPnUitSaQ8eGojsYXkNArynQQJgSY9oCuhP9PwlIt1erRGIqCSAGbPGN7_Ee4v2Cou73loiTmjZc9AXc5ttHzcp859zvNCiEAthnTtCKok3Mx6_3zsgJHDrMp-fUYZAyiv__1g55ypPYLufvVdNEMsREf61lh1t2UPwGsU1EvFjKEdunSVrny0)
 
-![](https://www.plantuml.com/plantuml/img/PP71JiCm44Jl-nMhdBYudu1Q25IHMYcezDJcOEmbjKZioDw80yg_iqbe3i4NM_DMipFoDh6EtBSD03jk24jjldHD2HK-XxOBdZnZxdGTTGlGpHIprnX4V_4smnz0EMOPlkoZxcxEu3bHlFh2CyLFRQX2dN1_Bc00C4teBKx84ul500W-M74-EcibnxkZUFU-FFN9UKe93w5sffh5NBF6dJ6YJzRv3d4YxhuHYwFcsyZ6UyMoec1gKpRYwGK30bWn_T19S1aIrv5ERuUhNuASE4IoMCPWKZKMaJweRFZswd6f0qklcJpCwzSjKFMTcf54L-elnVynCPYHZ6qswn2m9M_b0ty1)
+@startuml
 
+Title Component Diagram
+node "Controller Layer" {
+[Course Designer]
+[Stakeholders]
+[Learner]
+}
+node "Services Layer" {
+[Needs]
+[Constraints]
+[Pedagogical patterns]
+[Monitorable learning script]
+}
+node "Tools Layer" {
+[Cloud-based authoring tool]
+[AI]
+}
+node "Data Layer" {
+[Depository]
+[Library]
+[xAPI]
+}
+node "Product Layer" {
+[Learning Environment]
+}
+[Course Designer] ... [Needs]
+[Course Designer] ... [Constraints]
+[Course Designer] ... [Pedagogical patterns]
+[Monitorable learning script] ... [Cloud-based authoring tool]
+[Cloud-based authoring tool] ... [Learning Environment]
+[Cloud-based authoring tool] -right... [Depository]
+[Cloud-based authoring tool] -right... [Library]
+[Cloud-based authoring tool] -right... [xAPI]
+@enduml
+@enduml
 
 
 ## Component diagram 2
 
 
-(...)
 
 ## Component diagram n
 
