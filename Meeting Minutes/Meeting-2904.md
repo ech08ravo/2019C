@@ -4,64 +4,53 @@ The purpose of this document is to manage meetings and the knowledge that is cre
 
 # Meeting Agenda (Facilitator)
 
-* Quang to discuss updates to use cases
+**Date/Time:** 30 APRIL 2019
+
+**In attendance:** names go here 
+
+**Facilitator:** DOMINIQUE 
+
+**Knowledge Manager:** DANIELA
+
+## A. Topics/Goals
+
+1. Quang to discuss updates to use cases
     * pending Peter’s clarification - how many use cases/“situations" we are meant to have?
     * discuss “smaller” use case models -  Course/Environments Depository and the Learning Analytics Platform 
     * how many models (e.g. interactions & component models) are we meant to have per use case?
-* Dominique to discuss interactions model 
+2. Dominique to discuss interactions model 
     * may need to align with Quang’s latest model
-* Augustina to discuss Component model
-* Update as to where we are at and what happened over the past 2 weeks?
-* A review of our processes
+3. Augustina to discuss Component model
+4. A review of our processes
     * Tagging all team members
     * Branches with week number. Who makes this?
     * What documents can’t be merged.
     * Sunday meeting?
     * Augustina/Dominique Knowledge Manage swap
-* New Task
-
-**Date/Time:** goes here
-
-**In attendance:** names go here 
-
-**Facilitator:** Name goes here
-
-**Knowledge Manager:** Name goes here
-
-## A. Topics/Goals
-
-1. top 1
-2. top 2
-3. (...)
+5. New Task
 
 ## B. Activities (Facilitator)
 
-(Activities are not identical to topics: Activities contribute to achieving topics, which are usually seen as goals.)
 
 ### Activity 1
-**Duration (in minutes):**
+**Duration (15 minutes):**
 
-Describe activity, link to resources etc.:
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Discuss Week 8 activities
 
 ********
 
 ### Activity 2
 **Duration (in minutes):**
 
-Describe activity, link to resources etc.:
+Review Processes
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ********
 
 ### Activity 3
 **Duration (in minutes):**
 
-Describe activity, link to resources etc.:
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Discuss Week 9 task
 
 
 ## Follow up actions (Facilitator, Knowledge Manager)
