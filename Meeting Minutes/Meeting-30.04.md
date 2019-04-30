@@ -1,0 +1,85 @@
+Meeting Knowledge template v0.1
+
+The purpose of this document is to manage meetings and the knowledge that is created in them. Create one such document per meeting, minimally one per project week.
+
+# Meeting Agenda (Facilitator)
+
+**Date/Time:** 30 APRIL 2019
+
+**In attendance:** names go here 
+
+**Facilitator:** DOMINIQUE 
+
+**Knowledge Manager:** DANIELA
+
+## A. Topics/Goals
+
+1. Quang to discuss updates to use cases
+    * pending Peter’s clarification - how many use cases/“situations" we are meant to have?
+    * discuss “smaller” use case models -  Course/Environments Depository and the Learning Analytics Platform 
+    * how many models (e.g. interactions & component models) are we meant to have per use case?
+2. Dominique to discuss interactions model 
+    * may need to align with Quang’s latest model
+3. Augustina to discuss Component model
+4. A review of our processes
+    * Tagging all team members
+    * Branches with week number. Who makes this?
+    * What documents can’t be merged.
+    * Sunday meeting?
+    * Augustina/Dominique Knowledge Manage swap
+5. New Task
+
+## B. Activities (Facilitator)
+
+
+### Activity 1
+**Duration (15 minutes):**
+
+Discuss Week 8 activities
+
+********
+
+### Activity 2
+**Duration (in minutes):**
+
+Review Processes
+
+
+********
+
+### Activity 3
+**Duration (in minutes):**
+
+Discuss Week 9 task
+
+
+## Follow up actions (Facilitator, Knowledge Manager)
+
+(Formulate action items as issues (connected to milestones) and link to these using their GitHib.)
+
+- [ ] short description and [link to issue](https://github.sydney.edu.au/crli/EDPC5022-2019/issues/36)
+- [ ] Action different from an issue
+- [ ] (...)
+
+# Additional notes taken during the meeting (Knowledge Manager, Facilitator)
+
+(Everything worth mentioning from the meeting that does not fit into the points above.)
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+# Notes from the meeting recording (Knowledge Manager)
+
+(Everything worth mentioning from the meeting that does not fit into the points above.)
+
+**Link to the recording:**
+
+*timestamp of relevant interaction*
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+
+*timestamp of relevant interaction*
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+**end**

@@ -7,32 +7,32 @@ Keep your components in this document, or create further documents of this kind 
 ## Component diagram 1
 This component diagrams shows the different layers of which the system architecture is composed of. 
 
-![component diagram #2](https://www.plantuml.com/plantuml/img/dPBFQiCm3CRlUGhJU_CCBSaEWsmKsblPGOb5OkPOGLPAozYxpqupah8Goax-8_q-IP-zym8iVMkJv6J4eigexSYX4vKRg1dQn956jSd82PEroAg06_96VINdZ7hsg7BqfdR87ydvAF293LcDxCEnGE0Xy3tA794lfa8_4tb7r34tLF32O9p4qm4rr5IR2gpgG0JPnUitSaQ8eGojsYXkNArynQQJgSY9oCuhP9PwlIt1erRGIqCSAGbPGN7_Ee4v2Cou73loiTmjZc9AXc5ttHzcp859zvNCiEAthnTtCKok3Mx6_3zsgJHDrMp-fUYZAyiv__1g55ypPYLufvVdNEMsREf61lh1t2UPwGsU1EvFjKEdunSVrny0)
+![component diagram #2](https://www.plantuml.com/plantuml/img/JP71JiCm44Jl_WgBUty1jOev81aKARbL7BRnAhLmTgFrfb0X_XqxW9ARn_QR6Q-FMK5qcP8nVTI4jk5fPa9IwoAC0fCX3cWV6YOLJWd5UhYZF5Z8jl7sovmRNYIZTPZZI2XlvjmflEELKq39HNe4MG--_ymwb5iSCE-ikjNg5J5KegHb5OYaLRKOOEGn3f3i3AeeLBTVcAAomANKJZKYqcZp877MBQfdJlkS_hTouYKSBf0nM5Zqob9PBNUBx-bvmnqex6YtqWvdpZNwNXyNBmBhwlFKxiXME2o3xk1sXVr_qoUwHM6QogmhPSem3u4_wF1OXc6wJVNUz9jothXDjTwO8r8eF_W3)
 
 @startuml
 
 Title Component Diagram
-node "Controller Layer" {
+node "Controller Layer" as CL {
 [Course Designer]
 [Stakeholders]
 [Learner]
 }
-node "Services Layer" {
+node "Services Layer" as SL {
 [Needs]
 [Constraints]
 [Pedagogical patterns]
 [Monitorable learning script]
 }
-node "Tools Layer" {
+node "Tools Layer" as TL {
 [Cloud-based authoring tool]
 [AI]
 }
-node "Data Layer" {
+node "Data Layer" as DL {
 [Depository]
 [Library]
 [xAPI]
 }
-node "Product Layer" {
+node "Product Layer" as PL {
 [Learning Environment]
 }
 [Course Designer] ... [Needs]
@@ -43,9 +43,13 @@ node "Product Layer" {
 [Cloud-based authoring tool] -right... [Depository]
 [Cloud-based authoring tool] -right... [Library]
 [Cloud-based authoring tool] -right... [xAPI]
-@enduml
-@enduml
 
+CL -down-> SL
+SL -down-> TL
+TL -down-> DL
+DL -down-> PL
+
+@enduml
 
 ## Component diagram 2
 
