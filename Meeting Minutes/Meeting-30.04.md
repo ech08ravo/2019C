@@ -29,7 +29,7 @@
 
 
 ### Activity 1: Analysis of the three use-scenario models 
-**Duration (15 minutes):**
+**Duration: 15 minutes**
 
 Discuss Week 8 activities
   * Comparison between the original model and the 2.0 version.
