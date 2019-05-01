@@ -82,15 +82,14 @@ Discuss Week 9 task
 
 # Notes from the meeting recording (Knowledge Manager)
 
-**Feedback (include questions) for Agustina’s component diagram:**
+**Feedback (includes questions) for Agustina’s component diagram:**
 
-•	Include Instructor and System Designer in the “Controller layer”
-•	Rename "Services Layer" by "Personalisation Layer"
-•	Where should we put the xAPI component? Data Layer or Tools Layer?
-•	Incorporate the analytics platform in the “Tools Layer”
-•	What is the difference between the depository and the library?
-•	Add a system component in the “Data Layer”
-
+* Include Instructor and System Designer in the “Controller layer”
+* Rename "Services Layer" by "Personalisation Layer"
+* Where should we put the xAPI component? Data Layer or Tools Layer?
+* Incorporate the analytics platform in the “Tools Layer”
+* What is the difference between the depository and the library?
+* Add a system component in the “Data Layer”
 
 **Link to the recording:** http://webconf.ucc.usyd.edu.au/p0smz37b0218/
 
