@@ -55,19 +55,22 @@ Discuss Week 9 task
 
 ## Follow up actions (Facilitator, Knowledge Manager)
 
-1.	For use-case 1: Personalisation engine
-    - Madeline will propose an interactions diagram
+1.	Quang will update the use scenario.
+2.	Quang will propose two use cases, one for the Personalisation engine and the other one, for the Learning analytics platform. 
+3.	All of us will give feedback about point 2.
+4.	For use-case 1 (Personalisation engine)
+    - Madeleine will propose an interactions diagram
     - Dominic will propose a component diagram
-2.	For use-case 2: Learning analytics platform 
+5.	For use-case 2 (Learning analytics platform)
      - Agustina will propose an interactions diagram
      - Kira will propose a component diagram 
-3.	Dominic will update the roster
-4.	Kira will update the Processes.md
-5.	Daniela will update the Meeting.md
-6.	Daniela will update the Readme.md according to Peter’s feedback
-7.	Madeline will contribute to the Insights.md
-8.	All of us will review research papers and post findings or ideas.
-
+6.	Dominic will update the roster
+7.	Kira will update the Processes.md
+8.	Quang will update the Contributing.md
+9.	Daniela will update the Meeting.md
+10.	Daniela will update the Readme.md according to Peter’s feedback
+11.	Madeleine will contribute to the Insights.md
+12.	All of us will review research papers and post findings or ideas.
 
 # Additional notes taken during the meeting (Knowledge Manager, Facilitator)
 
