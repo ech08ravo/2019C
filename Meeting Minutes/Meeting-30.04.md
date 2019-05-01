@@ -67,9 +67,8 @@ At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergr
 
 # Notes from the meeting recording (Knowledge Manager)
 
-(Everything worth mentioning from the meeting that does not fit into the points above.)
 
-**Link to the recording:**
+**Link to the recording:** http://webconf.ucc.usyd.edu.au/p0smz37b0218/
 
 *timestamp of relevant interaction*
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
