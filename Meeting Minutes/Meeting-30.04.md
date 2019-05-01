@@ -40,16 +40,17 @@ Discuss Week 8 activities
 ### Activity 2: Review Processes
 **Duration: 5 minutes**
 
-Review Processes
+
 
 
 ********
 
-### Activity 3: 
+### Activity 3: Discuss Week 9 
 **Duration: 12 minutes**
 
-Discuss Week 9 task
+https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32
 
+https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/33
 
 ********
 
