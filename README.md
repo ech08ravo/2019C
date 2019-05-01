@@ -6,7 +6,7 @@ We are figuring out what kind of learning environments will designers have to cr
 
 To address these questions, we are working on different design prototypes that you can explore in our repo. 
 
-This README.md provides you with the key information of the project and also gives you an orientation about how to navigate through the repo. 
+This README.md provides you with the weekly updates of the project and also gives you an orientation about how to navigate through the repo.
 
 
 ## System design overview
