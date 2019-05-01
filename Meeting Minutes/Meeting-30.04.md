@@ -28,10 +28,12 @@
 ## B. Activities (Facilitator)
 
 
-### Activity 1
+### Activity 1: Analysis of the three use-scenario models 
 **Duration (15 minutes):**
 
 Discuss Week 8 activities
+•	Comparison between the original model and the 2.0 version.
+•	Integration of one part (pedagogical patterns, monitoring needs and learning constraints) of the third use-scenario to the “personalisation engine” component in Quang’s model.
 
 ********
 
