@@ -46,7 +46,7 @@ Discuss Week 8 activities
 ********
 
 ### Activity 3: Discuss Week 9 
-**Duration: 12 minutes**
+**Duration: 15 minutes**
 
 Link to [issue #32](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32)
 
