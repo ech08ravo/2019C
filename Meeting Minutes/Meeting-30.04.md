@@ -83,6 +83,7 @@ Discuss Week 9 task
 # Notes from the meeting recording (Knowledge Manager)
 
 **Feedback (include questions) for Agustina’s component diagram:**
+
 •	Include Instructor and System Designer in the “Controller layer”
 •	Rename "Services Layer" by "Personalisation Layer"
 •	Where should we put the xAPI component? Data Layer or Tools Layer?
