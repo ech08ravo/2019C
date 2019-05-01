@@ -38,7 +38,7 @@ Discuss Week 8 activities
 ********
 
 ### Activity 2
-**Duration: 5 minutes **
+**Duration: 5 minutes**
 
 Review Processes
 
