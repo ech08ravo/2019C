@@ -19,12 +19,13 @@ We propose two levels of future learning designs, one at an 'achievable' level a
 
 * Link to [use case document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Use-cases.md)  
 
+### Interaction sequences
+
+* Link to [interactions document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Interactions.md)
+
 ### Components
 
 Consisted within the design framework are the compoents outlined below.
 
 * Link to [components document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Components.md)
 
-### Interaction sequences
-
-* Link to [interactions document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Interactions.md)
