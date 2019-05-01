@@ -1,5 +1,4 @@
 Welcome to the EDPC5022 Group C repo! 
-POWERLEVEL9K_RVM_VISUAL_IDENTIFIER_COLOR="red"
 
 The master branch provides our stakeholders with a complete overview of the current design. This README file provides a concise yet complete description of the design and the main design decisions. These documents get updated frequently. 
 
