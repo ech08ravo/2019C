@@ -8,7 +8,7 @@
 
 **Knowledge Manager:** DANIELA
 
-## A. Topics/Goals
+## A. Agenda: Topics/Goals
 
 1. Quang to discuss updates to use cases
     * pending Peter’s clarification - how many use cases/“situations" we are meant to have?
@@ -16,13 +16,13 @@
     * how many models (e.g. interactions & component models) are we meant to have per use case?
 2. Dominique to discuss interactions model 
     * may need to align with Quang’s latest model
-3. Augustina to discuss Component model
+3. Agustina to discuss Component model
 4. A review of our processes
     * Tagging all team members
     * Branches with week number. Who makes this?
     * What documents can’t be merged.
     * Sunday meeting?
-    * Augustina/Dominique Knowledge Manage swap
+    * Agustina/Dominique Knowledge Manage swap
 5. New Task
 
 ## B. Activities (Facilitator)
