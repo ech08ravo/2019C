@@ -59,7 +59,7 @@ Discuss Week 9 task
 2.	Quang will propose two use cases, one for the Personalisation engine and the other one, for the Learning analytics platform. 
 3.	All of us will give feedback about point 2.
 4.	For use-case 1 (Personalisation engine)
-    - Madeleine will propose an interactions diagram
+    - Madeline will propose an interactions diagram
     - Dominic will propose a component diagram
 5.	For use-case 2 (Learning analytics platform)
      - Agustina will propose an interactions diagram
@@ -69,7 +69,7 @@ Discuss Week 9 task
 8.	Quang will update the Contributing.md
 9.	Daniela will update the Meeting.md
 10.	Daniela will update the Readme.md according to Peter’s feedback
-11.	Madeleine will contribute to the Insights.md
+11.	Madeline will contribute to the Insights.md
 12.	All of us will review research papers and post findings or ideas.
 
 # Additional notes taken during the meeting (Knowledge Manager, Facilitator)
