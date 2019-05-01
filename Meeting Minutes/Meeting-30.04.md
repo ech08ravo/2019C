@@ -1,12 +1,8 @@
-Meeting Knowledge template v0.1
-
-The purpose of this document is to manage meetings and the knowledge that is created in them. Create one such document per meeting, minimally one per project week.
-
 # Meeting Agenda (Facilitator)
 
 **Date/Time:** 30 APRIL 2019
 
-**In attendance:** names go here 
+**In attendance:** Madeline, Dominique, Quang, Kira, Daniela, Agustina.
 
 **Facilitator:** DOMINIQUE 
 
