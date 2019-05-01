@@ -11,7 +11,7 @@ This README.md provides you with the key information of the project and also giv
 
 ## System design overview
 
-We aim to generate a metadesign for a future learning environment in 5 years time. We address the needs of our stakeholders, (a) sponsor manager and (b) team of developers. Provided here an overview of goals, requirements, high-level design decisions to faciitate the implementation of this design platform.
+Here we provide an overview of goals, requirements, high-level design decisions to facilitate the implementation of this design platform.
 
 ### Use cases
 
