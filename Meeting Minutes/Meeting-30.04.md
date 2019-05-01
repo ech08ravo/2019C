@@ -4,9 +4,9 @@
 
 **In attendance:** Madeline, Dominique, Quang, Kira, Daniela, Agustina.
 
-**Facilitator:** DOMINIQUE 
+**Facilitator:** Dominique
 
-**Knowledge Manager:** DANIELA
+**Knowledge Manager:** Daniela
 
 ## A. Agenda: Topics/Goals
 
@@ -51,10 +51,12 @@ Review Processes
 Discuss Week 9 task
 
 
+********
+
 ## Follow up actions (Facilitator, Knowledge Manager)
 
 1.	For use-case 1: Personalisation engine
-    - Madeleine will propose an interactions diagram
+    - Madeline will propose an interactions diagram
     - Dominic will propose a component diagram
 2.	For use-case 2: Learning analytics platform 
      - Agustina will propose an interactions diagram
@@ -63,7 +65,7 @@ Discuss Week 9 task
 4.	Kira will update the Processes.md
 5.	Daniela will update the Meeting.md
 6.	Daniela will update the Readme.md according to Peter’s feedback
-7.	Madeleine will contribute to the Insights.md
+7.	Madeline will contribute to the Insights.md
 8.	All of us will review research papers and post findings or ideas.
 
 
