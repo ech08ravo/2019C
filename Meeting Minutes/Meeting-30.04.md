@@ -92,6 +92,6 @@ Link to [issue #33](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues
 * What is the difference between the depository and the library?
 * Add a system component in the “Data Layer”
 
-**Link to the recording:** http://webconf.ucc.usyd.edu.au/p0smz37b0218/
+**Link to [recording]:(http://webconf.ucc.usyd.edu.au/p0smz37b0218/)**
 
 **end**
