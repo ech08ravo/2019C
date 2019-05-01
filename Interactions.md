@@ -39,9 +39,34 @@ L -> LE : actionAdditionalResources
 
 
 ## Sequence diagram 2
+This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis.  Then, when a course needs to be designed, the course designer enters in the course details (such as subjects, time frame, etc.) into a Personalisation Engine. The Personalisation Engine then searches through both the Cloud Depository and the Web to find suitable resources and activities to meet the course details as entered by the Course Designer into the Personalisation Engine.  The Course Designer then reviews and approves what the engine retreived.  Once approved, the course is set up in the Learning Environment.
+
+@startuml
+
+title "Participants - Sequence Diagram"
+
+actor "Teachers Experts Designers" as TED
+actor "Course Designer" as CD
+entity "Personalisation Engine" as PE
+entity "Cloud Depository" as Dep
+entity "Web" as Web
+entity "Learning Environment" as LE
+
+TED -> Dep : Add Resources and activities
+CD -> PE : Enter course details (subjects, timeframe, etc.)
+PE -> Dep : Search for resources and activities to meet course details
+PE -> Web : Search for resources to meet course details
+Web -> Dep: enter links for resources and activities
+Dep -> PE : return findings that meet criteria
+PE -> CD : Return findings for approval
+CD -> PE : Approve resources and activities
+PE -> LE : Set up course in Learning Environment
+
+@enduml
+
+![Submit Rule] (https://www.plantuml.com/plantuml/img/VLB1Ri8m3BtdAwoUDWds0HmcKCcD0nf8EuVK56-jqoKk6dy_Dq2rJUjEKUpdzvvViapYelHjOuoGD0Z5Lk_agNCi2UQmmuyUsIEioTNHjOKnpak8KEpH-HF61FQpmwZWDIQgMIi5k0HxkxuZoz37X6C_jykrGLR9YohgI63NK792WS5oJOmPjRKZgcn2Nob75n8fwoNtzJe2Nl6GQtgEjGswoCIrSfuf1cwraK4RQumwXFdpm04BM5KLl61IfnuJEAv0pTEPX32PCWEtLd6M1IFuwqOLYgCcmKFg3s_e9Sr0gCMZveGpGF5FZqQdHf6Tsl4dE6eeSK8B942BAByaRZIwsnJDnDmmSTLV06Rl3V5x-jU36TpU5uueVMGu4bSQfEgSdDoK8YaVkPit3McX4Vv43pAkws8uk-PxZAjSmsaBLywDpUiAzDrzCMBuwrMDMI9N-f6_0000)
 
 
-(...)
 
 ## Sequence diagram n
 
