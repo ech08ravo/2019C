@@ -1,6 +1,13 @@
-Welcome to the EDPC5022 Group C repo! 
+**Welcome to the EDPC5022 Group C repo!**
+=========================================
+Our group project seeks to envision and design the future learning design environments. 
 
-The master branch provides our stakeholders with a complete overview of the current design. This README file provides a concise yet complete description of the design and the main design decisions. These documents get updated frequently. 
+We are figuring out what kind of learning environments will designers have to create in five years more. And which methods and technologies are they going to need in support of their work.
+
+To address these questions, we are working on different design prototypes that you can explore in our repo. 
+
+This README.md provides you with the key information of the project and also gives you an orientation about how to navigate through the repo. 
+
 
 ## System design overview
 
