@@ -38,7 +38,7 @@ Discuss Week 8 activities
 ********
 
 ### Activity 2
-**Duration (in minutes):**
+**Duration: 5 minutes **
 
 Review Processes
 
@@ -46,26 +46,31 @@ Review Processes
 ********
 
 ### Activity 3
-**Duration (in minutes):**
+**Duration:**
 
 Discuss Week 9 task
 
 
 ## Follow up actions (Facilitator, Knowledge Manager)
 
-(Formulate action items as issues (connected to milestones) and link to these using their GitHib.)
+1.	For use-case 1: Personalisation engine
+    - Madeleine will propose an interactions diagram
+    - Dominic will propose a component diagram
+2.	For use-case 2: Learning analytics platform 
+     - Agustina will propose an interactions diagram
+     - Kira will propose a component diagram 
+3.	Dominic will update the roster
+4.	Kira will update the Processes.md
+5.	Daniela will update the Meeting.md
+6.	Daniela will update the Readme.md according to Peter’s feedback
+7.	Madeleine will contribute to the Insights.md
+8.	All of us will review research papers and post findings or ideas.
 
-- [ ] short description and [link to issue](https://github.sydney.edu.au/crli/EDPC5022-2019/issues/36)
-- [ ] Action different from an issue
-- [ ] (...)
 
 # Additional notes taken during the meeting (Knowledge Manager, Facilitator)
 
 (Everything worth mentioning from the meeting that does not fit into the points above.)
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 # Notes from the meeting recording (Knowledge Manager)
 
