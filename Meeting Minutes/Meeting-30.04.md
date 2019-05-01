@@ -37,7 +37,7 @@ Discuss Week 8 activities
 
 ********
 
-### Activity 2
+### Activity 2: Review Processes
 **Duration: 5 minutes**
 
 Review Processes
@@ -45,8 +45,8 @@ Review Processes
 
 ********
 
-### Activity 3
-**Duration:**
+### Activity 3: 
+**Duration: 12 minutes**
 
 Discuss Week 9 task
 
@@ -67,12 +67,13 @@ Discuss Week 9 task
 6.	Dominic will update the roster
 7.	Dominic will adjust her interactions diagram to reflect Quang’s new user scenario model.
 8.	Agustina will adjust her component diagram based on the feedback aroused in the group’s meeting (30.04.19)
-9.	Kira will update the Processes.md
-10.	Quang will update the Contributing.md
-11.	Daniela will update the Meeting.md
-12.	Daniela will update the Readme.md according to Peter’s feedback
-13.	Madeline will contribute to the Insights.md
-14.	All of us will review research papers and post findings or ideas.
+9.	Agustina will create a new issue on Peter's 4 questions for Phase 2. 
+10.	Kira will update the Processes.md
+11.	Quang will update the Contributing.md
+12.	Daniela will update the Meeting.md
+13.	Daniela will update the Readme.md according to Peter’s feedback
+14.	Madeline will contribute to the Insights.md
+15.	All of us will review research papers and/or online examples and post findings or ideas.
 
 # Additional notes taken during the meeting (Knowledge Manager, Facilitator)
 
