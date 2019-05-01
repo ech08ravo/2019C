@@ -1,4 +1,4 @@
-**Welcome to the EDPC5022 Group C repo!**
+<Welcome to the EDPC5022 Group C repo!>
 =========================================
 Our group project seeks to envision and design the future learning design environments. 
 
