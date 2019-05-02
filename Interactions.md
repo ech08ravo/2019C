@@ -38,10 +38,37 @@ L -> LE : actionAdditionalResources
 
 
 
-## Sequence diagram 2
+## Personalisation Engine Sequence diagram 
+
+```
+@startuml
+
+title Personalisation Engine Component Diagram
+
+package "Personalisation Engine" as PE {
+[Learning Objectives Tool] as LOT
+[Pedagogical Patterns Tool] as PPT
+[Set Boundaries Tool] as SBT
+}
+
+Boundary "Learning Platform" as LP 
+
+Control "xAPI" as X 
+
+actor "Course Designer" as CD
+
+CD -down-> LOT
+CD -> PPT
+CD -> SBT
+PE <-left- X : monitorsCourseDesigners
+PE -down-> LP
 
 
-(...)
+
+@enduml
+```
+
+![Submit Rule] (RP3FQiCm3CRlUWgHUrvWZD8rwM5GgA4v3CeEMg8QhuvKR7L_67ltEUbMUfXFjlHzFttoCXibEuyHm895HiSfgr0CcIoeu5fy4CP6nvCAYs4Ro2SQ0KxK7yapLlzRAgICRerViDym9GdYSVloohs5DyxOgSRdIRBPTh1tF91N7tgAwCYCazn8d2kI7Hkkz2m3fN3htwqw)
 
 ## Sequence diagram n
 
