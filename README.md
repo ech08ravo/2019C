@@ -11,7 +11,7 @@ This README.md provides you with the weekly updates of the project and also give
 
 ## System design overview
 
-This week we are working on two issues ([#32](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32)and [#33] (https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/33))related to developing ideas for integrating Design Critique into a scalable, distributed Learning Design and Authoring process. 
+This week we are working on two issues ([#32](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32)and [#33](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/33))related to developing ideas for integrating Design Critique into a scalable, distributed Learning Design and Authoring process. 
 
 You can check our designs in the following sections.
 
