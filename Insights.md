@@ -13,6 +13,7 @@ Use this document to capture and reflect on insights into design process, collab
 5. In the meantime, new models were created and merged and the original model was lost creating more confusion among the team - where did the new models stem from? Where did the old model go?  This was a break from the normal process.
 6. In week 9 class, Peter further clarified the Use Case models versus scenario modeling (which we had been doing).  This provided clarity to the team but would have been better if this clarity had been provided several weeks earlier before we started attempting Use Case modeling as it may have helped avoid the situation above.
 7. In week 9 group meeting, the process of pull requests and merging was agreed upon again with agreement that we needed to have a discussion and critiques in the pull request and only a majority of members in agreement will then merge (for modeling).
+
 **Lessons learned** from this experience:
 * Need to wait on merging pull requests from models
 * Need more communication on where / how / why models are being developed
