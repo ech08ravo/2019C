@@ -39,7 +39,7 @@ L -> LE : actionAdditionalResources
 
 
 ## Sequence diagram 2
-This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis.  Then, when a course needs to be designed, the course designer enters in the course details (such as subjects, time frame, etc.) into a Personalisation Engine. The Personalisation Engine then searches through both the Cloud Depository and the Web to find suitable resources and activities to meet the course details as entered by the Course Designer into the Personalisation Engine.  The Course Designer then reviews and approves what the engine retreived.  Once approved, the course is set up in the Learning Environment.
+This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis.  Then, when a course needs to be designed, the course designer enters in the course details (such as subjects, time frame, etc.) into a Personalisation Engine. The Personalisation Engine then searches through both the Cloud Depository and the Web to find suitable resources and activities to meet the course details as entered by the Course Designer into the Personalisation Engine.  The Course Designer then reviews and approves what the engine retreived.  Once approved, the course is set up as a prototype.  The Community of Practice and the Teachers, Designers and Expert conduct a design critique.  Once adjustments / improvements are made in for the design, then the Course Designer gives a final approval and the Personalisation Engine sets up the course in the Learning Environment.
 
 @startuml
 
@@ -50,21 +50,27 @@ actor "Course Designer" as CD
 entity "Personalisation Engine" as PE
 entity "Cloud Depository" as Dep
 entity "Web" as Web
+Actor "Community of Practice" as CP
 entity "Learning Environment" as LE
 
 TED -> Dep : Add Resources and activities
-CD -> PE : Enter course details (subjects, timeframe, etc.)
+CD -> PE : Enter course and learner details (subjects, timeframe, etc.)
 PE -> Dep : Search for resources and activities to meet course details
-PE -> Web : Search for resources to meet course details
+PE -> Web : Search for resources and activities to meet course and learner details
 Web -> Dep: enter links for resources and activities
 Dep -> PE : return findings that meet criteria
 PE -> CD : Return findings for approval
 CD -> PE : Approve resources and activities
+CD -> CP : Set up course prototype
+CP -> PE : Run design critique
+TED -> PE: Contribute to design critique
+PE -> CD : Propose improvements in design based on critique
+CD -> PE: Approve changes
 PE -> LE : Set up course in Learning Environment
 
 @enduml
 
-![Submit Rule] (https://www.plantuml.com/plantuml/img/VLB1Ri8m3BtdAwoUDWds0HmcKCcD0nf8EuVK56-jqoKk6dy_Dq2rJUjEKUpdzvvViapYelHjOuoGD0Z5Lk_agNCi2UQmmuyUsIEioTNHjOKnpak8KEpH-HF61FQpmwZWDIQgMIi5k0HxkxuZoz37X6C_jykrGLR9YohgI63NK792WS5oJOmPjRKZgcn2Nob75n8fwoNtzJe2Nl6GQtgEjGswoCIrSfuf1cwraK4RQumwXFdpm04BM5KLl61IfnuJEAv0pTEPX32PCWEtLd6M1IFuwqOLYgCcmKFg3s_e9Sr0gCMZveGpGF5FZqQdHf6Tsl4dE6eeSK8B942BAByaRZIwsnJDnDmmSTLV06Rl3V5x-jU36TpU5uueVMGu4bSQfEgSdDoK8YaVkPit3McX4Vv43pAkws8uk-PxZAjSmsaBLywDpUiAzDrzCMBuwrMDMI9N-f6_0000)
+![Submit Rule] (https://www.plantuml.com/plantuml/img/dLF1Rjim3BthAuYSLg3j1-GmD71yoy5e2-oio8p3rQPSYGgMlo-bH4QsjJliP9XyV8_lcNwAOeEaQJH6I4Q4LQVlv6YsB14Uu0NV4x93s98TWfrMnbWdFi3g5QqxOeZG_fenA7YBaGRMoWfiXDTsMv6DJo7YqY_jPckGLVAiYZhYsOuKhP1dQ7aWneBgsWNLZ3xroZ7xICfwBdrzNG0_S5zg-ZIRAZnDYNFN7w0BkWwv2t7JBNCxj8691zKzKV0yQQDWTgqnwW8UlcSTMCEcx-4Pexfn6C5o3vdnH48OJLE0NQkubWK3k8lh31kpX9Pw54jZX6ynxN-YatWFGXCUD5Uy1nJtU6UKOH5yqJbtX8Dw2L_eWdYO4ANANIMkD9h5_z5yihN9P9VLre35uaZy5l_9QxAHcaj0IO7XGDnhtgfvj79L3QHyPAzhQvPhJVftT9QnynpyoOwtQMzA3RzUuO9jkfA4G9ghIPqJB-SPZJOhtNDYTPmljMn5Ulxr2hfs3Ord2RHFWZcoFu4twtV1wwaYq5JMorSLWHRklOtOWx-PRHQDwiWTBGzOl-Mk_Sk0qdrslSOy8VVwKty0)
 
 
 
