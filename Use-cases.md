@@ -12,17 +12,17 @@ The adaptive course design system offers automated and authoring tools for the d
 - The Instructor and and Learner will engage with the Learnign environment, where the xAPI will collect use experience data and feed back to the Learning analytics platform.
 - If using the Learning analytics engine, the Course designer will activate it and it will use either the Cloud depository/web search engine or both to then generate a suggested Learning environment.
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/bPCnJ-j03CVt-nGUOG3s38YATgZKeL87HkJcJB1qvulEJlMg9xuxJlB4erA1CYLnV3___xRlGGsh3Jc5O6o9O16nDpuGR9QmEwfH3fLQG-d6d-ldEGP_8LnjgMeHJAneN0HMqh7GDTpStCFLOncgajwjvC2rI2OnXSTKXWXBwekobNgyTig6i0fB1mj77OrRXMr2Uoar_qCzqHvsdjM-VfG8vu9JyWVkK-7Boboi-CB4o-ISnASZVnRRzPWoFqyfvyI7jn3cgJmlIRaJghyor63CBAnMqGZEeyxBRVfQ3Xm9Z7mCElHzgGPXhlkVS7lhXA-MfL4os9T18bOc_UBqjmreG2dvZYhWO2MxY-YR2kq4WewSWcuLmbhSvD2Exz-vYfJy0bJ7IOHSPEoJXYdvXtwmcDUQbFZHjgI4-pAsLU7029iLd6Bc4JSa7NQUmpBgrg7pZz74x4312cJoDc6BaJAt84HHGtWWYUFLVGS0)
+![Submit Rule](https://www.plantuml.com/plantuml/img/bPCnQyCm48Lt_OeRao5q3wKa91a26G8TEeQBT7KFx9FHdTs6qlzUsORIj4dZJaBItVkUdgI56YPhgj8vOoi9bW5huvPWjuR7anfLBf4tbABRt1w6DNW7DzbJqYXOig9n5DX8mK9Jk9-5-2gp1vYiOfEKz6uZBQSe5OafhChO15XJ7PKjfjDqbDGJ7Rl27M4IbWAMkVfax1Ns9TfpJDKKPlzYtfQwuigDPVGYNvXlnMVui_M-vMsvttObmtYkSici-t1kk9V3cfGBeVIlBEOOAXPMIsW4bwKksvtNAROS28py2sXJrp4Pk87xG-7Q7S-L38wnaO29IS5j9JjfVFRs9pfGcTzfKa09K4Nf3gE_ciT5u7h6ZREo62NqDX1zB4iynYuoXPOHTXiubncRFac1HHPXoHyiXrZaYL57wFl18bIKCqAFWIhs84H1dLkGXFnpFm40)
 
 ```
 @startuml
 
 title Adaptive LD System
 rectangle AI_System { 
-(Personalisation Engine) --> (Courses/Environments Cloud Depository) 
-(Learning Analytics Platform) --> (Web Search Engine) 
-(Web Search Engine) --> (Learning Environment) 
+(Personalisation Engine) <-down-> (Courses/Environments Cloud Depository) 
+(Personalisation Engine) <-down-> (Web) 
 (Learning Analytics Platform) --> (Courses/Environments Cloud Depository) 
+(Learning Analytics Platform) --> (Personalisation Engine)
 (Courses/Environments Cloud Depository) --> (Learning Environment) 
 (Learning Environment) --> (xAPI) 
 (xAPI) --> (Learning Analytics Platform) 
@@ -30,11 +30,11 @@ rectangle AI_System {
 
 System_Designer --> (Courses/Environments Cloud Depository) :administrate 
 System_Designer --> (Learning Environment) :provide tech support 
-Course_Designer ..> (Personalisation Engine) :set boundaries 
-Course_Designer ..> (Learning Analytics Platform) :selects automated AI course generator 
+Course_Designer --> (Personalisation Engine) :set boundaries 
 Instructor --> (Learning Environment) :delivers and monitors
+Instructor --> (Courses/Environments Cloud Depository)
 Learner --> (Learning Environment) :interacts and collaborates via LE 
-Learner --> (xAPI) :engages in AI suggested courses to meet academic needs
+Learner --> (Courses/Environments Cloud Depository) :engages in AI suggested courses to meet academic needs
 
 @enduml
 ```
@@ -108,26 +108,28 @@ In a LD with integrated Design Critique process, the following would apply:
 - if approved, it will then be deployed as a learning environment
 - if not approved, adjustments will be made by the course designer and re-proposed for critique until approved.
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/ZLF1Ze8m5BptAzuH3le17ZOIy43YmSGFC0qyQpVmohOF3N7ttxUesnKNLsxmPZepJ1zBnz9oMrT2iEOAOPt1jdECDPmq7o13fnL1QZNhZnQ5k82stbq1j20TR3EHcjOw74pJJEJasBO5cyiW5y9YmPAKzqdotStd32BQe7M6PAMTP6q8LgGqOGopqfnezWPHMfcsz6aQuxINws9Ox15B1vhOY6YDqf8c1OaNwLWN3ZQLvBsnzNIHlt0ukR76Jx64OBIYexQ6QYH-a7d13PhUg3BT1CMl-zvkHITDOyrHLd0MqSCTUGkhrO5xZwHyRnttaYuMWxTxqaqhxfrUnhz67pgEPHWg_px-A3p_UBzacMTzZXZ10ab9XNqpLzROjOfqqld06lGopWZf7-3vtAF_Rj-YE1ZVfmliPxiUYFcKy6A9LFR_xJS0)
+![Submit Rule](https://www.plantuml.com/plantuml/img/ZLFDReCm3BxxANmiXxv0DKsjO0Sa3aWzx5Xbu55FaB34gOIwlVi2T5sxfLfF1FlxYwsidIWhlci1XAKbtDIg5puG5Xbk1oVK0SpVNKQE6qqMbSDj1gdnrj5LDSqWrqwihyHCXHmAKlRKBGAbwxnc6SnhQLKbND54Am4iLQ9qCoR8TxCX7X5WKP9rHgkMdH8s6fzqmveIV5Wk7t6HjiRNc55l70VF8S7_6C_qaa24DpLBQqA5QfnYisu2-S3Mw8wq1EtFow2d0Mpwtfg3Ql48YtaOc5eMVlUJf-LcBwFsfdxpJaOX5m9S_k45w2IMZ5R_nPaY_xQCX5XUA_ySlnNwrWnnZx3yBA0-8aQu8jseXXoodb6nVK1w5_-CkffB775E_wSzRl36ybVLteHHEaZBU_BazuAYTovkDM1DkXvVsnS0)
 
 ```
 @startuml
 
-title LD System with Design Critique
+title Adaptive LD System
 
-Systerm_Designer as SD
+System_Designer as SD
 Course_Designer as CD
 Instructor as I
+Learner as L
+CommunityofPractice as CP
 
 rectangle AI_System { 
-(Personalisation Engine) -down-> (Cloud Depository) :feeds into
-(Learning Analytics Platform) -down-> (Cloud Depository) :feeds into
-(Cloud Depository) -down-> (Proposed Learning Environment) :feeds into
-(Proposed Learning Environment) -down-> (Deploy Learning Environment) :feeds into
+
+(Personalisation Engine) <--> (Cloud Depository) 
+(Personalisation Engine) <--> (Web)
+(Cloud Depository) --> (Proposed Learning Environment) 
 }
 
 rectangle Course_Approval {
-(Design Critique) -right-> (Adjustments)
+(Design Critique) <-right-> (Adjustments)
 (Adjustments) -right-> (Approval)
 }
 
@@ -140,9 +142,11 @@ SD --> (Cloud Depository)
 CD --|> (Design Critique) :engages in
 CD --|> (Adjustments) :engages in
 CD --|> (Approval) :engages in
-CD ..> (Learning Analytics Platform) :chooses
-CD ..> (Personalisation Engine) :chooses
+CD --> (Personalisation Engine) :chooses
+CP --|> (Design Critique) :engages in
 I --|> (Design Critique) :engages in
+I --> (Cloud Depository)
+L --> (Cloud Depository)
 
 @enduml
 ```
