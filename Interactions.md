@@ -40,7 +40,7 @@ L -> LE : actionAdditionalResources
 
 ## Smaller Interactions Diagram #1 for Learning Analytics Platform
 
-This diagrams shows the interactions that occurs within the Learing Analytics Platform. 
+This diagram shows the interactions that occurs within the Learning Analytics Platform. 
 ![Interactions Diagram #1 for LA](https://www.plantuml.com/plantuml/img/XL6nQiD03Dtr5SAPEtJDK69iKmocbAHWhufFIGxiktAIeVxxodOJIfTEftllwJq97KGfwJGE0EfrOAo3Sg9UVGnOUhec6d7tZ9UOiCaHm2Whipg8fccfCoJ16ZXO_upPL_vUhr27u4ZfJCAO5N5AzXP3d1oM_1d5M-ky2ekY_ALi-OmdfjJVi0fN7tZLjAVgdjmO6NYBRG1gV7h1fi8zZZ4iffA_bVvd2O7cGJ-mrkiD33AYC_p2x0IwvMkJx94cZIEfxsaOvbUsA5AMRIGMCCtTafoJ8ukjrhDynCt39ltNmpIRXod_U00SE3YxnpS0)
 
 ```
