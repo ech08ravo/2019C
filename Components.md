@@ -143,3 +143,26 @@ LT ..up..> x : CollectUserExperienceData
 
 @enduml
 ```
+## Component diagram 4
+This component diagram represents the relationship between the layers of the Personalisation Engine and the actors.
+
+![Component diagram #4](https://www.plantuml.com/plantuml/img/RP3FQiCm3CRlUWgHUrvWZD8rwM5GgA4v3CeEMg8QhuvKR7L_67ltEUbMUfXFjlHzFttoCXibEuyHm895HiSfgr0CcIoeu5fy4CP6nvCAYs4Ro2SQ0KxK7yapLlzRAgICRerViDym9GdYSVloohs5DyxOgSRdIRBPTh1tF91N7tgAwCYCazn8d2kI7Hkkz2m3fN3htwqw-0RuRNrYTPtc8jb1qpWdsJW4Q5GiQSJguy4zpkMdKgNUD67Lw3bbnfPpyC9fRZTjCRLO3_ekzMBEEZqNSwJBRPfVrhol8n-iBi0x75L2GUOByG-O9zcLvA2S9Sim_VqF)
+
+```
+@startuml
+title Personalisation Engine Component Diagram
+package "Personalisation Engine" as PE {
+[Learning Objectives Tool] as LOT
+[Pedagogical Patterns Tool] as PPT
+[Set Boundaries Tool] as SBT
+}
+Boundary "Learning Platform" as LP 
+Control "xAPI" as X 
+actor "Course Designer" as CD
+CD -down-> LOT
+CD -> PPT
+CD -> SBT
+PE <-left- X : monitorsCourseDesigners
+PE -down-> LP
+@enduml
+```
