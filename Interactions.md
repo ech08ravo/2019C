@@ -76,13 +76,14 @@ X -> WSE: automaticallyGeneratesSearches
 WSE -> LE: addsResourcesTo
 
 
-## Sequence diagram 2 - Course go Live system ##
+## Sequence diagram 2 - Course Go Live Sequence
 This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis.  
 Then, when a course needs to be designed, the course designer enters in the course details (such as subjects, time frame, etc.) into a Personalisation Engine. 
 The Personalisation Engine then searches through both the Cloud Depository and the Web to find suitable resources and activities to meet the course details as entered by the Course Designer into the Personalisation Engine.  
 The Course Designer then reviews and approves what the engine retreived.  
 Once approved, the course is set up as a prototype.  The Community of Practice and the Teachers, Students, Designers and Expert conduct a design critique.  Once adjustments / improvements are made in for the design, then the Course Designer gives a final approval and the Personalisation Engine sets up the course in the Learning Environment.
 
+```
 @startuml
 
 title "Participants - Sequence Diagram"
@@ -112,7 +113,7 @@ CD -> PE: Approve changes
 PE -> LE : Set up course in Learning Environment
 
 @enduml
-
+```
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/dLJ1Rjim3BthAuYSDg3T1-HGDB1zoy5e2lIio8p3pgOyYGgQlo-bn4QsjSFGastgyJs-PzgFKMoGD0x62Cc0i6hrcHnDbYN2FUpmLq9s23NPFjXnPOnruWEidj6w8uPu1ytRX47qfiP8FPVQJbA7Ih426-6vgNTpM-LJYBX0otbL6yMId5LUkptRWQ8LyWmDzyHOK6speAh1fquv9Xz9MS_bN1yNm0lkIqslPZCBZsFYVEeFq0OTXzo5k6gNlYtQmCIzwfueU1xre62sZJ7P1jm_P25OmwRhu0cZsd4OmN87cV94GXXDLMTWsoYkOS40xc8xmuQieQKEnT8GuLjC-rTqEK2X4G-QCju1YllntIZ38hZJFdU4Wve9d-Y2U1WHPPQxIbnfD8olqNmmjSbabz7MWCNYGFmp_fFNP2DpBW4b1OO3SQU1g-RHobKraFAHlOwjMQurwT_HMSPEK_0dEzoclIar_7o42xPgIn82QPfDQfzuEKzuI_UKM1tdLIrJaNuCongqpHegpn9edmHpPdyYLUM_S3S-s-1rgH5eB3xo_aMWPOYzZTY1lzMePutPkZjQxd5-wTlcBwTAzz6U6_E8tEc_u1q0)
 
