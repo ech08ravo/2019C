@@ -83,7 +83,7 @@ This sequence diagram models how actors add resources and activities into a Clou
 
 title "Participants - Sequence Diagram"
 
-actor "Teachers Experts Designers" as TED
+actor "Teachers, Experts, Designers, Students" as TEDS
 actor "Course Designer" as CD
 entity "Personalisation Engine" as PE
 entity "Cloud Depository" as Dep
@@ -91,7 +91,7 @@ entity "Web" as Web
 Actor "Community of Practice" as CP
 entity "Learning Environment" as LE
 
-TED -> Dep : Add Resources and activities
+TEDS -> Dep : Add Resources and activities
 CD -> PE : Enter course and learner details (subjects, timeframe, etc.)
 PE -> Dep : Search for resources and activities to meet course details
 PE -> Web : Search for resources and activities to meet course and learner details
@@ -100,19 +100,21 @@ Dep -> PE : return findings that meet criteria
 PE -> CD : Return findings for approval
 CD -> PE : Approve resources and activities
 CD -> CP : Set up course prototype
-CP -> PE : Run design critique
-TED -> PE: Contribute to design critique
+CD -> PE : Run design critique
+TEDS -> PE: Contribute to design critique
+CP -> PE: Contribute to design critique
 PE -> CD : Propose improvements in design based on critique
 CD -> PE: Approve changes
 PE -> LE : Set up course in Learning Environment
 
-
-
-![Submit Rule](https://www.plantuml.com/plantuml/img/dLF1Rjim3BthAuYSLg3j1-GmD71yoy5e2-oio8p3rQPSYGgMlo-bH4QsjJliP9XyV8_lcNwAOeEaQJH6I4Q4LQVlv6YsB14Uu0NV4x93s98TWfrMnbWdFi3g5QqxOeZG_fenA7YBaGRMoWfiXDTsMv6DJo7YqY_jPckGLVAiYZhYsOuKhP1dQ7aWneBgsWNLZ3xroZ7xICfwBdrzNG0_S5zg-ZIRAZnDYNFN7w0BkWwv2t7JBNCxj8691zKzKV0yQQDWTgqnwW8UlcSTMCEcx-4Pexfn6C5o3vdnH48OJLE0NQkubWK3k8lh31kpX9Pw54jZX6ynxN-YatWFGXCUD5Uy1nJtU6UKOH5yqJbtX8Dw2L_eWdYO4ANANIMkD9h5_z5yihN9P9VLre35uaZy5l_9QxAHcaj0IO7XGDnhtgfvj79L3QHyPAzhQvPhJVftT9QnynpyoOwtQMzA3RzUuO9jkfA4G9ghIPqJB-SPZJOhtNDYTPmljMn5Ulxr2hfs3Ord2RHFWZcoFu4twtV1wwaYq5JMorSLWHRklOtOWx-PRHQDwiWTBGzOl-Mk_Sk0qdrslSOy8VVwKty0)
-
-
 @enduml
-```
+
+
+
+![Submit Rule](https://www.plantuml.com/plantuml/img/dLJ1Rjim3BthAuYSDg3T1-HGDB1zoy5e2lIio8p3pgOyYGgQlo-bn4QsjSFGastgyJs-PzgFKMoGD0x62Cc0i6hrcHnDbYN2FUpmLq9s23NPFjXnPOnruWEidj6w8uPu1ytRX47qfiP8FPVQJbA7Ih426-6vgNTpM-LJYBX0otbL6yMId5LUkptRWQ8LyWmDzyHOK6speAh1fquv9Xz9MS_bN1yNm0lkIqslPZCBZsFYVEeFq0OTXzo5k6gNlYtQmCIzwfueU1xre62sZJ7P1jm_P25OmwRhu0cZsd4OmN87cV94GXXDLMTWsoYkOS40xc8xmuQieQKEnT8GuLjC-rTqEK2X4G-QCju1YllntIZ38hZJFdU4Wve9d-Y2U1WHPPQxIbnfD8olqNmmjSbabz7MWCNYGFmp_fFNP2DpBW4b1OO3SQU1g-RHobKraFAHlOwjMQurwT_HMSPEK_0dEzoclIar_7o42xPgIn82QPfDQfzuEKzuI_UKM1tdLIrJaNuCongqpHegpn9edmHpPdyYLUM_S3S-s-1rgH5eB3xo_aMWPOYzZTY1lzMePutPkZjQxd5-wTlcBwTAzz6U6_E8tEc_u1q0)
+
+
+
 
 
 ## Sequence diagram n
