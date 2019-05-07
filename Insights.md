@@ -24,6 +24,7 @@ Use this document to capture and reflect on insights into design process, collab
 7/5 - Two learnings from this week's activities that were discussed:  
 * a need to check the internal logic across all the models to ensure they are aligned and 
 * a need to define terms that were being used in the models - "Personalisation Engine", "xAPI", and "Learning Environment" to ensure that all team members are on the same page.
+
 These needs arose during the week as various team members were creating models where the logic did not necessarily align with the "parent" scenario model.  While having this discussion, it became clear that one of the problems was different interpretations of the various terms in the parent model.  So, the discussion revolved around making an agreed definition of the terms to then enter into ReadMe and then to go through the parent model and ensure that everyone's understanding of the parent model, flow and logic is the same so that everyone is on the same page.  Now members will check the underpinning logic of the models to make sure they align with the parent model and that all models will now flow and make sense as part of the whole.
 
 An additional learning from this week was that the decision from last week to have a majority agree before doing a merge was not feasible as not enough people where discussing / approving.  So, another decision was made this week that only two other people can approve to merge a pull request.  This will hopefully result in faster decision making.
