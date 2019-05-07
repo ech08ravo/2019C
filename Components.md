@@ -97,6 +97,49 @@ DL -down-> PL
 @enduml
 ```
 
-## Component diagram n
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+## Component diagram 3
+
+This component diagram shows components of the Learning Analytics Platform.
+
+![Component Diagram 3](http://www.plantuml.com/plantuml/png/LP31Yjj038RlUWhXkzDxASkwTYW17m9EsSFIWphHEaF76gEHMuUbxzx99DJiW0-_li_eHy_9I6sP0e1v2unjdEOeB9QmtW9sdaQb2G1cShzePAnw9XKl8pP2uMhU9Jm6ihUeKuMKiDyVyHt1XRYSiJg8iMOHNHHZiQBa8Ru3vlVQ5gtZEIPlKQy_Rhpjkpjj3hdBeedn6mihPQC8pQ7ju2y0lBxmJnoOr5rmBwCNBlnbsCEDVusBd4clM-ji_VOQPMAnHrt8hurY6WDMQtCybFaAqBYy3wj7WuwJ7uMrqBRxZuThCfu-uc73PJ7hfnEJkpnmVyeREwpFyO_KJxUBGVvmooL-gGE_MOqh8WoRdO-3dt4YeP4Jz2UirOyNk_-NuswtpBlT4wxPQcC8xEnxOjslCwjdSToH4S0potcPmZy0) 
+
+```
+@startuml
+
+title Components - Component Diagram
+
+
+package "Learning Analytics Platform" as LEP { 
+cloud "Internal content" as Int {
+    [Cloud Depository] as CLD
+    [AI Course Generator] as AICD
+}
+
+
+[Web Search Engine] as WSE
+
+}
+
+Boundary "Learning Environment" as LE
+
+
+
+Control "xAPI" as x
+
+Actor "Course Designer" as CD
+
+Actor "System Designer" as SD
+
+Actor "Learner/Teacher" as LT
+
+CD -down-> LEP
+LEP -down-> LE
+LEP <-left- x  
+SD -down-> CLD : manages
+LT -right-> LE
+LT ..up..> x : CollectUserExperienceData
+
+@enduml
+```
