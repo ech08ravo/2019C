@@ -105,7 +105,7 @@ This component diagram shows components of the Learning Analytics Platform.
 
 ![component diagram #3](https://www.plantuml.com/plantuml/img/LP91QyCm38Nl-XKYbvxItSiepP8m0ZaKqj53sS5prTJCaOFjR2rb_tsgrz7D9qlVC-yXUJQRmIf4vUCqM81eeYKitJ0w9eu1ytk1bL6zLmF0gFIxwWcpbfHdmpqMhEmv6XrmRLKyE3zag0AszHel2DgwQOzPmv6y254xkN5C4cdY1L3EhaooYaONJ7J-_7hbPLlzqAAHA9CFXC_4v9Keag1eoWg-062tfJVi994-OiszOKfyszLmvKzkuhtovp-fQ_umtl7mcwKL9PGIpZkBsQbODwbz0YYqs65s2r1HCBraI5JSVt5t3f66_xYxu-HB_c53IXzlkDs8OuNvtdrolhmE3Av3kzUfVCmj7MAE9qJexcgP3IvmK2pB2D1kCFUcFyRRkmtEvzCudo_bsK9cPotf-1B8rwUHl27MLAce05R4-xJzcNo6Rm00)
 
-'''
+
 @startuml
 
 title Components - Component Diagram
@@ -141,4 +141,4 @@ LT ..up..> x : CollectUserExperienceData
 
 @enduml
 
-'''
+
