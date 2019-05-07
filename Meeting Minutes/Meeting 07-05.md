@@ -49,10 +49,8 @@
 5. Update Insights – MADIE.
 6. Update Contributing (2 people instead of 4) – DOMINIQUE.
 
-# Additional notes taken during the meeting (Knowledge Manager, Facilitator)
-
 # Notes from the meeting recording (Knowledge Manager)
 
 **Link to [recordingMeeting07.05](http://webconf.ucc.usyd.edu.au/rr98hyjpp6so/)**
 
-**TheEnd** :[happy]
+**TheEnd**
