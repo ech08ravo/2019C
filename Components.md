@@ -148,7 +148,7 @@ LT ..up..> x : CollectUserExperienceData
 
 This diagram represents the components of the Personalisation Engine.
 
-![Component diagram #4](https://www.plantuml.com/plantuml/img/RP3FQiCm3CRlUWgHUrvWZD8rwM5GgA4v3CeEMg8QhuvKR7L_67ltEUbMUfXFjlHzFttoCXibEuyHm895HiSfgr0CcIoeu5fy4CP6nvCAYs4Ro2SQ0KxK7yapLlzRAgICRerViDym9GdYSVloohs5DyxOgSRdIRBPTh1tF91N7tgAwCYCazn8d2kI7Hkkz2m3fN3htwqw-0RuRNrYTPtc8jb1qpWdsJW4Q5GiQSJguy4zpkMdKgNUD67Lw3bbnfPpyC9fRZTjCRLO3_ekzMBEEZqNSwJBRPfVrhol8n-iBi0x75L2GUOByG-O9zcLvA2S9Sim_VqF)
+![Component diagram #4](https://www.plantuml.com/plantuml/img/RP11Yy9038Nlyoj2x_u54Ljl1GViJVQGRUEGtMaYcNINPV6_Qwk81sy9xtkybsoAe_aqvk3icI2I5HNCND1P1NQIM0Xg7Syg90uDOp8SmndxRqm4rNj71LWWxk0_75j24vO4-yylwfr_g42dcZzcfDrtuHXfmAI9UymGqPrCNf0ORyY17BOwoO36h_x3jWkNy53-e7g6nOn-KXkN8cs4WBshGLNhP8MWeS99o1QvRaBTm6hGNrcjbqhpkbwIxzCSSxlcYSIm8Hdcjrq1)
 
 ```
 @startuml
@@ -159,12 +159,11 @@ package "Personalisation Engine" as PE {
 [Set Boundaries Tool] as SBT
 }
 Boundary "Learning Platform" as LP 
-Control "xAPI" as X 
 actor "Course Designer" as CD
 CD -down-> LOT
 CD -> PPT
 CD -> SBT
-PE <-left- X : monitorsCourseDesigners
 PE -down-> LP
 @enduml
+
 ```
