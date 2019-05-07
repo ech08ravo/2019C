@@ -11,21 +11,25 @@ This README.md provides you with the weekly updates of the project and also give
 
 ## System design overview
 
-Here we provide an overview of goals, requirements, high-level design decisions to facilitate the implementation of this design platform.
+This week we are working on two issues ([#32](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32) and [#33](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/33))related to developing ideas for integrating Design Critique into a scalable, distributed Learning Design and Authoring process. 
+
+You can check our designs in the following sections.
 
 ### Use cases
 
-We propose two levels of future learning designs, one at an 'achievable' level and one at 'ideal'.
+Here is showed the use cases that we have modelled to capture the system’s high-level requirements. 
 
 * Link to [use case document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Use-cases.md)  
 
 ### Interaction sequences
 
+Here is depicted the structure of the system. 
+
 * Link to [interactions document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Interactions.md)
 
 ### Components
 
-Consisted within the design framework are the compoents outlined below.
+Here is stated an overview of the elements that make up the system.
 
 * Link to [components document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Components.md)
 
