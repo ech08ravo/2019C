@@ -103,13 +103,12 @@ DL -down-> PL
 
 This component diagram shows components of the Learning Analytics Platform.
 
-![Component Diagram 3](http://www.plantuml.com/plantuml/png/LP31Yjj038RlUWhXkzDxASkwTYW17m9EsSFIWphHEaF76gEHMuUbxzx99DJiW0-_li_eHy_9I6sP0e1v2unjdEOeB9QmtW9sdaQb2G1cShzePAnw9XKl8pP2uMhU9Jm6ihUeKuMKiDyVyHt1XRYSiJg8iMOHNHHZiQBa8Ru3vlVQ5gtZEIPlKQy_Rhpjkpjj3hdBeedn6mihPQC8pQ7ju2y0lBxmJnoOr5rmBwCNBlnbsCEDVusBd4clM-ji_VOQPMAnHrt8hurY6WDMQtCybFaAqBYy3wj7WuwJ7uMrqBRxZuThCfu-uc73PJ7hfnEJkpnmVyeREwpFyO_KJxUBGVvmooL-gGE_MOqh8WoRdO-3dt4YeP4Jz2UirOyNk_-NuswtpBlT4wxPQcC8xEnxOjslCwjdSToH4S0potcPmZy0) 
+![component diagram #3](https://www.plantuml.com/plantuml/img/LP91QyCm38Nl-XKYbvxItSiepP8m0ZaKqj53sS5prTJCaOFjR2rb_tsgrz7D9qlVC-yXUJQRmIf4vUCqM81eeYKitJ0w9eu1ytk1bL6zLmF0gFIxwWcpbfHdmpqMhEmv6XrmRLKyE3zag0AszHel2DgwQOzPmv6y254xkN5C4cdY1L3EhaooYaONJ7J-_7hbPLlzqAAHA9CFXC_4v9Keag1eoWg-062tfJVi994-OiszOKfyszLmvKzkuhtovp-fQ_umtl7mcwKL9PGIpZkBsQbODwbz0YYqs65s2r1HCBraI5JSVt5t3f66_xYxu-HB_c53IXzlkDs8OuNvtdrolhmE3Av3kzUfVCmj7MAE9qJexcgP3IvmK2pB2D1kCFUcFyRRkmtEvzCudo_bsK9cPotf-1B8rwUHl27MLAce05R4-xJzcNo6Rm00)
 
-```
+'''
 @startuml
 
 title Components - Component Diagram
-
 
 package "Learning Analytics Platform" as LEP { 
 cloud "Internal content" as Int {
@@ -123,7 +122,6 @@ cloud "Internal content" as Int {
 }
 
 Boundary "Learning Environment" as LE
-
 
 
 Control "xAPI" as x
@@ -142,27 +140,5 @@ LT -right-> LE
 LT ..up..> x : CollectUserExperienceData
 
 @enduml
-```
-## Component diagram 4
-This component diagram represents the relationship between the layers of the Personalisation Engine and the actors.
 
-![Component diagram #4](https://www.plantuml.com/plantuml/img/RP3FQiCm3CRlUWgHUrvWZD8rwM5GgA4v3CeEMg8QhuvKR7L_67ltEUbMUfXFjlHzFttoCXibEuyHm895HiSfgr0CcIoeu5fy4CP6nvCAYs4Ro2SQ0KxK7yapLlzRAgICRerViDym9GdYSVloohs5DyxOgSRdIRBPTh1tF91N7tgAwCYCazn8d2kI7Hkkz2m3fN3htwqw-0RuRNrYTPtc8jb1qpWdsJW4Q5GiQSJguy4zpkMdKgNUD67Lw3bbnfPpyC9fRZTjCRLO3_ekzMBEEZqNSwJBRPfVrhol8n-iBi0x75L2GUOByG-O9zcLvA2S9Sim_VqF)
-
-```
-@startuml
-title Personalisation Engine Component Diagram
-package "Personalisation Engine" as PE {
-[Learning Objectives Tool] as LOT
-[Pedagogical Patterns Tool] as PPT
-[Set Boundaries Tool] as SBT
-}
-Boundary "Learning Platform" as LP 
-Control "xAPI" as X 
-actor "Course Designer" as CD
-CD -down-> LOT
-CD -> PPT
-CD -> SBT
-PE <-left- X : monitorsCourseDesigners
-PE -down-> LP
-@enduml
-```
+'''
