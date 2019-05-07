@@ -74,14 +74,15 @@ X -> CCD: automaticallyGeneratesSearches
 CCD -> LE :addsResourcesTo
 X -> WSE: automaticallyGeneratesSearches
 WSE -> LE: addsResourcesTo
+```
 
-
-## Sequence diagram 2 - Course Go Live Sequence
+## Sequence diagram  2 - Course Set Up Sequence
 This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis.  
 Then, when a course needs to be designed, the course designer enters in the course details (such as subjects, time frame, etc.) into a Personalisation Engine. 
 The Personalisation Engine then searches through both the Cloud Depository and the Web to find suitable resources and activities to meet the course details as entered by the Course Designer into the Personalisation Engine.  
 The Course Designer then reviews and approves what the engine retreived.  
-Once approved, the course is set up as a prototype.  The Community of Practice and the Teachers, Students, Designers and Expert conduct a design critique.  Once adjustments / improvements are made in for the design, then the Course Designer gives a final approval and the Personalisation Engine sets up the course in the Learning Environment.
+Once approved, the course is set up as a prototype.  
+The Community of Practice and the Teachers, Students, Designers and Expert conduct a design critique.  Once adjustments / improvements are made in for the design, then the Course Designer gives a final approval and the Personalisation Engine sets up the course in the Learning Environment.
 
 ```
 @startuml
