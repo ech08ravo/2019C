@@ -87,7 +87,7 @@ The Community of Practice and the Teachers, Students, Designers and Expert condu
 ```
 @startuml
 
-title "Participants - Sequence Diagram"
+title "Course Go Live - Sequence Diagram"
 
 actor "Teachers, Experts, Designers, Students" as TEDS
 actor "Course Designer" as CD
@@ -105,7 +105,7 @@ Web -> Dep: enter links for resources and activities
 Dep -> PE : return findings that meet criteria
 PE -> CD : Return findings for approval
 CD -> PE : Approve resources and activities
-CD -> CP : Set up course prototype
+PE -> CD : Set up course prototype
 CD -> PE : Run design critique
 TEDS -> PE: Contribute to design critique
 CP -> PE: Contribute to design critique
@@ -116,7 +116,7 @@ PE -> LE : Set up course in Learning Environment
 @enduml
 ```
 
-![Submit Rule](https://www.plantuml.com/plantuml/svg/dLJ1Rjim3BthAuYSDg3T1-HGDB1zoy5e2lIio8p3pgOyYGgQlo-bn4QsjSFGastgyJs-PzgFKMoGD0x62Cc0i6hrcHnDbYN2FUpmLq9s23NPFjXnPOnruWEidj6w8uPu1ytRX47qfiP8FPVQJbA7Ih426-6vgNTpM-LJYBX0otbL6yMId5LUkptRWQ8LyWmDzyHOK6speAh1fquv9Xz9MS_bN1yNm0lkIqslPZCBZsFYVEeFq0OTXzo5k6gNlYtQmCIzwfueU1xre62sZJ7P1jm_P25OmwRhu0cZsd4OmN87cV94GXXDLMTWsoYkOS40xc8xmuQieQKEnT8GuLjC-rTqEK2X4G-QCju1YllntIZ38hZJFdU4Wve9d-Y2U1WHPPQxIbnfD8olqNmmjSbabz7MWCNYGFmp_fFNP2DpBW4b1OO3SQU1g-RHobKraFAHlOwjMQurwT_HMSPEK_0dEzoclIar_7o42xPgIn82QPfDQfzuEKzuI_UKM1tdLIrJaNuCongqpHegpn9edmHpPdyYLUM_S3S-s-1rgH5eB3xo_aMWPOYzZTY1lzMePutPkZjQxd5-wTlcBwTAzz6U6_E8tEc_u1q0)
+![Submit Rule](https://www.plantuml.com/plantuml/img/dLJ1Zfj03BtFLrYSMcct7v13jH6WNd90oqezJy19l0KFdV54pT_NCm54szsgwYd4VdxFxydm5CHwYUDWZ90C24NfeWy8NnmSw8hm22r-ZyWTGaNsxErO66CxSHwA5xJT1NruWFh7X5xqeS90PywrLcAFBA406-2bhjfbR5POeBbVLaQn93Se6frsR0SALiWnr7mcnengwXLL3YxsoZ6vGCfwottzkmA-uZ7NzDVi5-5nZ9owxWIDrtMeknENpJftGEkP-AowL_AEHsrapA4s9jc0nyz927Qmxtjung1sEWnWkOT4UIKX3AQi4h2f5LUpe8VkRZl1XgIXfHx5qX3WGuZ7L-nIW48ZdZHbV02KxjD7emohOAjptGLEQiQ_emlYO4IKHMwMc6aqZF-ZUMDhayZkg-q0iyM1-5luAwz9HfPSF4hq32VYNWDNpOkLMTMJyf6TrzOiTvhqh-WaOwV9kwiTjcdlSmtVNs73sQfMd1QJEYTERXDkwPuZg-DqgdahqfTXFOEcta7fM3mTes3Ax7TasVmRRhDJuvqUDGADsKUwlm2qBd6q0NjmMurgqLYiTnVBvzNfeVx3gTAzTUV6F27t-ZNu2G00)
 
 
 
