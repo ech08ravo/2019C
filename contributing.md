@@ -1,7 +1,7 @@
 ## General rules
 
 1. We check regularly for new issues and pull requests. 
-2. We follow a weekly workffow and contribute with smaller but more frequent contributions.
+2. We follow a weekly workflow and contribute with smaller but more frequent contributions.
 3. We discuss and brainstorm ideas and weekly tasks in Issues in order to reach the Milestones assigned.
 4. For everything but cosmetic changes (e.g. headings, typing errors), we create a branch and announce what we intend to do by a pull request to all members of the team
 5. We meet on Adobe Connect every Tuesday after class in order to discuss future planning and determine roles for team members. When necessary, we also organise a secondary meeting during the week to discuss or action priority items on the agenda. The Facilitator will initiate this via Issues.
@@ -20,7 +20,7 @@ Collaboration Aim: democratic and constructive.
 7. We use Sundays and Mondays to discuss finalise any remaining pull requests that have not been approved. These will be merged prior to Tuesday class.
 
 ### Note on Pull Requests
-1. Team members will propose design models or seek critiques and approvals for designs to be committed to the Master branch bu creating a pull request named "Studentcode-Week-#"
+1. Team members will propose design models or seek critiques and approvals for designs to be committed to the Master branch by creating a pull request named "Studentcode-Week-#"
 2. Team members will discuss and critique models/items within the pull request until a concensus is reached to approve pull request.
 3. Once concensus is reached by a minimum of 2 group members in the pull request, it can then be merged.
 4. As default, the person that creates a pull request also merges and closes the pull request. Dependent on how many changes affect others, we seek discussions with [@mentions](https://help.github.com/en/enterprise/2.16/user/articles/mentions-on-github-pages) and [reviews](https://help.github.com/en/enterprise/2.16/user/articles/about-pull-request-reviews). 
