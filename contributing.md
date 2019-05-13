@@ -22,7 +22,7 @@ Collaboration Aim: democratic and constructive.
 ### Note on Pull Requests
 1. Team members will propose design models or seek critiques and approvals for designs to be committed to the Master branch bu creating a pull request named "Studentcode-Week-#"
 2. Team members will discuss and critique models/items within the pull request until a concensus is reached to approve pull request.
-3. Once concensus is reached by a minimum of 4 group members in the pull request, it can then be merged.
+3. Once concensus is reached by a minimum of 2 group members in the pull request, it can then be merged.
 4. As default, the person that creates a pull request also merges and closes the pull request. Dependent on how many changes affect others, we seek discussions with [@mentions](https://help.github.com/en/enterprise/2.16/user/articles/mentions-on-github-pages) and [reviews](https://help.github.com/en/enterprise/2.16/user/articles/about-pull-request-reviews). 
 
 ## Details of design and collaboration process
