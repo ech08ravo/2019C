@@ -27,6 +27,6 @@
 # Notes from the meeting recording (Knowledge Manager)
 
 
-**Link to [recording]()**
+**Link to recording: **
 
 **end**
