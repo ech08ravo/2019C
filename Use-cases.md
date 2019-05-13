@@ -126,15 +126,16 @@ L --> (Cloud Depository)
 ## Design Critique Use Case
 
 Users:
-Presenter (Course designer who has the most in depth and context specific knowledge of the model)
-Facilitator (System Designer who establishes the key goals to assess the design against)
-Note-taker (Instructor)
-Other critiquers (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
+###Presenter (Course designer who has the most in depth and context specific knowledge of the model)
+###Facilitator (System Designer who establishes the key goals to assess the design against)
+###Note-taker (Instructor)
+###Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
+
 Use case could involve the broader categories of:
-a) Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles)
-b) Critique Goals: these are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals)
-c) Discussion: includes ways of discussing that is separate to a brainstorm or giving general feedback. Could include looking at use case scenarios, clarifying questions, avoiding using absolutes, design alternatives (but not problem solving)
-d) Post-meeting Actions: presenting feedback notes to keep everyone in the loop, publishing actionable tasks for follow up
+- Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles)
+- Critique Goals: these are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals)
+- Discussion: includes ways of discussing that is separate to a brainstorm or giving general feedback. Could include looking at use case scenarios, clarifying questions, avoiding using absolutes, design alternatives (but not problem solving)
+- Post-meeting Actions: presenting feedback notes to keep everyone in the loop, publishing actionable tasks for follow up
 
 ![Submit Rule](https://www.plantuml.com/plantuml/svg/XPF1Ri8m38RlUOeSuO2uSvYeG4oLfes98Us6GkgLY12ps652qzvzYRfsBMkrMvf-lnt_jkV4odCuMI7Oi0Mv13AbamjlsBm7a6kF6eY4yA1PkR91TWtoAKOhfOqrh1Z6Sk9DUU39dHmrn3qgIsDnUz52buPq83Be8jRwQ25h99QPvdYTOdLI5lZX4lE0MYLW-e9e1wcr1mB7uAUvkwIVIP6Lu0hLzyXQjc5rX0FQ0lnmHSrBG7bdNFa_kNsTRlFQzvhkM52J2wkyURkcgCy1g7QYbyrihC_5qYump5pG53BR4zh0mzYMG6uqk9WS4zHfn2-s0YZsIX_b8rR11hZgHktZ9EKCfqX-2R6vKZplAXUYlvE_7Uz5slsTIUEYn_5CyWJ0qIUnmE09RaIthPYTgu68CYp0aiWTiG-QyKVGjcLsZWjZj3cdFEA93-2RLV3KmykEGCpZcALz-mO0)
 
