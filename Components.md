@@ -103,11 +103,10 @@ DL -down-> PL
 
 This component diagram shows components of the Learning Analytics Platform.
 
-![component diagram #3](http://www.plantuml.com/plantuml/png/LP71Yfn048RlzHI5ToVt49OrAa7mCE24FImvLDfQfqbRBTLjeYnvzxIT2H91iFhxvF-fVWwHDAwp0uWsEiRQpuiNbXYmF0TiB4rACy12vWTDZ4NFf69bmah8xT6QW5T7ySthN205xDihlYCOvzSHYquYQnBH-FGbCIlf4Dy1q_DQPwtXnGSRlUxV3bxtpLzQTQdAge7n2mih9ICBLLSty1i0Nb_uEmvCQkxOocI5CtyPMZZuPx_AIBgVhPFrqwgNENV9TG6WJkNKEooswjhbumsWCYaEYqU1XeETKeTCK_e_FEmXylm_7awSSra_t9ZC_O7xMqfii1pzBocVZeL1Ul6Sy_YfTFmMIzmGOJZjj1lyY3C9JHoWls6fThh7_DynNYxhShayuPQisZl79duDhEssi5eMmmr50dXc6O_R_mC0)
+![component diagram #3](http://www.plantuml.com/plantuml/png/JP31Qjmm443lynM3xzxUImbnRLCMV30u9OVGmrGxyOhA8pCQjrv2_xso29lgDdhFrcCUav7QjWGmRu6nZSiQXSKIrXy3TfvcfGLW9VUBPiPgO5BnCcCZ56xcNS8naBr6NIgaX4C_uXk22t6xO7KMOyqYkYZ6OaN9b_W6cCzBMxIErvYyHRtzE7WxT51eSyufcoR6Rooib8qYDEUsWxy0yFBCFt5YKdV5NcOlNFZprCF1lyPDBgItZ-fi_VOQPIaj9VT_RMHDCUVwHEQZlF-pY6CMeOrY6WDMUpEUo_KE-JGkbs4rtPBnWXqdFmjhuLDtnwM1zTCJaxk-u-4908wLrPVuH-g7uvcnlqz3N-2NEl2hrRWZmjJTQTuJViQ5X6PEC3nXhNw-Mldk64-dRJsT7d3FLXj3O6VV4sk_hwoUnN57Hl38SjcMy0y0)
 
 ```
 @startuml
-
 title Components - Component Diagram
 
 package "Learning Analytics Platform" as LEP { 
@@ -123,24 +122,25 @@ cloud "Internal content" as Int {
 
 Boundary "Learning Environment" as LE
 
+Boundary "Personalisation Engine" as PE
+
 
 Control "xAPI" as x
 
-Actor "Course Designer" as CD
+
 
 Actor "System Designer" as SD
 
 Actor "Learner/Teacher" as LT
 
-CD -down-> LEP
-LEP -down-> LE
+
+LEP -down-> PE
+PE -down-> LE
 LEP <-left- x  
 SD -down-> CLD : manages
 LT -right-> LE
 LT ..up..> x : CollectUserExperienceData
-
 @enduml
-
 ```
 
 
