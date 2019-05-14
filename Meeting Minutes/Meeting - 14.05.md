@@ -2,7 +2,7 @@
 
 **Date/Time:** 14 May 2019
 
-**In attendance:** 
+**In attendance:All 
 
 **Facilitator:** Daniela
 
