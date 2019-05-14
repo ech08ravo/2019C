@@ -13,6 +13,8 @@ This is a visual representation of the actors within our automated course genera
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/ZPF1Zfmm38RlUOfeUjv3hrLLBGjKGg8IAbtDNZt4oqGA2NB2gBnzJG83KwsgveJysvz_n-7P1w0m3KQ8e8D1MTc015tGpif2Gqymo4-VfH0SSoHFxUm33h90htkBT9BWPLjiQkucylYeveMukCage5cU6YJlB1Zj8ROeRQyjnhoc50e2N8016oWtRbAC6vtNt61Em0TYZK1MsvvHDqtE3cX3JAlBpLLbVQ1f-Ov2jSLZwUgo5fspWPoHfzzPKyNOcs2M3iSc6NkVW-xOhe7mxcX8rLaZYhlvCrwEWvrBmQSjvDEtnRly8a6fd-Xvn0xzAjGbnqToDwtm5tRNTXf7Hq7aKMqMrMDuIMDhBkFGmbjmIllHmBmOsC8ntZbZi0jxAnQ_FkN7cWTjiz4Ztme4J4iGTLIglMYDL_S2XKRVa3AhVZYxBEgOyS78YLZ_JOm3r7TgUeKhwkqU7bABLu_qWbUuQKvOvQnXlMKHsKf3Zdjvz4jcGhE-NURQU1VJ_ETqqK3TzRkZJ2czU02pUp-NTmPXvmP-R-gZlECY_WdC3ol-3sAyWzTHxVlXyymb_1F_0G00)
 
+![Submit Rule](https://www.plantuml.com/plantuml/img/ZLDDQ-Cm4BthLuZikOTUbxBKZLqmk60sBCbrOisw0baget5O__iTIN7Ib1nwC-zhvetjvyX0F4zEARRiKBUUaM1W6xokBOm4a_xng9KIB93Ux9R8EEaQenqzqaP3rBjwPRTXfeYtxBPMnp1x0xJeJOyKWmTd8-GHZH-jnwph6sM0uGWIi0PjNPYDn7s4Q6N0KW9l4Zi4yjQF4dMo5Fo4dhEiQzQjMX-PvlISYNR5i_MyPQU6u9c2qvj_LTzcxA0ao_Bd8PNilh0TP5q7_3VGLDnLh-hBydiyVYwsRvHIkre__4ghwvyQZFcDKHeE6DKs4tqZU4H-ARsi409T74Dm3WTE8nB-z51WO-E7WsM5HTwbd16b5J2M8whsGXXqzeHKUVCMV3heMT4LxpMnu3ctkxZBLt5ZEGWybQW_4Ua5t-5aHQ0EsLNrgPMG61DTyWGKRbyA0mtlSgxNG9KnDkM3kzvcV-r4E8H9tgsvfpjdVaFujUXTqPV6zpHAFSi8-M_-0m00)
+
 ```
 @startuml
 
@@ -51,7 +53,6 @@ L -> LE : actionAdditionalResources
 ```
 
 
-
 ## Smaller Interactions Diagram #1 for Learning Analytics Platform
 
 This diagram shows the interactions that occur within the Learning Analytics Platform. 
@@ -85,6 +86,8 @@ The Course Designer then reviews and approves what the engine retreived.
 Once approved, the course is set up as a prototype.  
 The Community of Practice and the Teachers, Students, Designers and Expert conduct a design critique.  Once adjustments / improvements are made in for the design, then the Course Designer gives a final approval and the Personalisation Engine sets up the course in the Learning Environment.
 
+![Submit Rule](https://www.plantuml.com/plantuml/img/dLJ1Zfj03BtFLrYSMcct7v13jH6WNd90oqezJy19l0KFdV54pT_NCm54szsgwYd4VdxFxydm5CHwYUDWZ90C24NfeWy8NnmSw8hm22r-ZyWTGaNsxErO66CxSHwA5xJT1NruWFh7X5xqeS90PywrLcAFBA406-2bhjfbR5POeBbVLaQn93Se6frsR0SALiWnr7mcnengwXLL3YxsoZ6vGCfwottzkmA-uZ7NzDVi5-5nZ9owxWIDrtMeknENpJftGEkP-AowL_AEHsrapA4s9jc0nyz927Qmxtjung1sEWnWkOT4UIKX3AQi4h2f5LUpe8VkRZl1XgIXfHx5qX3WGuZ7L-nIW48ZdZHbV02KxjD7emohOAjptGLEQiQ_emlYO4IKHMwMc6aqZF-ZUMDhayZkg-q0iyM1-5luAwz9HfPSF4hq32VYNWDNpOkLMTMJyf6TrzOiTvhqh-WaOwV9kwiTjcdlSmtVNs73sQfMd1QJEYTERXDkwPuZg-DqgdahqfTXFOEcta7fM3mTes3Ax7TasVmRRhDJuvqUDGADsKUwlm2qBd6q0NjmMurgqLYiTnVBvzNfeVx3gTAzTUV6F27t-ZNu2G00)
+
 ```
 @startuml
 
@@ -116,8 +119,6 @@ PE -> LE : Set up course in Learning Environment
 
 @enduml
 ```
-
-![Submit Rule](https://www.plantuml.com/plantuml/img/dLJ1Zfj03BtFLrYSMcct7v13jH6WNd90oqezJy19l0KFdV54pT_NCm54szsgwYd4VdxFxydm5CHwYUDWZ90C24NfeWy8NnmSw8hm22r-ZyWTGaNsxErO66CxSHwA5xJT1NruWFh7X5xqeS90PywrLcAFBA406-2bhjfbR5POeBbVLaQn93Se6frsR0SALiWnr7mcnengwXLL3YxsoZ6vGCfwottzkmA-uZ7NzDVi5-5nZ9owxWIDrtMeknENpJftGEkP-AowL_AEHsrapA4s9jc0nyz927Qmxtjung1sEWnWkOT4UIKX3AQi4h2f5LUpe8VkRZl1XgIXfHx5qX3WGuZ7L-nIW48ZdZHbV02KxjD7emohOAjptGLEQiQ_emlYO4IKHMwMc6aqZF-ZUMDhayZkg-q0iyM1-5luAwz9HfPSF4hq32VYNWDNpOkLMTMJyf6TrzOiTvhqh-WaOwV9kwiTjcdlSmtVNs73sQfMd1QJEYTERXDkwPuZg-DqgdahqfTXFOEcta7fM3mTes3Ax7TasVmRRhDJuvqUDGADsKUwlm2qBd6q0NjmMurgqLYiTnVBvzNfeVx3gTAzTUV6F27t-ZNu2G00)
 
 
 
