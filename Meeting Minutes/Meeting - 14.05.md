@@ -20,7 +20,7 @@
   
     c) Role of the System designer
 
-    •	  Decide where to add the definition of each component (README.md or a new repo?)
+    •	  Choose where to add the definition of each component (README.md or a new repo?)
 
 2.	“Parent” scenario and use case models
 
@@ -28,7 +28,8 @@
 
 3.	Weekly milestone coordination
 
-    •	  Assign tasks for week #11
+    •	  Choose the focus of our work for the next two weeks
+    •     Assign tasks for week #11
 
 
 ## B. Activities (Facilitator)
