@@ -1,4 +1,4 @@
-# Interaction (sequence, activity) diagrams
+# Interactions
 
 Keep your interaction sequences in this document, or create further documents of this kind if documents gets too long. Note that when you render the markdown in html you can get an url for any heading by pointing to the left of the heading and then right-click and copy the heading bookmark link. 
 
