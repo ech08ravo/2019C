@@ -10,6 +10,21 @@
 
 ## A. Agenda: Topics/Goals
 
+1.	Glossary 
+
+•	Questions/doubts about the definitions
+- Cloud Depository or Repository?
+- Learning Analytics Platform Characteristics. Who should interact with the LA platform? Instructor, Course Designer, nobody?
+- Role of the System designer
+
+•	Decide where to add the definition of each component (README.md or a new repo?)
+
+2.	“Parent” scenario and use case models
+•	Check internal logic across the diagrams
+
+3.	Weekly milestone coordination
+•	Assign tasks for week #11
+
 
 ## B. Activities (Facilitator)
 
