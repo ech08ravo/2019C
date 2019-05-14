@@ -129,10 +129,10 @@ L --> (Cloud Depository)
 ## Design Critique Use Case
 
 Users:
-###Presenter (Course designer who has the most in depth and context specific knowledge of the model)
-###Facilitator (System Designer who establishes the key goals to assess the design against)
-###Note-taker (Instructor)
-###Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
+- Presenter (Course designer who has the most in depth and context specific knowledge of the model)
+- Facilitator (System Designer who establishes the key goals to assess the design against)
+- Note-taker (Instructor)
+- Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
 
 Use case could involve the broader categories of:
 - Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles)
