@@ -2,7 +2,7 @@
 
 > This page contains the meta-design use scenerio, followed by use cases that extrapolate key aspects of the Learning Design (LD) system proposed. It offers a clear break down of the users involved and aspects of the system that are at the core of this proposed adaptive learning design system.
 
-## Use Scenario - AI Adaptive LD System
+## AI Adaptive LD System Use Scenario Model
 
 The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users.
 - The System Designer will contribute to the Courses/Environments Cloud Repository and provides technical support to the Learning Environment.
@@ -19,7 +19,7 @@ The adaptive course design system offers automated and authoring tools for the d
 ```
 @startuml
 
-title Adaptive LD System
+title AI Adaptive LD System Use Scenario Model
 rectangle AI_System { 
 (Personalisation Engine) <-down-> (Web) 
 (Personalisation Engine) <-right-> (Courses/Environments Cloud Repository) 
@@ -41,7 +41,7 @@ Learner --> (Courses/Environments Cloud Repository) :engages in
 @enduml
 ```
 
-## Use Case 1 - Personalisation Engine
+## Personalisation Engine Use Case Model
 As Learning Design research shows that the context of learning and the need for systems to be flexible, adaptive and user friendly, the Course Designer will input boundaries or design requirements into the Personalisation Engine.
 The Course designr can engage with the Personalisation user interface to determine one or all of the following:
 - Learning objectives
@@ -55,7 +55,7 @@ Based on the set of boundaries and requirements set, the Personalisation Engine 
 ```
 @startuml
 
-title Personalisation Engine
+title Personalisation Engine Use Case Model
 
 rectangle Personalisation_Engine { 
 (Learning Objectives) --> (Content)
@@ -74,7 +74,7 @@ Course_Designer ..> (Learning Platform)
 @enduml
 ```
 
-# Adaptive LD with Design Critique Integrated
+# Adaptive LD with Design Critique Integrated Use Case Model
 
 In a Learning Design with integrated Design Critique process, the following would apply:
 - The Course Designer engages with th Personalisation Engine user interface
@@ -88,7 +88,7 @@ In a Learning Design with integrated Design Critique process, the following woul
 ```
 @startuml
 
-title Adaptive LD System
+title Adaptive LD with Design Critique Integrated Use Case Model
 
 System_Designer as SD
 Course_Designer as CD
@@ -126,7 +126,7 @@ L --> (Cloud Depository)
 @enduml
 ```
 
-## Design Critique Use Case
+## Design Critique Use Case Model
 
 Users:
 - Presenter (Course Designer who has the most in depth and context specific knowledge of the model)
@@ -145,7 +145,7 @@ Use case could involve the broader categories of:
 ```
 @startuml
 
-title Design Critique Process
+title Design Critique Use Case Model
 
 rectangle Design_Critique {
 (Facilitate) -right-> (Critique Goals)
