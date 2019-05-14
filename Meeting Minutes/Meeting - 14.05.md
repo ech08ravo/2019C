@@ -20,9 +20,11 @@
 •	Decide where to add the definition of each component (README.md or a new repo?)
 
 2.	“Parent” scenario and use case models
+
 •	Check internal logic across the diagrams
 
 3.	Weekly milestone coordination
+
 •	Assign tasks for week #11
 
 
