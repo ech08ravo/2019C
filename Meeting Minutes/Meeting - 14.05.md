@@ -29,6 +29,7 @@
 3.	Weekly milestone coordination
 
     •	  Choose the focus of our work for the next two weeks
+    
     •     Assign tasks for week #11
 
 
