@@ -9,10 +9,10 @@ The adaptive course design system offers automated and authoring tools for the d
 - The Course Designer will use the Personalisation Engine user interface to input requirements such as learning objectives, pedagogical patterns, monitoring needs, learning platform, duration and/or activities.
 - The Personalisation Engine will search for information through the Courses/Environments Cloud Repository and web.
 - The Personalisation Engine will then feed back to the Personalisation Engine and generate a Learning Environment appropriate to the boundaries set.
-- The Course Designer will review and approve or modify the LE produced.
-- The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Depository and Personalisation Engine.
+- The Course Designer will review and approve or modify the Learning Evironment produced.
+- The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Repository and Personalisation Engine.
 - The Instructor is able to access the Learning Analytics Platform to make teaching and learning decisions.
-- To reflect the democratic process of learning design, the System Designer, Instructor and Leaerner are able to contribute to the Courses/Environments Cloud Depository.
+- To reflect the democratic process of learning design, the System Designer, Instructor and Learner are able to contribute to the Courses/Environments Cloud Repository.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/ZLCxJmCn3DxpAposGyLU8TIgxL2fGmK3OvLBp3NIdNsoVOKAyT_9SKX0kJwcI8w_XpydCpKlrjQLSvQiGfX7trWw86oMy7HKmze91lDKTfVhNL-3Tt2ZBOeo-IgfjyG4AoeJuHZk9v5VQV80esSinXSR9PLxwpeNt8gYtgtea8IfHZA5HSLjX4TiM9En72znJJgM3NgXH2NyeXcxd_8y0u-MWiAsylR2Kdy3px2wOSOUypRVhZj7_VbNVqZece-skJq8z-7wHUoMgAaabDx0ZJ5E0vD9Abf31MCO9XkUVTe87rBiW1Zse6tJi1YuNlg4ujosfehPMC4jHIyfSxargKaRih-BuX6h_3X5mLE4cgaRIF-1Ruq1V8nT0EVLXpQLOI6WPW7trNSbhqI6ueFrdWDNbIzOl9t2RpMDLFeoHvO8d9iXnVnxFm40)
 
@@ -76,11 +76,11 @@ Course_Designer ..> (Learning Platform)
 
 # Adaptive LD with Design Critique Integrated
 
-In a LD with integrated Design Critique process, the following would apply:
+In a Learning Design with integrated Design Critique process, the following would apply:
 - The Course Designer engages with th Personalisation Engine user interface
 - The Personalisation Engine will generate a Learning Environment
 - The various stakeholders and designers will engage in a design critique based on the Proposed Learning Environment
-- If approved, it will then be deployed as a Learning Environment for the instructor and learners to engage in
+- If approved, it will then be deployed as a Learning Environment for the Instructor and Learners to engage in
 - If not approved, adjustments will be made by the Course Designer using the Personalisation Engine and re-proposed for critique until approved.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/ZPF1ReCm38RlVWeVow4lK4rJAzW1YGDI3pjM6NYf9qXOubH2tTvz0RgktQZM4n3__lyF6zPUb9FGDW32qX1kQjK97mYB3BUz5se1fkik8y_Qa4FbSPj1QeFpT7MQPf0RBovKOiU370fIxbGjOalR1iFIszVIgKgueh6j171KYJ9w8CXtKo0U4M1HalFMg8Qz4hO6duncGma-B9UFk4WR6shCgBEUOsQVu7yTp_IItDQCajBPw4SrZl1iT2mVs5dJaf6Oy7c9Unh3fkkSFQW6Zx2OHeAfO-7tC2OxrdiPl3VrM_0o6Fc8SVc45wAJMJ94_OSp8l-Ed85ONZl_t7uxT8tjvpFY9v15rSTC4Ax8QAN98vj9DRSLIE_gFwkkvZAlEDF_AGyRlB7ULRMtSPGUql8UdlnUqUmx5xSAi2PJnt_k2m00)
@@ -129,7 +129,7 @@ L --> (Cloud Depository)
 ## Design Critique Use Case
 
 Users:
-- Presenter (Course designer who has the most in depth and context specific knowledge of the model)
+- Presenter (Course Designer who has the most in depth and context specific knowledge of the model)
 - Facilitator (System Designer who establishes the key goals to assess the design against)
 - Note-taker (Instructor)
 - Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
