@@ -89,29 +89,29 @@ WSE -> LE: addsResourcesTo
 
 ## Course Generation Sequence Model
 
-This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis. When a course needs to be designed, the Course Designer enters in course details such as subjects, pedagogy and course duration into the Personalisation Engine. The Personalisation Engine then searches through both the Cloud Depository and the Web to find suitable resources and activities to meet the criteria as entered by the Course Designer into the Personalisation Engine. The Course Designer then reviews and approves what the engine retreives. Once approved, the course is set up as a prototype. At this point the Community of Practice, Teachers, Students, Designers and Experts have the opportunity to conduct a design critique. Once adjustments / improvements are made to the design, the Course Designer gives a final approval and the Personalisation Engine generates the course in the Learning Environment.
+This sequence diagram models how actors add resources and activities into a Cloud Repository on an ongoing basis. When a course needs to be designed, the Course Designer enters in course details such as subjects, pedagogy and course duration into the Personalisation Engine. The Personalisation Engine then searches through both the Cloud Repository and the Web to find suitable resources and activities to meet the criteria as entered by the Course Designer into the Personalisation Engine. The Course Designer then reviews and approves what the engine retreives. Once approved, the course is set up as a prototype. At this point the Community of Practice, Teachers, Students, Designers and Experts have the opportunity to conduct a design critique. Once adjustments / improvements are made to the design, the Course Designer gives a final approval and the Personalisation Engine generates the course in the Learning Environment.
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/dLJ1Zfj03BtFLrYSMcct7v13jH6WNd90oqezJy19l0KFdV54pT_NCm54szsgwYd4VdxFxydm5CHwYUDWZ90C24NfeWy8NnmSw8hm22r-ZyWTGaNsxErO66CxSHwA5xJT1NruWFh7X5xqeS90PywrLcAFBA406-2bhjfbR5POeBbVLaQn93Se6frsR0SALiWnr7mcnengwXLL3YxsoZ6vGCfwottzkmA-uZ7NzDVi5-5nZ9owxWIDrtMeknENpJftGEkP-AowL_AEHsrapA4s9jc0nyz927Qmxtjung1sEWnWkOT4UIKX3AQi4h2f5LUpe8VkRZl1XgIXfHx5qX3WGuZ7L-nIW48ZdZHbV02KxjD7emohOAjptGLEQiQ_emlYO4IKHMwMc6aqZF-ZUMDhayZkg-q0iyM1-5luAwz9HfPSF4hq32VYNWDNpOkLMTMJyf6TrzOiTvhqh-WaOwV9kwiTjcdlSmtVNs73sQfMd1QJEYTERXDkwPuZg-DqgdahqfTXFOEcta7fM3mTes3Ax7TasVmRRhDJuvqUDGADsKUwlm2qBd6q0NjmMurgqLYiTnVBvzNfeVx3gTAzTUV6F27t-ZNu2G00)
+![Submit Rule](https://www.plantuml.com/plantuml/img/dLJDZjD03BxFKrWvWRJm03sWhPA8Iv6YpKgSfudR6X9FcF5KzEtnJ9Cem2v2UsfgV_v-B2UFGQoNE0x62Cc0K9Gk-e3m6Hcz5N8CBVw8o1t25zVZK1XZEt4UYcUqtGLzU83wvuHUzA72G6VEjLPYZooX01lWkQxQPMmMMA2vNrP6iIGtA1gTTcm72dVrci_4c55DlQBAmSKUdd1oWPJrbllwTmLynMEkwQ_PByBZ63brtGaQhtQeknENpJftGEkP-AowL_AEHsrapA4s9iM03v-I4EnWtoS7GUDq6C1o3udoIa8OJ5abO5ChhcP13zqzTe8DIKDBFOgb8S2x48_Vi4iB51hnvEs83u3IVNnlb64LR7Mkky19m_XNT44SZ8YooCqICuqkusqqBxWsYUnkRGUO8mx4tyC_UKsbGPQzU9Je6Kx4lIvSDIzMPbLFoaTsjgsxtAdEx-WaOwV9kwiTjjlUvng-Rc73sQfMd9QGEYTERXDkwPuYQ-9qgjaLwQkmda5Jxw1qB9wEKJ3jx4zasVmVRkEfyKwF6e76d2FTNm1QJHnjm1xSLgDQD9RetSNoUKrwgFzAgdGltRanZyYzVWn-0G00)
 
 ```
 
 @startuml
 
-title "Course Go Live - Sequence Model"
+title "Course Generation Sequence Model"
 
 actor "Teachers, Experts, Designers, Students" as TEDS
 actor "Course Designer" as CD
 entity "Personalisation Engine" as PE
-entity "Cloud Depository" as Dep
+entity "Cloud Repository" as Rep
 entity "Web" as Web
 Actor "Community of Practice" as CP
 entity "Learning Environment" as LE
 
-TEDS -> Dep : Add Resources and activities
+TEDS -> Rep : Add Resources and activities
 CD -> PE : Enter course and learner details (subjects, timeframe, etc.)
-PE -> Dep : Search for resources and activities to meet course details
+PE -> Rep : Search for resources and activities to meet course details
 PE -> Web : Search for resources and activities to meet course and learner details
-Web -> Dep: enter links for resources and activities
+Web -> Rep: enter links for resources and activities
 Dep -> PE : return findings that meet criteria
 PE -> CD : Return findings for approval
 CD -> PE : Approve resources and activities
