@@ -172,3 +172,36 @@ Other_Critiquers --> (Discussion) : participates
 
 @enduml
 ```
+
+Use Case for IoT
+
+This Use Case Diagram attempts to show the interactions that occur between the learner and the learning environment within mobile devices.
+- The xAPI tracks the learner's actions as he interacts with different devices such as his Smartphone, his Tablet and his Personal Computer. 
+- The xAPI then feeds all the tracked data into the Learning Analytics Platform. 
+- The Instrutor accesses the Learning Analytics Platform to monitor the learner's behavior within the mobile devices. 
+
+![Use Case Diagram for IoT](https://www.plantuml.com/plantuml/img/ZP51QyCm38Nl-XKw9eVyWHr6Iq-17G9BpqLpbDRCaOEbmCROVvyQojZMRknY37hlU_BpHesABLC2i6Y9SQ-CE_9Zp0NRt4FXO2H77xLYN8JjaCT3VufoL7n3g1ud9yodB5n3rTDJOlDBnqMpKC9TdkR5ZJMy0pmmEQ5WqzpZLoFUBShwVNn1tHfTmoygg5wsNLjZiynN2LOeF2jIi9X5VoW_m_vKtShznN2MhpjxJxXrpwl5eDWbCczsSkF8F2YkTXvm82ECOXbQKIjBi5p-Gw4GMFtfI3BWkOEL1B1X6VnRFm00)
+
+```
+@startuml
+
+title Use Case for IoT
+rectangle Internet_of_Things { 
+(Smartphone)
+(Tablet)
+(Personal Computer)
+}
+
+Learner --> (Smartphone) :uses
+Learner --> (Tablet) :uses
+Learner --> (Personal Computer) :uses
+
+(xAPI) -up-> (Smartphone) :tracks actions
+(xAPI) -up-> (Tablet) :tracks actions
+(xAPI) -up-> (Personal Computer) :tracks actions
+(xAPI) --> (Learning Analytics Platform) :feeds tracked data into
+Instructor --> (Learning Analytics Platform) :accesses and uses data
+
+@enduml
+
+```
