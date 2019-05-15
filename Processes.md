@@ -5,7 +5,7 @@
 
 
 
-This model outlines the weekly progression of day by day activities. The model illustrates the critical interaction points for the team and estbalishes a timeframe when meetings and specific interactions occur.
+This model outlines the weekly progression of day by day activities. The model illustrates the critical interaction points for the team and estbalishes a timeframe when meetings and specific interactions occur. Unscheduled meetings may occur if required.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/bLJ1ZjGm3BttAtn3McdX3glLZa0h8RGN1ebpchYjDMao9CwK-NliTBjqO5QK7YebyNlsUtRoaDaaBgDl6YRs270BEyjq8Zx39p9zCYCqJS8Z6cwQzqynE7F-q8J821uxRW3kslj7OyaJ6uxfxbrx3x9xat2au3ACEBQOCiJk8f9YWAynCrR433WHJXa-vrmmwuvDaXKpcE2W77qqGXVm9midCeN-ZHprA1LfSBO3kY8IdW-10knSR14-nX3GSgMX8D9mAKfmR-MRHNm9SVBeUeGd4uHtbhBKiB2AgA9h5sqPCV128MM0kY8cVPFojxWqYFnPNBUS_4wqeRI4DYQn96FEQgSoiJa8XoPUYRjv3dqH4V-mfiOeT4PM9YEalP1QRPLfnLWnRgnzaMOueouQxH-qoGGxh1tuZYvSzs3d_M9-rJ35TD1ovcoe0lBXiYyhssfXh_HfG7i0ghDJmuv5KYNy8MlE5-qPIhfQszwCMBbCXXS5Q-HZed_X5l8rR6-uf2rcT1ICfun_k_5_DkHDFkpBbhki_UwYzt6IhckdwXI0ArXlQ1p74iZgD6YoGNwtyIH3CH4FysMzphb6rjXNnvmZQ33f1Jv3B2nlLd0wnXVID8u7XLuVolaDcmRoidYGVNdrVW40)
 
@@ -80,7 +80,7 @@ This model outlines the interactions between team member when generating or appr
 
 
 
-![example shared approval workflow](http://www.plantuml.com/plantuml/png/RP5VQrf14CMVtKznY2_nGICrBmcbn0g5GaMXWJw4KDQzeoxkdzlPkOg4VFVkUYynYFEuU-Ptpimy9T4iZNSgxMoeDMkFDzNh7LZNVsmbMtmPZrKFkQP68d-FN17FeekC_ezJjR-rDZkzeTzoT0Gc8pfi7AbtfP1Bbruya_P_v-HNn0awOOd-UFpmO4oBE0jl5hAbLezEVrCQ5izpfJxW-1ciM2qsXfpvTZd0yAK3lWw_uNOMlRS2YGXqm8frCDi17cTCMWW7efqxTiyus3ngNa0ZTpvMTctDYPkkOEV46yeSU1iYmwRKKFeSQrhN7FVQvL00hkUuX2uRvy3qBwCaiyqfOsc__FewUkaRCyxrEifzUIDPFXKuqacmZWqZbkKb-2O_cEnDGUwOzhQOqpeomPSHHagXEyyv-pnJYF5spJexJ-vNaybzTZwlOS5sOuDsdwy5YQq7OZ04RGpLGXLMHqXMjV0EC2pZ_x9xGXLDKy8EElDss6v9eqiH7kVbK4Uuyfoi44wbrBjweb0rtlq7)
+![example shared approval workflow](http://www.plantuml.com/plantuml/png/RP5VQrf14CMVtKznY2_nGICrBmcbn0g5GaMXWJw4KDQz4rtSFxUpSnMHVFVkUYynYFEsEsT-P_uy9T4iZNSgRMseDMkFe-hrzgphFxQI3RwCnwg775CZaRz7heXdqKL6_ySfscojpLQlwRSS7879Y0vhH-fTgPBLfHRFfFtVEVaLSO9EMA8_7Zyy6DCYpiARXMoerQFJtvI2nVDSgGyuVWOhLekD0KTrknnW-D81NuVVS3kBtbk1H0JQOyKwcCq0ZpCcBOGzqTOTkc_iRHurBw2HEnyh-sRDYPkkOEV4QyeSU1iYmwRKKFhSrhIkEUwqmr41kDx79NJPE0UcVnabcMrEFPRoozJNqKlVc76Err6konl9ygd0aKu2sKT4sPJz-YQ_JRQc87TCErkywIqomPS9HagXkywvzNc64EDupJaRJ-vNaybzDZvlOS5sRODsduy5YQq7OZ04RGpLGXLM1qXMjV0EC2pJ_x8xGXLDKveTTERjhDsEHfSYFCxBdGvmvJjP8Pn2gNVrHA5glFiF)
 
 ```
 @startuml
@@ -99,7 +99,7 @@ rectangle Initiation {
 
 rectangle Approval {
     (Commit to new branch) -[#0099cc]-> (Pull request) :create
-    (Pull request) <.[#cc0000].> (OTM) :At least four others must comment/review before merge.
+    (Pull request) <.[#cc0000].> (OTM) :At least two others must comment/review before merge.
 
  }
 
