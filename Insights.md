@@ -31,3 +31,9 @@ Two lessons from this week's activities that were discussed:
 These needs arose during the week as various team members were creating models where the logic did not necessarily align with the "parent" scenario model. While having this discussion it became clear that one of the problems was different interpretations of the various terms in the parent model. So the discussion revolved around making an agreed definition of the terms to then enter into Readme.md and then to go through the parent model and ensure that everyone's understanding of the parent model, flow and logic is the same. Now members will check the underpinning logic of the models to make sure they align with the parent model and that all models will now flow and make sense as part of the whole.
 
 An additional learning from this week was that the decision from last week to have a majority agree before doing a merge was not feasible as not enough people where discussing / approving. So another decision was made this week that only two other people can approve to merge a pull request. This will hopefully result in faster decision making.
+
+
+**14.05.19**
+Discussion this week revolved mostly around the interaction between the models and ensuring consistent underpinning logic and narrative across models.  It was also decided that more narrative was needed for each model to explain each model more fully and also how it links with the other models we created. And a minor change in wording was made from Depository to Repository as we felt that this better reflects that component in the models.
+
+It was discussed that it is a good sign that we are no longer in a confused state as a group, but are now able to look at the bigger picture of the project. We are at the point where we are having small discussions about where to place arrows and what words to use instead of how to create models and use Github.  It feels like the group and the project have moved to a new stage.
