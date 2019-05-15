@@ -29,7 +29,7 @@ node "Tools Layer" as TL {
 [AI]
 }
 node "Data Layer" as DL {
-[Depository]
+[Repository]
 [Library]
 [xAPI]
 }
@@ -41,7 +41,7 @@ node "Product Layer" as PL {
 [Course Designer] ... [Pedagogical patterns]
 [Monitorable learning script] ... [Cloud-based authoring tool]
 [Cloud-based authoring tool] ... [Learning Environment]
-[Cloud-based authoring tool] -right... [Depository]
+[Cloud-based authoring tool] -right... [Repository]
 [Cloud-based authoring tool] -right... [Library]
 [Cloud-based authoring tool] -right... [xAPI]
 
@@ -82,7 +82,7 @@ node "Tools Layer" as TL {
 [Learning Analytics Platform]
 }
 node "Data Layer" as DL {
-[Cloud Depository]
+[Cloud Repository]
 [xAPI]
 }
 node "Product Layer" as PL {
@@ -111,7 +111,7 @@ title Components - Component Diagram
 
 package "Learning Analytics Platform" as LEP { 
 cloud "Internal content" as Int {
-    [Cloud Depository] as CLD
+    [Cloud Repository] as CLD
     [AI Course Generator] as AICD
 }
 
