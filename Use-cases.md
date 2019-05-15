@@ -1,114 +1,174 @@
-# Use Cases
+# Use Scenarios and Use Cases
 
-> Keep your use cases in this document, or create further documents of this kind if documents gets too long. Note that when you render the markdown in html you can get an url for any heading by pointing to the left of the heading and then right-click and copy the heading bookmark link. 
+> This page contains the meta-design use scenerio, followed by use cases that extrapolate key aspects of the Learning Design (LD) system proposed. It offers a clear break down of the users involved and aspects of the system that are at the core of this proposed adaptive learning design system.
 
-> [Link to wiki page on use cases](https://github.sydney.edu.au/crli/EDPC5022-2019/wiki/Use-case-Diagrams) 
+## Use Scenario - AI Adaptive LD System
 
+The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users.
+- The System Designer will contribute to the Courses/Environments Cloud Repository and provides technical support to the Learning Environment.
+- The Course Designer will use the Personalisation Engine user interface to input requirements such as learning objectives, pedagogical patterns, monitoring needs, learning platform, duration and/or activities.
+- The Personalisation Engine will search for information through the Courses/Environments Cloud Repository and web.
+- The Personalisation Engine will then feed back to the Personalisation Engine and generate a Learning Environment appropriate to the boundaries set.
+- The Course Designer will review and approve or modify the Learning Evironment produced.
+- The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Repository and Personalisation Engine.
+- The Instructor is able to access the Learning Analytics Platform to make teaching and learning decisions.
+- To reflect the democratic process of learning design, the System Designer, Instructor and Learner are able to contribute to the Courses/Environments Cloud Repository.
 
-## Use Case 1 - Automated Course Design Model
-
-The automated course design system is pitched at the metadesign level where the instructor also assumes the roles of course designer.
-The top-down use case is as follows:
-- System designer will manage and maintain the overall system, especially the automated course design engine which collects data from xAPI learner and instructor experiences. The System Designer also adds to and builds on the cloud depository.
-- The Course designer will activate the automated course design engine and approve, set limitations or personalise the automated designs prior to delivering it to learners.
-- Once the Automated design engine is activated, it will search through the depository to generate a learning environment appropriate to use needs (monitored by the Course designer)
-- Once the Learning environment is deployed, the Learner and Course designers will engage with the LE. The xAPI engine will collect, filter and feed the experience data back into the Automated course design engine. The Automated course design engine will use the xAPI data to automate supplementary courses for the Learner which the Course designer will authorise or refine. 
-- The Learner may wish to engage with the suggested supplementary courses or choose to ignore. Any additional Learner interaction will add to the xAPI data collection and improve the specificity of the Automated course design engine for the user (personalisation).
-
-![Submit Rule](https://www.plantuml.com/plantuml/img/bLBBQWCn3BpxAtJCGfFSzr0IaXm2EHJo0K5T2sEmvSNIXeRIVwytJX-7q6rEnj9eD3De9OfPXnYCKQ-1O3reYgXauR25uqMKeZ4cKwV8RkplJxKAxsRs0zwa8Gl1biGxXXqxpzJ0VFuCizgIvOxFFYUEn2gm2Mcm1TudyPhofPaaC_yagaiFX9azE_W5BXHtotNYRVsoRy3StcjfKj6K_yMYi1o7lWyqRi9ykG6bCH_6r21FTOZo8t51YzQ2fliSKxfQYCZeoDJsezCnyQZY2R3lSpeJ8DjboY2a47pqYkeJYxcc_SLwF_hMirB6hdWi9D2b4F0rvR9TuEmH3hjlbZ_2X9RO5Jy2dik5WWokV4O7NKMKf21IaOSTMeg-0oQoKYvxHMp7y_y4)
+![Submit Rule](https://www.plantuml.com/plantuml/img/ZLCxJmCn3DxpAposGyLU8TIgxL2fGmK3OvLBp3NIdNsoVOKAyT_9SKX0kJwcI8w_XpydCpKlrjQLSvQiGfX7trWw86oMy7HKmze91lDKTfVhNL-3Tt2ZBOeo-IgfjyG4AoeJuHZk9v5VQV80esSinXSR9PLxwpeNt8gYtgtea8IfHZA5HSLjX4TiM9En72znJJgM3NgXH2NyeXcxd_8y0u-MWiAsylR2Kdy3px2wOSOUypRVhZj7_VbNVqZece-skJq8z-7wHUoMgAaabDx0ZJ5E0vD9Abf31MCO9XkUVTe87rBiW1Zse6tJi1YuNlg4ujosfehPMC4jHIyfSxargKaRih-BuX6h_3X5mLE4cgaRIF-1Ruq1V8nT0EVLXpQLOI6WPW7trNSbhqI6ueFrdWDNbIzOl9t2RpMDLFeoHvO8d9iXnVnxFm40)
 
 ```
 @startuml
 
-title Automated LD System
-
-
-rectangle AI_System {
-(Automated Course Design Engine) --> (Courses/Environments Cloud Depository)
-(Automated Course Design Engine)
-(Courses/Environments Cloud Depository) --> (Learning Environment)
+title Adaptive LD System
+rectangle AI_System { 
+(Personalisation Engine) <-down-> (Web) 
+(Personalisation Engine) <-right-> (Courses/Environments Cloud Repository) 
+(Personalisation Engine) --> (Learning Environment)
+(Learning Analytics Platform) --> (Personalisation Engine)
 (Learning Environment) --> (xAPI) 
-(xAPI) --> (Automated Course Design Engine)
-(Automated Course Design Engine) ..> (Supplementary Courses)
+(xAPI) --> (Learning Analytics Platform) 
+(Learning Analytics Platform) -up-> (Courses/Environments Cloud Repository)
 }
-
-System_Designer --> (Courses/Environments Cloud Depository) :add to
-System_Designer --> (Automated Course Design Engine) : manage
-Course_Designer --> (Automated Course Design Engine) :monitor, approve and/or set limitations
-Learner --> (Learning Environment) :interacts and collaborates via LE
-Learner ..> (Supplementary Courses) :engages in AI suggested courses to meet academic needs
-
+System_Designer --> (Courses/Environments Cloud Repository) :contributes to 
+System_Designer --> (Learning Environment) :provides tech support 
+Course_Designer --> (Personalisation Engine) :sets boundaries 
+Instructor --> (Learning Environment) :delivers and monitors
+Instructor --> (Courses/Environments Cloud Repository) : adds to
+Instructor --> (Learning Analytics Platform) : accesses
+Learner --> (Learning Environment) :interacts and collaborates
+Learner --> (Courses/Environments Cloud Repository) :engages in 
 
 @enduml
 ```
 
-## Use Case 2 - Adaptive Course Design System
+## Use Case 1 - Personalisation Engine
+As Learning Design research shows that the context of learning and the need for systems to be flexible, adaptive and user friendly, the Course Designer will input boundaries or design requirements into the Personalisation Engine.
+The Course designr can engage with the Personalisation user interface to determine one or all of the following:
+- Learning objectives
+- Monitoring needs
+- Pedagogical patterns
+- Learning platform
+Based on the set of boundaries and requirements set, the Personalisation Engine will then generate a learning course and environment appropriate to the learning context for the Course Designer to review.
 
-The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users.
-- The System designer will manage and add to the cloud depository and both Personalisation and Learning analytics engines. Also offers technical support and administrate.
-- The adaptive course design system offers Course designers of using a Personalisation engine or a Learning analytics platform.
-- If using the Personalisation engine, the Course designer will input all necessary data including desired LMS platform, duration, pedagogical preferences and/or activities.
-- The Personalisation engine will feed the information through the cloud depository and generate a Learning environment appropriate to the boundaries set.
-- The Instructor and and Learner will engage with the Learnign environment, where the xAPI will collect use experience data and feed back to the Learning analytics platform.
-- If using the Learning analytics engine, the Course designer will activate it and it will use either the Cloud depository/web search engine or both to then generate a suggested Learning environment.
+![Submit Rule](https://www.plantuml.com/plantuml/img/XT51IyD040NW-_oAEIQ7DdSFqj1u45fT8dWjQpAk8viPsPqKGVpl9cf5QD3xDxptc4qsdsmS8e2nHK97AQluoDaRg-2L11O2IDIPbt0k3by2tn2A7VaaB05l7vudpqVA9QvMbrXiLOp4IYZsAcoQPdL3r9_0Q-skgtOKuu4cvQZtGGDtFgBpPfJa99inVGR_hUevdeqfutrRrMtvgvsBtXur3Tzqjx-h6ZfoDxK5U0VOwfWo7HhA78GIhjUpMjfsqJsfvYd355bUHbk-FTkyp1Rd_DFcPmi0R4Zw-PKV)
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/hLCxJyD03DxlLtXi1s3FWAXeXqeTAdLWhDoS2POINtHsAYh4VyTDU5LA2qXCbtDyt-C-tvqQPkkQEWHZgmbc4LlZFS5g3fk36ZKXX4obeLJ7tyljK8MNC5bJrYHOiw9n4bX8nK9JkBgwXSbzwhAItYnappb9Gs8AztNg8iofJSgMyc4Q9Yl2B2mLp1pfO5mgh6kqnvIRALnVEz83xM3ZNUNJ1qCOgGszdsZVQ7z5yYzoU-Dd9FoEu2B4Q7auyJnRBwSGtjTJa36buJM48SZjd9GheVoNsA30sB2mMaQZSQHnjKMRqvuZWP5dfrtRfcnXOFq2w2CvDrw5ai4kTH8nC-duuOlk2r2gVQOLiBFKk8Neamrb3mGLEGgwpx0KDzYL_dafbxxwWsiMSyoUKQ8JrJNkql7k5FQCi5gSeWmn5YGLLjx2SfIdNUMRezP1g88bQCWl0qkCr709GXJL7-mTIUmVzHi0)
+```
+@startuml
 
+title Personalisation Engine
+
+rectangle Personalisation_Engine { 
+(Learning Objectives) --> (Content)
+(Monitoring Needs) --> (xAPI/Runtime)
+(Pedagogical Patterns) --> (Duration)
+(Pedagogical Patterns) --> (Activities VR/AR)
+(Learning Platform) --> (LMS/Devices)
+
+}
+
+Course_Designer ..> (Learning Objectives) :chooses to input
+Course_Designer ..> (Monitoring Needs)
+Course_Designer ..> (Pedagogical Patterns)
+Course_Designer ..> (Learning Platform)
+
+@enduml
+```
+
+# Adaptive LD with Design Critique Integrated
+
+In a Learning Design with integrated Design Critique process, the following would apply:
+- The Course Designer engages with th Personalisation Engine user interface
+- The Personalisation Engine will generate a Learning Environment
+- The various stakeholders and designers will engage in a design critique based on the Proposed Learning Environment
+- If approved, it will then be deployed as a Learning Environment for the Instructor and Learners to engage in
+- If not approved, adjustments will be made by the Course Designer using the Personalisation Engine and re-proposed for critique until approved.
+
+![Submit Rule](https://www.plantuml.com/plantuml/img/ZPF1ReCm38RlVWeVow4lK4rJAzW1YGDI3pjM6NYf9qXOubH2tTvz0RgktQZM4n3__lyF6zPUb9FGDW32qX1kQjK97mYB3BUz5se1fkik8y_Qa4FbSPj1QeFpT7MQPf0RBovKOiU370fIxbGjOalR1iFIszVIgKgueh6j171KYJ9w8CXtKo0U4M1HalFMg8Qz4hO6duncGma-B9UFk4WR6shCgBEUOsQVu7yTp_IItDQCajBPw4SrZl1iT2mVs5dJaf6Oy7c9Unh3fkkSFQW6Zx2OHeAfO-7tC2OxrdiPl3VrM_0o6Fc8SVc45wAJMJ94_OSp8l-Ed85ONZl_t7uxT8tjvpFY9v15rSTC4Ax8QAN98vj9DRSLIE_gFwkkvZAlEDF_AGyRlB7ULRMtSPGUql8UdlnUqUmx5xSAi2PJnt_k2m00)
+
+```
 @startuml
 
 title Adaptive LD System
 
+System_Designer as SD
+Course_Designer as CD
+Instructor as I
+Learner as L
+CommunityofPractice as CP
 
-rectangle AI_System {
-(Personalisation Engine) --> (Courses/Environments Cloud Depository)
-(Learning Analytics Platform) ..> (Web Search Engine)
-(Web Search Engine) ..> (Learning Environment)
-(Learning Analytics Platform) ..> (Courses/Environments Cloud Depository)
-(Learning Analytics Platform) --> (Learning Environment)
-(Courses/Environments Cloud Depository) --> (Learning Environment)
-(Learning Environment) --> (xAPI) 
-(xAPI) --> (Learning Analytics Platform) 
+rectangle AI_System { 
+
+(Personalisation Engine) <--> (Cloud Depository) 
+(Personalisation Engine) <--> (Web)
+(Personalisation Engine) --> (Proposed Learning Environment) 
 }
 
-System_Designer --> (Courses/Environments Cloud Depository) :administrate
-System_Designer --> (Learning Environment) :provide tech support
-Course_Designer ..> (Personalisation Engine) :set boundaries
-Course_Designer ..> (Learning Analytics Platform) : selects automated AI course generator
-Instructor --> (Learning Environment)
-Learner --> (Learning Environment) :interacts and collaborates via LE
-Learner --> (xAPI) :engages in AI suggested courses to meet academic needs
+rectangle Course_Approval {
+(Design Critique) <-right-> (Adjustments)
+(Adjustments) -right-> (Approval)
+}
 
+(Proposed Learning Environment) --> (Design Critique)
+(Design Critique) --> (Approval)
+(Approval) --> (Deploy Learning Environment)
+
+SD --|> (Design Critique) :engages in
+SD --> (Cloud Depository)
+CD --|> (Design Critique) :engages in
+CD --|> (Adjustments) :engages in
+CD --|> (Approval) :engages in
+CD --> (Personalisation Engine) :chooses
+CP --|> (Design Critique) :engages in
+I --|> (Design Critique) :engages in
+I --> (Cloud Depository)
+L --> (Cloud Depository)
 
 @enduml
+```
 
-## Use Case 3 - Authoring Course Design System
+## Design Critique Use Case
 
-The stakeholders will define the learning objectives, communicate learning constraints and monitor the needs of the learner.
-The course designer will select pedagogical patterns, configurate the learning design and take into account the established learning constraints. The Course designer will feed this information and make choices within the cloud-based authoring tool to design the Learning Environment and administrate the learning experience.
-The System designer will manage the authoring tool and learning environment.
+Users:
+- Presenter (Course Designer who has the most in depth and context specific knowledge of the model)
+- Facilitator (System Designer who establishes the key goals to assess the design against)
+- Note-taker (Instructor)
+- Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
 
-![Submit Rule](https://www.plantuml.com/plantuml/img/ZPFFRi8m3CRlVGeVuS0Bv30niTqsQH8FCBc9ATbIkqeS9Dv-wH_G15r7Ratz-sn_ZhT9CMfkGrMfrq3md5LQL79W9ST4u2ZvXk6GsQeNnk3r35K5vQpU22DxRa3gBog_JvJMiDaymUg373RIU8i1EbIbo6azGk_2NYNs61Ev2p5TOrsAkEhkRVITJk2ivgFmzNRgnmedZUXP7zTOYXWrTa6oszIOYd-OzJYsgI9XabW861Mkkgzyyb6u9TQrALLtGSwf5wdsYjzqbE0etZ2_ns0S7JnJkW-_7u3nx8gjEXUzQ9onqhQP9tOtl9ZFbo7mmizFpIGAfTIIxvoKsXjcoINJ8cD3Vv2pze612pHRudABlI49oeS0sh8KhFCgCxRsIWVVv3ZOCwJvfz2IXY8MOm2vNy4Gi9OHhxR4hj_K7m00)
+Use case could involve the broader categories of:
+- Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles)
+- Critique Goals: these are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals)
+- Discussion: includes ways of discussing that is separate to a brainstorm or giving general feedback. Could include looking at use case scenarios, clarifying questions, avoiding using absolutes, design alternatives (but not problem solving)
+- Post-meeting Actions: presenting feedback notes to keep everyone in the loop, publishing actionable tasks for follow up
 
+![Submit Rule](https://www.plantuml.com/plantuml/svg/XPF1Ri8m38RlUOeSuO2uSvYeG4oLfes98Us6GkgLY12ps652qzvzYRfsBMkrMvf-lnt_jkV4odCuMI7Oi0Mv13AbamjlsBm7a6kF6eY4yA1PkR91TWtoAKOhfOqrh1Z6Sk9DUU39dHmrn3qgIsDnUz52buPq83Be8jRwQ25h99QPvdYTOdLI5lZX4lE0MYLW-e9e1wcr1mB7uAUvkwIVIP6Lu0hLzyXQjc5rX0FQ0lnmHSrBG7bdNFa_kNsTRlFQzvhkM52J2wkyURkcgCy1g7QYbyrihC_5qYump5pG53BR4zh0mzYMG6uqk9WS4zHfn2-s0YZsIX_b8rR11hZgHktZ9EKCfqX-2R6vKZplAXUYlvE_7Uz5slsTIUEYn_5CyWJ0qIUnmE09RaIthPYTgu68CYp0aiWTiG-QyKVGjcLsZWjZj3cdFEA93-2RLV3KmykEGCpZcALz-mO0)
+
+```
 @startuml
 
-title Automated course design functionality 
+title Design Critique Process
 
-    (Learning objectives) --> (Pedagogical patterns)
-    (Monitoring needs) --> (Monitorable Learning Script)
-    (Pedagogical patterns) --> (Monitorable Learning Script)
-    (Learning design constraints) --> (Monitorable Learning Script)
-    (Monitorable Learning Script) --> (Cloud-based authoring tool)
-    (Cloud-based authoring tool) --> (Learning Environment): deploys
-   
-Stakeholder --> (Learning objectives) :defines
-Stakeholder --> (Monitoring needs) :indicates
-Stakeholder --> (Learning design constraints) :communicates
-Course_Designer --> (Pedagogical patterns) :selects
-System_Designer --> (Cloud-based authoring tool) :manages
-System_Designer --> (Learning Environment) : manages
-Course_Designer --> (Learning design constraints) :takes into account
-Course_Designer --> (Monitoring needs) : configurates
-Learner --> (Learning Environment) :interacts and collaborates
+rectangle Design_Critique {
+(Facilitate) -right-> (Critique Goals)
+(Critique Goals) -right-> (Discussion)
+(Discussion) -right-> (Post Actions)
+(Facilitate) -down-> (Location/Tools)
+(Facilitate) -down-> (Presenter/Invitation/Agenda)
+(Critique Goals) -down-> (Stakeholder Goals)
+(Critique Goals) -down-> (Learning Goals)
+(Critique Goals) -down-> (UX/UI Design Goals)
+(Discussion) -down-> (Clarifying Questions)
+(Discussion) -down-> (Alternatives)
+(Discussion) -down-> (Avoid Absolutes)
+(Discussion) -down-> (Use Scenarios)
+(Post Actions) -down-> (Feedback Notes)
+(Post Actions) -down-> (Actionable Items)
+}
+
+System_Designer --> (Post Actions)
+System_Designer --> (Facilitate) : initiates meeting
+Course_Designer --> (Critique Goals) :presents models
+Instructor --> (Discussion) :participates
+Other_Critiquers --> (Discussion) : participates
 
 @enduml
 ```
