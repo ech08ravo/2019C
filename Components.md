@@ -7,7 +7,7 @@ Keep your components in this document, or create further documents of this kind 
 ## Component diagram 1
 This component diagrams shows the different layers of which the system architecture is composed of. 
 
-![component diagram #1](https://www.plantuml.com/plantuml/img/JP71JiCm44Jl_WgBUty1jOev81aKARbL7BRnAhLmTgFrfb0X_XqxW9ARn_QR6Q-FMK5qcP8nVTI4jk5fPa9IwoAC0fCX3cWV6YOLJWd5UhYZF5Z8jl7sovmRNYIZTPZZI2XlvjmflEELKq39HNe4MG--_ymwb5iSCE-ikjNg5J5KegHb5OYaLRKOOEGn3f3i3AeeLBTVcAAomANKJZKYqcZp877MBQfdJlkS_hTouYKSBf0nM5Zqob9PBNUBx-bvmnqex6YtqWvdpZNwNXyNBmBhwlFKxiXME2o3xk1sXVr_qoUwHM6QogmhPSem3u4_wF1OXc6wJVNUz9jothXDjTwO8r8eF_W3)
+![component diagram #1](https://www.plantuml.com/plantuml/img/dPF1QiCm38RlVWhJU_e8eoNPOP2DiEHMTb1haPevLf2LRcNitMUd7KbPAMMt_94__V9lUnK4M8REATLOSQXpwdhow4KN5bg6Jdaog1SvUM5o3bcNS4HUQ0WwB_MNskGqS41TOB2jHtvJcrhW7VVa37A8iaJWiV1zRbOZ7-mEmwnLFRPwGJI9Y6v16AoNf2eqq59hT-1q3oB8Flr-9c-56BPnR9Sih6zrsB7jPR9gYDpSfpcDx6WmsHO26Ws3x8aJAt5jxBj-cl0216PqCTAls5D8riUqERjb6By-rzMCh9ZCi9CPN8rm-JlfepzO9j_5h1Fr9qQzN2xrB95hrSkShg_vHthdvhT2kb4yqTVtUPFBsBPx6UcBYEzaffEu4pWTc8gtE3FquRE7U0jLFQccLCsaYb8LawfAfLReJNmwFm00)
 
 ```
 @startuml
@@ -57,7 +57,7 @@ DL -down-> PL
 
 This component diagram #2 shows the different layers of which the system architecture is composed of and is directly related to the use case scenario in Phase 1 of the project. 
 
-![component diagram #2](https://www.plantuml.com/plantuml/img/LL9DJyCm3BtdLqJZl0i_06rgTvXKeD8gSPXsy1hJPQJsvBY32l7VISTWuVWSlu-yP14LH8S-6DDu3MWBxazCI6fB3vr0R-_k3R53EokOL3W455l1Y3Ap46rHsK-pBNYGYBR4w3j2sPdjHk4D3nmSIaomGf3hmHWL-tnrJL5bQ9KJ-BfwrOd61C57KC-K6TPuSRm8Ukhiy_w8hVepJZQFJ3xfJFCdH3UDQdJGSUTR2BO6LHJADc6VxlodjMd5d_IMec4ECVDkBjRBTUA_uDvk4gyzs1Lrdd2NPLgcvAFwDgKDeAyi_Ksp18LCilpfB_3WKYSdZbEgCObzBEjrreUmInNbFVolOKLdBqnzUhc9PTAxp1s_q_nXQinChVtYfZBD3PMLARFTofW5aai_uXi0)
+![component diagram #2](https://www.plantuml.com/plantuml/img/LL9DJyCm3BtdLqJZl0i_06rgTvXKe6ALE4mxU8tf0gazEUwWGlntqZ5OE3x7xoClMKG5qQ4FnZHU0zg2-oCJajhIGoVGsvjRG-pGpWec5Gu1nLOmeimiH5jKzjDi2nuaeYqn-evGTcQxKNZ30mU74XEi4EHoC4R5FbzTKrGPMkK4lYvUTQ8nGV0Hr3DbXZMU7S-2dZhxk7_5Llq99vjx9fzqfla3efj6DJhekFCj15k3AWfbcx1FT_xJshJYZtfDqJ27c7atP-lbEl6VSMytYTSUx8ewJxZBCYrJyb5zcz86q1UM_gfPWa8cMVxq5tXmzWcF7ATKOnBxMDRhh0zXbohAU_XVmufENfZwz78JowHtcJj-f_dTr9YPMll5JMMQAoehKsQxbJ4B99T-n3S0)
 
 ```
 @startuml
@@ -103,7 +103,7 @@ DL -down-> PL
 
 This component diagram shows components of the Learning Analytics Platform.
 
-![component diagram #3](http://www.plantuml.com/plantuml/png/JP31Qjmm443lynM3xzxUImbnRLCMV30u9OVGmrGxyOhA8pCQjrv2_xso29lgDdhFrcCUav7QjWGmRu6nZSiQXSKIrXy3TfvcfGLW9VUBPiPgO5BnCcCZ56xcNS8naBr6NIgaX4C_uXk22t6xO7KMOyqYkYZ6OaN9b_W6cCzBMxIErvYyHRtzE7WxT51eSyufcoR6Rooib8qYDEUsWxy0yFBCFt5YKdV5NcOlNFZprCF1lyPDBgItZ-fi_VOQPIaj9VT_RMHDCUVwHEQZlF-pY6CMeOrY6WDMUpEUo_KE-JGkbs4rtPBnWXqdFmjhuLDtnwM1zTCJaxk-u-4908wLrPVuH-g7uvcnlqz3N-2NEl2hrRWZmjJTQTuJViQ5X6PEC3nXhNw-Mldk64-dRJsT7d3FLXj3O6VV4sk_hwoUnN57Hl38SjcMy0y0)
+![component diagram #3](https://www.plantuml.com/plantuml/img/JPB1ReCm38RlUGgBE-nUJLKPe0c90nfCFLGxPAbBemK79M43LNlt6TPrvPJu-nq-77O-I1V6teYWWq78R3zOGWeUulyDv5fsJlP2359zo0uXgb0wqjH1IjBCGIiFjP7XP5qVWVHG5JLSG2XZnoD49GLq70HbUKLXZN0HBWBuEMHhx0K7wtMmRdvRU5RblpGjMMLq7k4P2Ptan1f8oomNtqA8mnxVeM4ZTOQ2EasuydrJY8K_sP6EqirtrWLzQcUf_tEfYljOZSvRrjLU1ctfUkOQh3aeCluAPmr4KrgNQtdYgaWLcq7Kp3vW3pbwtR7koflyXbS7T0yjIdM-ughbzcLayT5-KRnTNbCNjntRBV0nDdWACKm0eiblbES46-WbySLuKRKGEzsTmxMlXIGPXoJPSjk6vsWCgl3gqHNJW4uZASnba6A7TEJ_u0S0)
 
 ```
 @startuml
@@ -170,7 +170,5 @@ package "Controller Layer" as CL {
 CL -down-> PE
 PE -down-> PL
 @enduml
-
-
 
 ```
