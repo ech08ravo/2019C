@@ -5,7 +5,7 @@
 
 
 
-This model outlines the weekly progression of day by day activities. The model illustrates the critical interaction points for the team and estbalishes a timeframe when meetings and specific interactions occur.
+This model outlines the weekly progression of day by day activities. The model illustrates the critical interaction points for the team and estbalishes a timeframe when meetings and specific interactions occur. Unscheduled meetings may occur if required.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/bLJ1ZjGm3BttAtn3McdX3glLZa0h8RGN1ebpchYjDMao9CwK-NliTBjqO5QK7YebyNlsUtRoaDaaBgDl6YRs270BEyjq8Zx39p9zCYCqJS8Z6cwQzqynE7F-q8J821uxRW3kslj7OyaJ6uxfxbrx3x9xat2au3ACEBQOCiJk8f9YWAynCrR433WHJXa-vrmmwuvDaXKpcE2W77qqGXVm9midCeN-ZHprA1LfSBO3kY8IdW-10knSR14-nX3GSgMX8D9mAKfmR-MRHNm9SVBeUeGd4uHtbhBKiB2AgA9h5sqPCV128MM0kY8cVPFojxWqYFnPNBUS_4wqeRI4DYQn96FEQgSoiJa8XoPUYRjv3dqH4V-mfiOeT4PM9YEalP1QRPLfnLWnRgnzaMOueouQxH-qoGGxh1tuZYvSzs3d_M9-rJ35TD1ovcoe0lBXiYyhssfXh_HfG7i0ghDJmuv5KYNy8MlE5-qPIhfQszwCMBbCXXS5Q-HZed_X5l8rR6-uf2rcT1ICfun_k_5_DkHDFkpBbhki_UwYzt6IhckdwXI0ArXlQ1p74iZgD6YoGNwtyIH3CH4FysMzphb6rjXNnvmZQ33f1Jv3B2nlLd0wnXVID8u7XLuVolaDcmRoidYGVNdrVW40)
 
@@ -83,7 +83,6 @@ This model outlines the interactions between team members when generating or app
 
 When a pull request is generated, team members will assign it to all team members who will then discuss with each other to approve or amend. Once approved, the original requester can conduct the merge, they do not have to wait until Sunday or specific meetings if the minimum review criteria is reached. Of note, the exception to this process is small changes which do not effect the overall project such as spelling errors or updates to weekly meeting agendas.
 
-![Diagram for Team Pull Request Model](https://www.plantuml.com/plantuml/img/TL9BImCn43utls9eB_RGkbWlYeYr80WkBIXuA29fTcn3yrYJsIv5_EzETjSdTMv9PhxNv2gI35HP8-9Mkr86QU5Dz7fraEMZBcW39racUi0rLUJ3jGy5XfatFi3WfgdsjPHgAzTuJtk3452HT6k3ubs8z2hJB3oWjCyvsXM623B20WPPTdQcL0lntTYVqmRRVkZw-sbW_f0ByGKEjqwJbgIzOyr7Yo6CbXtWq-WIZcRUMar07XpMi0hIgSqGpcS19I7KY5kpxwwXrcoL0wZesFf2lsZLuCO3i3c6DJ8EMErOguwnmlXJrhGiWzz9mwAIfNzq_0PTLCPmRAyCHOoj6etj-E-dY_5oe5J6zJJcEKw4swS41cLaZjg3Jzb5i1MV5LEZe-E0EvsuySK719iSZ7aptNQ-fUSCmi6_7M9cuidfQZ8vROW_KvW7lTQEpVvOLhBQS81t2dcd2al20bPx8EvgmJk0KN9_ftS8XLTL4Zlio5klNKRZlqrmdgSzxS6awwXveqq9_d9Nw0h-qXy0)
 
 ```
 
