@@ -36,4 +36,4 @@ Knowledge Manager: Kira
 #### Week 12 (21. May)
 Facilitator: Quang
 
-Knowledge Manager: Agustina
+Knowledge Manager: Dominique
