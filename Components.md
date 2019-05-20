@@ -4,60 +4,22 @@ Keep your components in this document, or create further documents of this kind 
 
 [Link to wiki page on component diagrams](https://github.sydney.edu.au/crli/EDPC5022-2019/wiki/Component-Diagrams) 
 
-## Component diagram 1
-This component diagrams shows the different layers of which the system architecture is composed of. 
+## Component Diagram 1 based on Use Case Scenario "Adaptive LD System"
 
-![component diagram #1](https://www.plantuml.com/plantuml/img/JP71JiCm44Jl_WgBUty1jOev81aKARbL7BRnAhLmTgFrfb0X_XqxW9ARn_QR6Q-FMK5qcP8nVTI4jk5fPa9IwoAC0fCX3cWV6YOLJWd5UhYZF5Z8jl7sovmRNYIZTPZZI2XlvjmflEELKq39HNe4MG--_ymwb5iSCE-ikjNg5J5KegHb5OYaLRKOOEGn3f3i3AeeLBTVcAAomANKJZKYqcZp877MBQfdJlkS_hTouYKSBf0nM5Zqob9PBNUBx-bvmnqex6YtqWvdpZNwNXyNBmBhwlFKxiXME2o3xk1sXVr_qoUwHM6QogmhPSem3u4_wF1OXc6wJVNUz9jothXDjTwO8r8eF_W3)
+This component diagram shows the different layers that the system architecture is composed of and it was modelled based on the Use Case Scenario called "Adaptive LD System". 
 
-```
-@startuml
+1. The "Controller Layer" reflects the different human actors involved in decision-making processes (Instructors, Course Designer, Learner, System Designer) and also Stakeholders which do not appear in the Use Case because they do not interact with the system directly but are part of its architecture at a meta-level.
 
-Title Component Diagram
-node "Controller Layer" as CL {
-[Course Designer]
-[Stakeholders]
-[Learner]
-}
-node "Services Layer" as SL {
-[Needs]
-[Constraints]
-[Pedagogical patterns]
-[Monitorable learning script]
-}
-node "Tools Layer" as TL {
-[Cloud-based authoring tool]
-[AI]
-}
-node "Data Layer" as DL {
-[Depository]
-[Library]
-[xAPI]
-}
-node "Product Layer" as PL {
-[Learning Environment]
-}
-[Course Designer] ... [Needs]
-[Course Designer] ... [Constraints]
-[Course Designer] ... [Pedagogical patterns]
-[Monitorable learning script] ... [Cloud-based authoring tool]
-[Cloud-based authoring tool] ... [Learning Environment]
-[Cloud-based authoring tool] -right... [Depository]
-[Cloud-based authoring tool] -right... [Library]
-[Cloud-based authoring tool] -right... [xAPI]
+1. The "Personalisation Layer" represents all the components within the Personalisation Engine and these components are the ones the engine feeds from to personalise content and are also the one human actors input into the engine to set boundaries for course generation: Learning Objectives, Monitoring Needs, Pedagogical Patterns, and Monitorable Learning Scripts.
 
-CL -down-> SL
-SL -down-> TL
-TL -down-> DL
-DL -down-> PL
+1. The "Tools Layer" involves all the external tools the system feeds from to adapt content and it's composed of: the AI, the Web-search Engine and the Learning Analytics Platform.
 
-@enduml
-```
+1. The "Data Layer" represents the components that are involved with tracking and storing data: xAPI and Cloud Repository.
 
-## Component diagram 2
+1. The "Product Layer" represents the Learning Environment which is the ultimate end-product the system generates. 
 
-This component diagram #2 shows the different layers of which the system architecture is composed of and is directly related to the use case scenario in Phase 1 of the project. 
 
-![component diagram #2](https://www.plantuml.com/plantuml/img/LL9DJyCm3BtdLqJZl0i_06rgTvXKeD8gSPXsy1hJPQJsvBY32l7VISTWuVWSlu-yP14LH8S-6DDu3MWBxazCI6fB3vr0R-_k3R53EokOL3W455l1Y3Ap46rHsK-pBNYGYBR4w3j2sPdjHk4D3nmSIaomGf3hmHWL-tnrJL5bQ9KJ-BfwrOd61C57KC-K6TPuSRm8Ukhiy_w8hVepJZQFJ3xfJFCdH3UDQdJGSUTR2BO6LHJADc6VxlodjMd5d_IMec4ECVDkBjRBTUA_uDvk4gyzs1Lrdd2NPLgcvAFwDgKDeAyi_Ksp18LCilpfB_3WKYSdZbEgCObzBEjrreUmInNbFVolOKLdBqnzUhc9PTAxp1s_q_nXQinChVtYfZBD3PMLARFTofW5aai_uXi0)
+![Component Diagram based on Use Case Scenario](https://www.plantuml.com/plantuml/img/LL9DJyCm3BtdLqJZl0i_06rgTvXKe6ALE4mxU8tf0gazEUwWGlntqZ5OE3x7xoClMKG5qQ4FnZHU0zg2-oCJajhIGoVGsvjRG-pGpWec5Gu1nLOmeimiH5jKzjDi2nuaeYqn-evGTcQxKNZ30mU74XEi4EHoC4R5FbzTKrGPMkK4lYvUTQ8nGV0Hr3DbXZMU7S-2dZhxk7_5Llq99vjx9fzqfla3efj6DJhekFCj15k3AWfbcx1FT_xJshJYZtfDqJ27c7atP-lbEl6VSMytYTSUx8ewJxZBCYrJyb5zcz86q1UM_gfPWa8cMVxq5tXmzWcF7ATKOnBxMDRhh0zXbohAU_XVmufENfZwz78JowHtcJj-f_dTr9YPMll5JMMQAoehKsQxbJ4B99T-n3S0)
 
 ```
 @startuml
@@ -82,7 +44,7 @@ node "Tools Layer" as TL {
 [Learning Analytics Platform]
 }
 node "Data Layer" as DL {
-[Cloud Depository]
+[Cloud Repository]
 [xAPI]
 }
 node "Product Layer" as PL {
@@ -97,13 +59,11 @@ DL -down-> PL
 @enduml
 ```
 
-
-
-## Component diagram 3
+## Component Diagram 2 based on Learning Analytics Platform
 
 This component diagram shows components of the Learning Analytics Platform.
 
-![component diagram #3](http://www.plantuml.com/plantuml/png/JP31Qjmm443lynM3xzxUImbnRLCMV30u9OVGmrGxyOhA8pCQjrv2_xso29lgDdhFrcCUav7QjWGmRu6nZSiQXSKIrXy3TfvcfGLW9VUBPiPgO5BnCcCZ56xcNS8naBr6NIgaX4C_uXk22t6xO7KMOyqYkYZ6OaN9b_W6cCzBMxIErvYyHRtzE7WxT51eSyufcoR6Rooib8qYDEUsWxy0yFBCFt5YKdV5NcOlNFZprCF1lyPDBgItZ-fi_VOQPIaj9VT_RMHDCUVwHEQZlF-pY6CMeOrY6WDMUpEUo_KE-JGkbs4rtPBnWXqdFmjhuLDtnwM1zTCJaxk-u-4908wLrPVuH-g7uvcnlqz3N-2NEl2hrRWZmjJTQTuJViQ5X6PEC3nXhNw-Mldk64-dRJsT7d3FLXj3O6VV4sk_hwoUnN57Hl38SjcMy0y0)
+![component diagram #3](https://www.plantuml.com/plantuml/img/JPB1ReCm38RlUGgBE-nUJLKPe0c90nfCFLGxPAbBemK79M43LNlt6TPrvPJu-nq-77O-I1V6teYWWq78R3zOGWeUulyDv5fsJlP2359zo0uXgb0wqjH1IjBCGIiFjP7XP5qVWVHG5JLSG2XZnoD49GLq70HbUKLXZN0HBWBuEMHhx0K7wtMmRdvRU5RblpGjMMLq7k4P2Ptan1f8oomNtqA8mnxVeM4ZTOQ2EasuydrJY8K_sP6EqirtrWLzQcUf_tEfYljOZSvRrjLU1ctfUkOQh3aeCluAPmr4KrgNQtdYgaWLcq7Kp3vW3pbwtR7koflyXbS7T0yjIdM-ughbzcLayT5-KRnTNbCNjntRBV0nDdWACKm0eiblbES46-WbySLuKRKGEzsTmxMlXIGPXoJPSjk6vsWCgl3gqHNJW4uZASnba6A7TEJ_u0S0)
 
 ```
 @startuml
@@ -111,7 +71,7 @@ title Components - Component Diagram
 
 package "Learning Analytics Platform" as LEP { 
 cloud "Internal content" as Int {
-    [Cloud Depository] as CLD
+    [Cloud Repository] as CLD
     [AI Course Generator] as AICD
 }
 
@@ -144,13 +104,14 @@ LT ..up..> x : CollectUserExperienceData
 ```
 
 
-## Component diagram 4
+## Component Diagram 3 based on the Personalisation Engine
 
-This diagram represents the components of the Personalisation Engine.
+This diagram represents the components within the Personalisation Engine. The course designer is the main human actor at the controller layer here because he is the one interacting with the PE setting the boundaries of the intended course design. He will also set the learning objectives and the pedagogical patterns he considers suitable for the course. The next component is the Product Later which contains the Learning Environment where the course will be deployed. 
 
-![Component diagram #4](https://www.plantuml.com/plantuml/img/RP11QyCm38Nl_XKYz_w5KPhqPgYXkPKTj4GptXofoCh66Fllirie6UmezDxJzxGlXchhafqbomI1j0XZJWKj2SEHOsA2NfQhCB71a30gBkwAqpj6Wkv_HmTO81pXsrqyeNBY2AUNDveiVL21KIG_Dua_ZUuIQCOeCKsO8Q0PAMya8LJ9cGmEilACchR-ys5qFsv3epAlau77Bz8xX6yGtOCYPBHNqQMxtm_mnzyBcqhEf9k8_XRHbgiMWe5AYbntjuH-Q05LiflbatTFjRMhnH-JTtlYkNtO_G80)
+![Component diagram #4](https://www.plantuml.com/plantuml/img/RP31QiCm38RlVWgHYqzzXL6QvXQeeRcL7RH466-EL6IbOuoz-vmMIWOx2ltw-7vvxvtR5qErPSxEacM2G5g4CQU2beIXuvYOe9NvAaniS4mO5MTtnV438q7p_qK3M21qyEqkFQ5ouWYdjtSQBTsem22INzT8VnhS9T24KM8QCKD0CrBUH4AeaJCP76JX2JLjxy-7mVsuZOtAj8m6FNwHFYJwLQ9vMdHyIoeyrpBDGw63FuXMs5Ho9jrGsZjbNIvQ28vKKkIwknFQumgeaTqadxnxgSLTxVwSUhSddjOdE-_zBm00)
 
-```
+'''
+
 @startuml
 title Personalisation Engine Component Diagram
 package "Personalisation Engine" as PE {
@@ -160,7 +121,7 @@ package "Personalisation Engine" as PE {
 }
 
 package "Product Layer" as PL {
-["Learning Platform"] as LP 
+["Learning Environment"] as LE 
 }
 
 package "Controller Layer" as CL {
@@ -171,6 +132,4 @@ CL -down-> PE
 PE -down-> PL
 @enduml
 
-
-
-```
+'''
