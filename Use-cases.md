@@ -5,12 +5,12 @@
 ## Use Scenario - AI Adaptive LD System
 
 The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users.
-- The System Designer will contribute to the Courses/Environments Cloud Repository and provides technical support to the Learning Environment.
+- The System Designer will contribute to the Courses/Environments Cloud Depository and provides technical support to the Learning Environment.
 - The Course Designer will use the Personalisation Engine user interface to input requirements such as learning objectives, pedagogical patterns, monitoring needs, learning platform, duration and/or activities.
-- The Personalisation Engine will search for information through the Courses/Environments Cloud Repository and web.
-- The Personalisation Engine will then feed back to the Personalisation Engine and generate a Learning Environment appropriate to the boundaries set.
-- The Course Designer will review and approve or modify the Learning Evironment produced.
-- The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Repository and Personalisation Engine.
+- The Personalisation Engine will search for information through the Courses/Environments Cloud Depository and web.
+- The Personalisation Engine will then feed back to the Course Designer and generate a Learning Environment appropriate to the boundaries set.
+- The Course Designer will review and approve or modify the Learning Environment produced.
+- The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Depository and Personalisation Engine.
 - The Instructor is able to access the Learning Analytics Platform to make teaching and learning decisions.
 - To reflect the democratic process of learning design, the System Designer, Instructor and Learner are able to contribute to the Courses/Environments Cloud Repository.
 
@@ -135,8 +135,8 @@ Users:
 - Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
 
 Use case could involve the broader categories of:
-- Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles)
-- Critique Goals: these are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals)
+- Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles
+- Critique Goals: these are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals
 - Discussion: includes ways of discussing that is separate to a brainstorm or giving general feedback. Could include looking at use case scenarios, clarifying questions, avoiding using absolutes, design alternatives (but not problem solving)
 - Post-meeting Actions: presenting feedback notes to keep everyone in the loop, publishing actionable tasks for follow up
 
