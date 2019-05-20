@@ -4,7 +4,7 @@ Keep your components in this document, or create further documents of this kind 
 
 [Link to wiki page on component diagrams](https://github.sydney.edu.au/crli/EDPC5022-2019/wiki/Component-Diagrams) 
 
-## Component diagram 1
+## Component Diagram 1
 This component diagrams shows the different layers of which the system architecture is composed of. 
 
 ![component diagram #1](https://www.plantuml.com/plantuml/img/dPF1QiCm38RlVWhJU_e8eoNPOP2DiEHMTb1haPevLf2LRcNitMUd7KbPAMMt_94__V9lUnK4M8REATLOSQXpwdhow4KN5bg6Jdaog1SvUM5o3bcNS4HUQ0WwB_MNskGqS41TOB2jHtvJcrhW7VVa37A8iaJWiV1zRbOZ7-mEmwnLFRPwGJI9Y6v16AoNf2eqq59hT-1q3oB8Flr-9c-56BPnR9Sih6zrsB7jPR9gYDpSfpcDx6WmsHO26Ws3x8aJAt5jxBj-cl0216PqCTAls5D8riUqERjb6By-rzMCh9ZCi9CPN8rm-JlfepzO9j_5h1Fr9qQzN2xrB95hrSkShg_vHthdvhT2kb4yqTVtUPFBsBPx6UcBYEzaffEu4pWTc8gtE3FquRE7U0jLFQccLCsaYb8LawfAfLReJNmwFm00)
@@ -53,7 +53,7 @@ DL -down-> PL
 @enduml
 ```
 
-## Component diagram 2
+## Component Diagram 2
 
 This component diagram #2 shows the different layers of which the system architecture is composed of and is directly related to the use case scenario in Phase 1 of the project. 
 
@@ -99,10 +99,10 @@ DL -down-> PL
 
 
 
-## Component diagram 3
+## Component Diagram 3
 
-This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect use experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
-The System designer manages and adds to the cloud repository and Learning Analytics Platform.
+This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
+The System designer manages and adds to the Cloud Repository and Learning Analytics Platform.
 
 
 ![component diagram #3](https://www.plantuml.com/plantuml/img/JPB1ReCm38RlUGgBE-nUJLKPe0c90nfCFLGxPAbBemK79M43LNlt6TPrvPJu-nq-77O-I1V6teYWWq78R3zOGWeUulyDv5fsJlP2359zo0uXgb0wqjH1IjBCGIiFjP7XP5qVWVHG5JLSG2XZnoD49GLq70HbUKLXZN0HBWBuEMHhx0K7wtMmRdvRU5RblpGjMMLq7k4P2Ptan1f8oomNtqA8mnxVeM4ZTOQ2EasuydrJY8K_sP6EqirtrWLzQcUf_tEfYljOZSvRrjLU1ctfUkOQh3aeCluAPmr4KrgNQtdYgaWLcq7Kp3vW3pbwtR7koflyXbS7T0yjIdM-ughbzcLayT5-KRnTNbCNjntRBV0nDdWACKm0eiblbES46-WbySLuKRKGEzsTmxMlXIGPXoJPSjk6vsWCgl3gqHNJW4uZASnba6A7TEJ_u0S0)
