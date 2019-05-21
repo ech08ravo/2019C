@@ -173,14 +173,16 @@ Other_Critiquers --> (Discussion) : participates
 @enduml
 ```
 
-Use Case for IoT
+Use Case Model for the Internet of Things
 
-This Use Case Diagram attempts to show the interactions that occur between the learner and the learning environment within mobile devices.
-- The xAPI tracks the learner's actions as he interacts with different devices such as his Smartphone, his Tablet and his Personal Computer. 
+This Use Case Model attempts to show the interactions that occur between the learner and the learning environment when they use different mobile devices. 
+- The xAPI tracks the learner's actions as they interact with different devices such as their Smartphone, their Tablet and/or their Personal Computer. 
 - The xAPI then feeds all the tracked data into the Learning Analytics Platform. 
+- The Learning Analytics Platform feeds the tracked data to the Personalisation Engine.
+- The Personalisation Engine adapts course content based on the information gathered by the Learning Analytics Platform and deploys it into the Learning Environment.
 - The Instrutor accesses the Learning Analytics Platform to monitor the learner's behavior within the mobile devices. 
 
-![Use Case Diagram for IoT](https://www.plantuml.com/plantuml/img/ZP51QyCm38Nl-XKw9eVyWHr6Iq-17G9BpqLpbDRCaOEbmCROVvyQojZMRknY37hlU_BpHesABLC2i6Y9SQ-CE_9Zp0NRt4FXO2H77xLYN8JjaCT3VufoL7n3g1ud9yodB5n3rTDJOlDBnqMpKC9TdkR5ZJMy0pmmEQ5WqzpZLoFUBShwVNn1tHfTmoygg5wsNLjZiynN2LOeF2jIi9X5VoW_m_vKtShznN2MhpjxJxXrpwl5eDWbCczsSkF8F2YkTXvm82ECOXbQKIjBi5p-Gw4GMFtfI3BWkOEL1B1X6VnRFm00)
+![Use Case Model for IoT](https://www.plantuml.com/plantuml/img/ZLBDQW8n4BxdAUQeXts1KeeY7XPw4BHdcIQpQsXsicHcsqhfkpSRfTLgfPSGcEzlFiRCH37fq0LZr6iWU1A21UQdYGdgk369h2AtULIpKcBIRMoscvtdLk03p6JTPOL-5vccPhB1vq2QFojA4Xa3B6BN3vauDP_6F19cXGHLzG2dHBWRXEHyV9IwDheKFwBCv7s-ggTmNmtzXOKcj2y2QDL7bj_GRxlRi6lMrnabQOcTgu9vvkpLMu5LGCtbTfdO43c1GYS73XN1iqPJisWQhCRq7nMqbYHl3yWEnXgAKkxY9gqArEZfHbvmp0zBRdtfwv3k9zMVoCh5DpxBkUHNdo9tn6EZwB1N0Hlp0R6Mc8xw4FS2NW_QPaRioXb-0G00)
 
 ```
 @startuml
@@ -196,11 +198,14 @@ Learner --> (Smartphone) :uses
 Learner --> (Tablet) :uses
 Learner --> (Personal Computer) :uses
 
-(xAPI) -up-> (Smartphone) :tracks actions
-(xAPI) -up-> (Tablet) :tracks actions
-(xAPI) -up-> (Personal Computer) :tracks actions
+(xAPI) <-up-> (Smartphone) :tracks actions
+(xAPI) <-up-> (Tablet) :tracks actions
+(xAPI) <-up-> (Personal Computer) :tracks actions
 (xAPI) --> (Learning Analytics Platform) :feeds tracked data into
 Instructor --> (Learning Analytics Platform) :accesses and uses data
+
+(Learning Analytics Platform) -left-> (Personalisation Engine) :feeds data into
+(Personalisation Engine) -down-> (Learning Environment) :adapts content and deploys it into
 
 @enduml
 
