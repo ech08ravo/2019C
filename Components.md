@@ -64,9 +64,9 @@ DL -down-> PL
 
 ## Component Diagram 3
 This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
-The System designer manages and adds to the Cloud Repository and Learning Analytics Platform.
+The System designer manages and adds to the Cloud Repository and Learning Analytics Platform. The Instructor is able to both use and add to the Learning Analytics Platform data. 
 
-![component diagram #3](https://www.plantuml.com/plantuml/img/JPB1ReCm38RlUGgBE-nUJLKPe0c90nfCFLGxPAbBemK79M43LNlt6TPrvPJu-nq-77O-I1V6teYWWq78R3zOGWeUulyDv5fsJlP2359zo0uXgb0wqjH1IjBCGIiFjP7XP5qVWVHG5JLSG2XZnoD49GLq70HbUKLXZN0HBWBuEMHhx0K7wtMmRdvRU5RblpGjMMLq7k4P2Ptan1f8oomNtqA8mnxVeM4ZTOQ2EasuydrJY8K_sP6EqirtrWLzQcUf_tEfYljOZSvRrjLU1ctfUkOQh3aeCluAPmr4KrgNQtdYgaWLcq7Kp3vW3pbwtR7koflyXbS7T0yjIdM-ughbzcLayT5-KRnTNbCNjntRBV0nDdWACKm0eiblbES46-WbySLuKRKGEzsTmxMlXIGPXoJPSjk6vsWCgl3gqHNJW4uZASnba6A7TEJ_u0S0)
+![component diagram #3](http://www.plantuml.com/plantuml/png/RP31Qjn038RlUWhXk_S1IWXnRLCMV33rbXn23wfNyGuTQun6Rhs4ldjdfsRJGdNJ_tsQ4NgAHchhxC6SUSOwp4iG5ejOlZVOE9gKPe25nkyqCHOTaugJ2IiXVpKtHkmzsMlGkK2AsBKzlY6CFgndB8vYh4d4COYnM5PIY6-0gLxgh7tc9KHdGQzVRxpkcZ-qEc8TLesCdrXOAHbPg8vr0xy0uEMPl-70fEC5MvcSSERFGmit_Z6iSYQzlc-Th1zEWymijg_xjzQpnY3aNIHpGVOtizWd4UeWfi5ZiLNzCSSRfAf62uh5S8t6CpOStIIicG_DZlSTzhYxfoUcyRAd9u3R-Sfp-2dbu-tBlhrtNPlXG-dvrKhS465exZJT33_WJ48JH-YmL3TTR1_3ms5T3eT7t99J1-zvj2-HjTqMLiSoSaD6SFfdwlI_ATp5Xx9SbpABFJondDVP_mO0)
 
 ```
 @startuml
@@ -87,22 +87,23 @@ Boundary "Learning Environment" as LE
 
 Boundary "Personalisation Engine" as PE
 
-
 Control "xAPI" as x
-
-
 
 Actor "System Designer" as SD
 
-Actor "Learner/Teacher" as LT
+Actor "Learner" as L
 
+Actor "Teacher" as T
 
 LEP -down-> PE
 PE -down-> LE
 LEP <-left- x  
 SD -down-> CLD : manages
-LT -right-> LE
-LT ..up..> x : CollectUserExperienceData
+L -right-> LE
+L ..up..> x : CollectUserExperienceData
+T -right-> LE
+T ..up..> x : Collect Data
+T <--up--> LEP
 @enduml
 ```
 
