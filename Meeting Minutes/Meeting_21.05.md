@@ -79,7 +79,7 @@ It was agreed that we should present in a slide format and Augustina volunteered
 * Everyone to add to the google slide document and practice their part of the presentation!
 
 
-**[Link to the recording:](http://webconf.ucc.usyd.edu.au/pshc16ac8so0/)**
+**[Link to the recording](http://webconf.ucc.usyd.edu.au/pshc16ac8so0/)**
 
 
-**end**
+
