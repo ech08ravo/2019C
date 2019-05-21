@@ -23,7 +23,7 @@ When using the Personalisation Engine, the Course Designer will input all necess
 
 The Personalisation Engine will search the information through the web and Cloud Repository and generate a suggested Learning Environment appropriate to the boundaries set.
 
-The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform.
+The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Instructor is able to engage with the Learning Analytics Platform in order to monitor and administer student data and interactions
 
 Learning Design research shows that the context of learning and the need for systems to be flexible, adaptive and user friendly, as such, the Course Designer has the choice of inputting boundaries or design requirements into the Personalisation Engine. The Course Designer can engage with the Personalisation Engine to determine one or all of the following:
 * Learning objectives
