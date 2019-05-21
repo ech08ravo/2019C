@@ -1,8 +1,6 @@
 # Interactions
 
-Keep your interaction sequences in this document, or create further documents of this kind if documents gets too long. Note that when you render the markdown in html you can get an url for any heading by pointing to the left of the heading and then right-click and copy the heading bookmark link. 
-
-[Link to wiki page on component diagrams](https://github.sydney.edu.au/crli/EDPC5022-2019/wiki/Sequence-Activity-Interaction-diagrams) 
+Interaction Diagrams are used to depict the dynamics of a system over time: how users and components interact. Our Interaction Diagrams include an overview as well as further diagrams showing dynamics of Course Creation and the Learning Analytics Platform. 
 
 
 
