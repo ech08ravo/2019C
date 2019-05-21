@@ -59,16 +59,16 @@ DL -down-> PL
 @enduml
 ```
 
-## Component Diagram 2 based on the Learning Analytics Platform
+## Component Diagram 2 based on the "Learning Analytics Platform"
 
 This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
 The System designer manages and adds to the Cloud Repository and Learning Analytics Platform. The Instructor is able to both use and add to the Learning Analytics Platform data. 
 
-![component diagram #2](https://www.plantuml.com/plantuml/img/RP31Qjmm443lynM3xzeFA274jKqn-63gBJc47bJln16LHsOqRhs4_djbTN6tq3r9yzwi7tgAQaNNsOCwzOHLc9V0n1hH_BrWxUmaTWPOxFZTJeH5HrROyOGbMtzLDqRilTNN87E1DcBNzFYECFgmNh1eMKcIY6D89zQif26-0wRVIvMrpxI4w3J8zUlEgwx-GyisfQmI2JyHazXaPA5ignf-0S3BCtt38HMDRzZmv9WoVnuQsFd7iFB5olMkkk4VJWBFkINdtcizIGmfrqMhBl3jFxFO9x4Ah18y5blPjtcw0PHZoi9Yk4Qb6MkARagjcGxrWNF0RTmTqvQZohgVCpW3xCzdBk4dcyVzatrptBecmmVZwLKDReWmr0TDRuOVSBPi9uhGeH4tlUbj3K-dTJcT7d5BJXMyfr6_H99cMqWSyKYrLGldVxRE_zl2c_XWpBgOBFRmH7nPP_yR)
+![component diagram #2](https://www.plantuml.com/plantuml/img/RPB1JiCm38RlVWghdBi3nscQLjeALUgXeaCS48VGULr4wbH92fictXqtZ0aaUahzVqw_Ejdue5oO1WDR7GnXReVHCd70GglUgG5lRW56rRsfdZ2fIJdMt6F6ofo2xZmsHeMzTKE2ocDTDdX6w8oTTfXK7CW9Y9sL5OU8I17FWF8yvn5xeD5w7QmxlSnvNXVVQLQ9pUGyuJqnEIL41B8gB-0J09wVw1LRCUeEM7AlcMB-r9OmvtTsufrofr_M9RzhPtduSQdBtrX3pblHrLu5RVcoPmGR0NFv2MSD9iUigMBr291reeL9U_A11Yp8wrvSOzeMrpWANChrjLgn3swQrp7O0ipZItVsWzFr_CcclBw9wHokKaFxaE8H4ThYcihCS8c3OZaa3pMcJlU7S6d3nM8Q5ukrD2rbeiPG5nuzkV8uajF47HKgADZ-wTh-ruKNS9McqvX6i84DyMw-Fry0)
 
 ```
 @startuml
-title Components - Component Diagram
+Title Component Diagram #2
 
 package "Learning Analytics Platform" as LEP { 
 cloud "Internal content" as Int {
@@ -106,16 +106,15 @@ T <--up--> LEP
 ```
 
 
-## Component Diagram 3 based on the Personalisation Engine
+## Component Diagram 3 based on the "Personalisation Engine"
 
 This diagram represents the components within the Personalisation Engine. The Course Designer is the main human actor at the controller layer here because he is the one interacting with the Personalisation Engine setting the boundaries of the intended course design. He will also set the learning objectives and the pedagogical patterns he considers suitable for the course. The next component is the Product Layer which contains the Learning Environment where the course will be deployed. 
 
-![Component diagram #4](https://www.plantuml.com/plantuml/img/RP31QiCm38RlVWgHYqzzXL6QvXQeeRcL7RH466-EL6IbOuoz-vmMIWOx2ltw-7vvxvtR5qErPSxEacM2G5g4CQU2beIXuvYOe9NvAaniS4mO5MTtnV438q7p_qK3M21qyEqkFQ5ouWYdjtSQBTsem22INzT8VnhS9T24KM8QCKD0CrBUH4AeaJCP76JX2JLjxy-7mVsuZOtAj8m6FNwHFYJwLQ9vMdHyIoeyrpBDGw63FuXMs5Ho9jrGsZjbNIvQ28vKKkIwknFQumgeaTqadxnxgSLTxVwSUhSddjOdE-_zBm00)
+![Component diagram #3](https://www.plantuml.com/plantuml/img/LP2nQiD038RtUmhXpfcwbn3Rco47yHOwg3vnN7kMWavEAANltdC2mHs5Vdryl_R5K6sPinkJPO9MveimiK6NC2hEyFBgBZXzOIHeF6aHnfmAMXA6dcDYQW0B-1v-t7aWL4uSuVZnIPEbAnKOHVBx6XcEepjx2XWbfWapU3GZvKt4-nevaS515WweQNj_EepkrsriLC8o6GpuJVgG65Q9vcdHypMfy5pxD0-57luXMc5JoPbqGsdlb7MvQ27egAJ8TNSdjDqAg95Ta1lltcfnLxi_fy7jYSFwq3y0)
 
-'''
-
+```
 @startuml
-title Personalisation Engine Component Diagram
+Title Component Diagram #3
 package "Personalisation Engine" as PE {
 [Learning Objectives Tool] as LOT
 [Pedagogical Patterns Tool] as PPT
@@ -133,5 +132,4 @@ package "Controller Layer" as CL {
 CL -down-> PE
 PE -down-> PL
 @enduml
-
-'''
+```
