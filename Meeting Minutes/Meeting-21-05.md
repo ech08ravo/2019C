@@ -6,7 +6,7 @@
 
 **Facilitator:** Quang
 
-**Knowledge Manager:** Agustina
+**Knowledge Manager:** Augustina
 
 ## A. Agenda: Topics/Goals
 
