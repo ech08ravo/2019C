@@ -6,7 +6,6 @@ Component diagrams can also be described as a static implementation view of a sy
 
 A single component diagram cannot represent the entire system but a collection of diagrams is used to represent the whole. As such there are several Component Diagrams below illustrating this system.
 
-
 ## Component Diagram 1 based on Use Case Scenario "Adaptive LD System"
 This Component Diagram shows the different layers that the system architecture is composed of and it was modelled based on the Use Case Scenario called "Adaptive LD System". 
 
@@ -16,11 +15,9 @@ This Component Diagram shows the different layers that the system architecture i
 
 1. The "Tools Layer" involves all the external tools the system feeds from to adapt content and it's composed of: the AI, the Web-search Engine and the Learning Analytics Platform.
 
-
-## Component Diagram 2 based on Use Case Scenario
 1. The "Product Layer" represents the Learning Environment which is the ultimate end-product the system generates. 
-2. The "Data Layer" respresents the components that are involved with tracking and storing xAPI and Cloud Repository.
 
+2. The "Data Layer" respresents the components that are involved with tracking and storing xAPI and Cloud Repository.
 
 ![Component Diagram based on Use Case Scenario](https://www.plantuml.com/plantuml/img/LL9DJyCm3BtdLqJZl0i_06rgTvXKe6ALE4mxU8tf0gazEUwWGlntqZ5OE3x7xoClMKG5qQ4FnZHU0zg2-oCJajhIGoVGsvjRG-pGpWec5Gu1nLOmeimiH5jKzjDi2nuaeYqn-evGTcQxKNZ30mU74XEi4EHoC4R5FbzTKrGPMkK4lYvUTQ8nGV0Hr3DbXZMU7S-2dZhxk7_5Llq99vjx9fzqfla3efj6DJhekFCj15k3AWfbcx1FT_xJshJYZtfDqJ27c7atP-lbEl6VSMytYTSUx8ewJxZBCYrJyb5zcz86q1UM_gfPWa8cMVxq5tXmzWcF7ATKOnBxMDRhh0zXbohAU_XVmufENfZwz78JowHtcJj-f_dTr9YPMll5JMMQAoehKsQxbJ4B99T-n3S0)
 
@@ -61,8 +58,6 @@ DL -down-> PL
 
 @enduml
 ```
-
-
 
 ## Component Diagram 3 based on the Learning Analytics Platform
 
