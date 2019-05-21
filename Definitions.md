@@ -1,6 +1,8 @@
+
+# Definitions
 This file aims to clarify some of the terminology and functionality of various components within this project.
 
-**Component Characteristics:**
+## Component Characteristics:
 
 ***Personalisation Engine Characteristics***
 Two-fold function: search engine + AI.
@@ -15,7 +17,7 @@ It doesn’t have AI.
 Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
 Course designer will only engage with the Personalisation Engine, not the Learning Analytics Platform.
 
-**System Function Description**
+## System Function Description
 
 The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users. The System designer will manage and add to the cloud repository and both Personalisation and Learning Analytics engines; also offering technical support and administration.
 
