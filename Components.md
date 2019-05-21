@@ -112,8 +112,7 @@ This diagram represents the components within the Personalisation Engine. The Co
 
 ![Component diagram #3](https://www.plantuml.com/plantuml/img/LP2nQiD038RtUmhXpfcwbn3Rco47yHOwg3vnN7kMWavEAANltdC2mHs5Vdryl_R5K6sPinkJPO9MveimiK6NC2hEyFBgBZXzOIHeF6aHnfmAMXA6dcDYQW0B-1v-t7aWL4uSuVZnIPEbAnKOHVBx6XcEepjx2XWbfWapU3GZvKt4-nevaS515WweQNj_EepkrsriLC8o6GpuJVgG65Q9vcdHypMfy5pxD0-57luXMc5JoPbqGsdlb7MvQ27egAJ8TNSdjDqAg95Ta1lltcfnLxi_fy7jYSFwq3y0)
 
-'''
-
+```
 @startuml
 Title Component Diagram #3
 package "Personalisation Engine" as PE {
@@ -133,5 +132,4 @@ package "Controller Layer" as CL {
 CL -down-> PE
 PE -down-> PL
 @enduml
-
-'''
+```
