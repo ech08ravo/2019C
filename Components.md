@@ -59,7 +59,7 @@ DL -down-> PL
 @enduml
 ```
 
-## Component Diagram 2 based on the Learning Analytics Platform
+## Component Diagram 2 based on the "Learning Analytics Platform"
 
 This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
 The System designer manages and adds to the Cloud Repository and Learning Analytics Platform. The Instructor is able to both use and add to the Learning Analytics Platform data. 
@@ -106,16 +106,16 @@ T <--up--> LEP
 ```
 
 
-## Component Diagram 3 based on the Personalisation Engine
+## Component Diagram 3 based on the "Personalisation Engine"
 
 This diagram represents the components within the Personalisation Engine. The Course Designer is the main human actor at the controller layer here because he is the one interacting with the Personalisation Engine setting the boundaries of the intended course design. He will also set the learning objectives and the pedagogical patterns he considers suitable for the course. The next component is the Product Layer which contains the Learning Environment where the course will be deployed. 
 
-![Component diagram #4](https://www.plantuml.com/plantuml/img/RP31QiCm38RlVWgHYqzzXL6QvXQeeRcL7RH466-EL6IbOuoz-vmMIWOx2ltw-7vvxvtR5qErPSxEacM2G5g4CQU2beIXuvYOe9NvAaniS4mO5MTtnV438q7p_qK3M21qyEqkFQ5ouWYdjtSQBTsem22INzT8VnhS9T24KM8QCKD0CrBUH4AeaJCP76JX2JLjxy-7mVsuZOtAj8m6FNwHFYJwLQ9vMdHyIoeyrpBDGw63FuXMs5Ho9jrGsZjbNIvQ28vKKkIwknFQumgeaTqadxnxgSLTxVwSUhSddjOdE-_zBm00)
+![Component diagram #3](https://www.plantuml.com/plantuml/img/LP2nQiD038RtUmhXpfcwbn3Rco47yHOwg3vnN7kMWavEAANltdC2mHs5Vdryl_R5K6sPinkJPO9MveimiK6NC2hEyFBgBZXzOIHeF6aHnfmAMXA6dcDYQW0B-1v-t7aWL4uSuVZnIPEbAnKOHVBx6XcEepjx2XWbfWapU3GZvKt4-nevaS515WweQNj_EepkrsriLC8o6GpuJVgG65Q9vcdHypMfy5pxD0-57luXMc5JoPbqGsdlb7MvQ27egAJ8TNSdjDqAg95Ta1lltcfnLxi_fy7jYSFwq3y0)
 
 '''
 
 @startuml
-title Personalisation Engine Component Diagram
+Title Component Diagram #3
 package "Personalisation Engine" as PE {
 [Learning Objectives Tool] as LOT
 [Pedagogical Patterns Tool] as PPT
