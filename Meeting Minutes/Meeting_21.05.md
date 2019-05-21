@@ -21,10 +21,8 @@
 
 ## B. Activities (Facilitator)
 
-(Activities are not identical to topics: Activities contribute to achieving topics, which are usually seen as goals.)
-
 ### Activity 1
-**Duration (in minutes):**
+**Duration (20 minutes):**
 
 There was a lot of updates this week, so lots of pull requests and merge conflicts. A few members of the team had problems with  merging so the components and interaction diagrams were not up to date. In particular Components.md was messy.
 Augustina cleaned up the first two component diagrams during the meeting and merged them into one. After the meeting Daniela and Dominique will update their models. All of these changes have already made, they just need to be merged properly.
@@ -32,7 +30,7 @@ We will use this opportunity to test merging to another team members branch to s
 Dominique had made some major changes to her components diagram so would like some feedback ASAP.
 
 ### Activity 2
-**Duration (in minutes):**
+**Duration (15 minutes):**
 
 This week we were meant to address formatting issues and narrative inconsistencies to make sure the pages all flow well together. Last week Dominique went through every page and made a list in an issue titled [Group to do list](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/64)
 Most of this was addressed so the remaining members will now look into this. We have agreed to follow the formatting laid out in the issue titled [Format for linking to other corresponding diagrams](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/59)
@@ -43,7 +41,7 @@ Everyone agreed to focus on getting the formatting done by EOD Wednesday so that
 ********
 
 ### Activity 3
-**Duration (in minutes):**
+**Duration (10 minutes):**
 
 Did not get around to addressing the optional smart functionality diagrams but still interested in doing it. Dominique will create an interactions diagram as AI will be the focus and Peter said AI can not be an actor in a use case diagram. 
 Daniela would like to contribute with a focus on learning analytics. Dominqiue will get this done by Thursday. Corresponding components diagram will only be done if anyone has the time.
@@ -51,7 +49,7 @@ Daniela would like to contribute with a focus on learning analytics. Dominqiue w
 We reviewed Augustina's IOT use case diagram and Quang's corresponding components diagram. The only comments made were that, although it was a focused diagram modelling only a small section of the greater whole, it was not clear what the meaning of the use case was. E.g. why was this happening? There was a discussion regarding if it was because of the lack of LE & PE, or that maybe it just needed to be fleshed out in the narrative. 
 
 ### Activity 4
-**Duration (in minutes):**
+**Duration (15 minutes):**
 
 We the discussed how we would present this information next week and it seemes logical to divide it into parts. The roles are as follows:
 
@@ -81,7 +79,7 @@ It was agreed that we should present in a slide format and Augustina volunteered
 * Everyone to add to the google slide document and practice their part of the presentation!
 
 
-**Link to the recording:](http://webconf.ucc.usyd.edu.au/pshc16ac8so0/)**
+**[Link to the recording:](http://webconf.ucc.usyd.edu.au/pshc16ac8so0/)**
 
 
 **end**
