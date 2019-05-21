@@ -44,3 +44,6 @@ In a LD with integrated Design Critique process, the following would apply:
 * the various stakeholders and designers will engage in a design critique
 * if approved, it will then be deployed as a Learning Environment
 * if not approved, adjustments will be made by the Course Designer and re-proposed for critique until approved.
+
+This Use Case Diagram demonstrates system functionality:
+![Submit Rule](https://www.plantuml.com/plantuml/img/ZLDBIyD04BxlhvYZFHJlHSHGFHGKYY8UosPtZ0l9J9YPL8lutzqq1LzfpMbX-LxxpUoLcXVhcjevIrOZ52ieecyjRH5kh-5XfuODF2h2Gq3oaXZkE6Bj18DvglQKpG7s3kviZQ9ClaxgBJ713LM9S0ONyyYlDB-4ioSiPoU1ageNwv5BxaHHpszecuIfGJA5PSrTX7jiMPEnx4vfpNkLM_H2YIhu9ZDpNzT59kui1OLrxUsPfJaGZwYwSSM1yrQiLtsYuVpfFsRqNuwkdLw4-t3383RNgAaYb270n1eNWSaabPsXWZ6CYus_VT4ARrFiYHXUGBksPJ5mW_KlYMFJMYZcO2Lt5FEYPIst8ZNfGivtqZplOzvNKV0KeM7g7wH_o5Dh01zZNy1nzx59PLe8gDd0xN7_z9N8K7om8NFWklObYxVVzAcXaIfVvSeIWNDNI37_wKy0)
