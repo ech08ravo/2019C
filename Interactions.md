@@ -50,30 +50,41 @@ L -> LE : actionAdditionalResources
 ```
 
 
-## Smaller Interactions Diagram #1 for Learning Analytics Platform
+## Interactions Diagram for Learning Analytics Platform
 
-This diagram shows the interactions that occur within the Learning Analytics Platform. 
-![Interactions Diagram #1 for LA](https://www.plantuml.com/plantuml/img/XL6nQiD03Dtr5SAPEtJDK69iKmocbAHWhufFIGxiktAIeVxxodOJIfTEftllwJq97KGfwJGE0EfrOAo3Sg9UVGnOUhec6d7tZ9UOiCaHm2Whipg8fccfCoJ16ZXO_upPL_vUhr27u4ZfJCAO5N5AzXP3d1oM_1d5M-ky2ekY_ALi-OmdfjJVi0fN7tZLjAVgdjmO6NYBRG1gV7h1fi8zZZ4iffA_bVvd2O7cGJ-mrkiD33AYC_p2x0IwvMkJx94cZIEfxsaOvbUsA5AMRIGMCCtTafoJ8ukjrhDynCt39ltNmpIRXod_U00SE3YxnpS0)
+This diagram shows the interactions that occur within the Learning Analytics Platform.
+The learner interacts with the Learning Environment producing a set of actions which are fed to the xAPI. 
+The xAPI tracks those actions and stores the learner's data into the Learning Analytics Platform.
+The Learning Analytics Platform then feeds this data into the Personalisation Engine and the Cloud Repository so they can later on make adjustments to the course based on this data.
+The instructor accesses the data from the Learning Analytics Platform to monitor learners' perfomance in the course and be aware of their actions. 
 
-```
+
+![Interactions Diagram #1 for LA](https://www.plantuml.com/plantuml/img/VP6nReGm44HxVyMAnbL-W28wH2YGA2mgsWti4Ii-4taN9Vnz5dD8A4MwrSxppDYsrfeR2oPP7y4OyH88sYYKS1I_H7ZpE2Tym7r9q16cwECCLSImYHyPN41HwG76w05bYZQof7MV2q26rb1KrmsAdygrUJM0cL3m7PcW-CSpmrtbBhIZn8k2dZ6tQ-Bi8sNGDHUk3iiwGKzV2tjjicMYxi-EEPIEWfqn7RoyGjT02VvvSuPlBnz6TweCAjo99ZR30POW2dqoXCF7CXolTHALAu4rYQx8tawpAhSZJjEoPrw3BATGzt-5zccfBN0SYLbTCKwmxiDXUgCuvV-prlu2)
+
+'''
 @startuml
 
-title Interaction Diagram #1 for LA 
+title Interaction Diagram for Learning Analytics Platform 
 
 actor "Instructor" as I
 entity "xAPI" as X 
-database "Course Cloud Depository" as CCD
-database "Web Search Engine" as WSE
+database "Learning Analytics Platform" as LAP
+database "Personalisation Engine" as PE
+database "Cloud Repository" as CR
 actor "Learner" as L
 
-I -> LE : monitorsANDinteracts
-L -> LE : interactsWith
+L -> LE : interacts with
 LE -> X : feeds
-X -> CCD: automaticallyGeneratesSearches
-CCD -> LE :addsResourcesTo
-X -> WSE: automaticallyGeneratesSearches
-WSE -> LE: addsResourcesTo
-```
+X -> LE: tracks learner's actions
+X -> LAP: stores learner's data
+
+LAP -> PE :feeds data to
+LAP -> CR :feeds data to
+I -> LAP : accesses and uses data
+
+@enduml
+
+'''
 
 ## Sequence diagram  2 - Course Set Up Sequence
 This sequence diagram models how actors add resources and activities into a Cloud Depository on an ongoing basis.  
