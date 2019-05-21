@@ -38,7 +38,7 @@ Here is stated an overview of the elements that make up the system.
 
 Here is a description of the various components and clarification on their functionality within the system.
 
-* Link to [definitions document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/definitions.md)
+* Link to [definitions document](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Definitions.md)
 
 #### System Function Description
 
