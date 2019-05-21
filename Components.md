@@ -24,7 +24,7 @@ This Component Diagram shows the different layers that the system architecture i
 ```
 @startuml
 
-Title Component Diagram #2
+Title Component Diagram #1
 node "Controller Layer" as CL {
 [Course Designer]
 [Stakeholders]
