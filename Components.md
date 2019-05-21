@@ -1,8 +1,10 @@
 # Components
 
-Keep your components in this document, or create further documents of this kind if documents gets too long. Note that when you render the markdown in html you can get an url for any heading by pointing to the left of the heading and then right-click and copy the heading bookmark link. 
+The below Component Diagrams illustrate and explain different elements of the system and how these elements (or components) or organised.
 
-[Link to wiki page on component diagrams](https://github.sydney.edu.au/crli/EDPC5022-2019/wiki/Component-Diagrams) 
+Component diagrams can also be described as a static implementation view of a system. Static implementation represents the organisation of the components at a particular moment.
+
+A single component diagram cannot represent the entire system but a collection of diagrams is used to represent the whole. As such there are several Component Diagrams below illustrating this system.
 
 
 ## Component Diagram 1 based on Use Case Scenario "Adaptive LD System"
@@ -67,7 +69,7 @@ DL -down-> PL
 This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
 The System designer manages and adds to the Cloud Repository and Learning Analytics Platform. The Instructor is able to both use and add to the Learning Analytics Platform data. 
 
-![component diagram #3](http://www.plantuml.com/plantuml/png/RP31Qjn038RlUWhXk_S1IWXnRLCMV33rbXn23wfNyGuTQun6Rhs4ldjdfsRJGdNJ_tsQ4NgAHchhxC6SUSOwp4iG5ejOlZVOE9gKPe25nkyqCHOTaugJ2IiXVpKtHkmzsMlGkK2AsBKzlY6CFgndB8vYh4d4COYnM5PIY6-0gLxgh7tc9KHdGQzVRxpkcZ-qEc8TLesCdrXOAHbPg8vr0xy0uEMPl-70fEC5MvcSSERFGmit_Z6iSYQzlc-Th1zEWymijg_xjzQpnY3aNIHpGVOtizWd4UeWfi5ZiLNzCSSRfAf62uh5S8t6CpOStIIicG_DZlSTzhYxfoUcyRAd9u3R-Sfp-2dbu-tBlhrtNPlXG-dvrKhS465exZJT33_WJ48JH-YmL3TTR1_3ms5T3eT7t99J1-zvj2-HjTqMLiSoSaD6SFfdwlI_ATp5Xx9SbpABFJondDVP_mO0)
+![component diagram #3](http://www.plantuml.com/plantuml/png/RP31Qjmm443lynM3xzeFA274jKqn-63gBJc47bJln16LHsOqRhs4_djbTN6tq3r9yzwi7tgAQaNNsOCwzOHLc9V0n1hH_BrWxUmaTWPOxFZTJeH5HrROyOGbMtzLDqRilTNN87E1DcBNzFYECFgmNh1eMKcIY6D89zQif26-0wRVIvMrpxI4w3J8zUlEgwx-GyisfQmI2JyHazXaPA5ignf-0S3BCtt38HMDRzZmv9WoVnuQsFd7iFB5olMkkk4VJWBFkINdtcizIGmfrqMhBl3jFxFO9x4Ah18y5blPjtcw0PHZoi9Yk4Qb6MkARagjcGxrWNF0RTmTqvQZohgVCpW3xCzdBk4dcyVzatrptBecmmVZwLKDReWmr0TDRuOVSBPi9uhGeH4tlUbj3K-dTJcT7d5BJXMyfr6_H99cMqWSyKYrLGldVxRE_zl2c_XWpBgOBFRmH7nPP_yR)
 
 ```
 @startuml
@@ -94,7 +96,7 @@ Actor "System Designer" as SD
 
 Actor "Learner" as L
 
-Actor "Teacher" as T
+Actor "Instructor" as T
 
 LEP -down-> PE
 PE -down-> LE
