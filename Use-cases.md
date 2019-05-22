@@ -205,3 +205,40 @@ Instructor --> (Learning Analytics Platform) :accesses and uses data
 @enduml
 
 ```
+
+## Course Design with Smart Functonality
+
+
+![Use Case Diagram for Course Design with Smart Functonality](https://www.plantuml.com/plantuml/img/XP51IyH038Nl-HKvRW_z2sMbNK4eRD63np9sOmrqCfB9g8lutntRwctmDhptlKaUEKPpQial0CQs4BOXQIJiAF8i-CxsWWy-8tYRPB8WRc6x0cpOk66aw2AsNLQzJvA1yVmy3kecuubMxpn0Jqvtj0TGcip9d2UkEiiydkIDDOWdCVn4E0oaSHqOdN4GFCdCGbLsjkaL73vkXhiAlW3wkcwmbDZTtnJaRN1Jbf0kU4-l8R85lLRGTYMdl4yfy4_YaPvobxyoTREtAQSQ_27onqUIotgp_V4D)
+```
+@startuml
+
+title Course Design with Smart Functonality
+
+Course_Designer as CD
+Community_Of_Practice as COP
+Learner as L
+
+rectangle Learning_Environment { 
+(Personalisation Engine) 
+(Course)
+(xAPI)
+}
+
+L--> (Personalisation Engine)
+L--> (Course)
+
+COP --> (Cloud Repository)
+CD --> (Cloud Repository)
+
+(Personalisation Engine) --> (Cloud Repository)
+
+
+(Personalisation Engine) --> (Web) 
+
+(Course)->(xAPI)
+(Personalisation Engine) -> xAPI
+
+
+@enduml
+```
