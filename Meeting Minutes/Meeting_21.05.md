@@ -53,12 +53,12 @@ We reviewed Augustina's IOT use case diagram and Quang's corresponding component
 
 We the discussed how we would present this information next week and it seemes logical to divide it into parts. The roles are as follows:
 
-Readme - Dominique
-Use cases - Quang
-Interactions - Daniela
-Components - Augustina
-processes/contributing - Kira 
-insights - Madi 
+* Readme - Dominique
+* Use cases - Quang
+* Interactions - Daniela
+* Components - Augustina
+* Processes/contributing - Kira 
+* Insights - Madi 
 
 It was agreed that we should present in a slide format and Augustina volunteered to create a google slides document for us. We will assess if we need to meet again on the weekened.
 
