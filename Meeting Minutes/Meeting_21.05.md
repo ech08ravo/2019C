@@ -67,8 +67,8 @@ It was agreed that we should present in a slide format and Augustina volunteered
 
 * Daniela to update LAP components diagram as there was an error 
 * Dominique to then update PE components diagram (will report to the team re: the succes of the merging to branch process)
-* Members to review Dominique diagram
-* Maddie to update interactions page tonight, changing depositpry to repository and updating Dom's hyperlinks.
+* Members to review Dominique's updated component diagram
+* Maddie to update interactions page tonight, changing depository to repository and updating Dom's hyperlinks.
 * Everyone to add links to all corresponding models by EOD Wednesday (link to actual model, not just page).
 * Everyone to make sure their paragraphs are at least 5 lines long.
 * Dominique to do smart functionality interactions diagram
