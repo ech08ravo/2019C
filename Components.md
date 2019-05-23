@@ -106,7 +106,7 @@ T <--up--> LEP
 ```
 
 
-## Personalisation Engine Component Diagram
+## Component Diagram 4 based on Personalisation Engine 
 
 This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Pattenrs Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
 
