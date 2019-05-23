@@ -112,6 +112,7 @@ This diagram represents the components of the Personalisation Engine. The Contro
 
 ![Personalisation Engine Component Diagram](https://www.plantuml.com/plantuml/img/RLF1QkCm4BtFLuXSUielB4rjjmG45QqX1TE3OaszsigZ8CbjmxB_lYCv2GvjJY_Cp7ipxyctCUcGfj51iicXK1YY9-rirCbw4WqDbb1KVZnuGagYjde8UWGuwFvT3oXMbQSKl7COXDH732kXewYa-0jTBauXegWnse6uzbgADVm3C3hflURYwcVHmgEQp2DH1x8qYCVz7-oJ_S0eMkzTOPEFBNGAZHxyO7ljXD8fOQ15YrBSyen9tFc9Z0vsEVzyrouKDhp7CTcUXvnERpwCOai9-UQysYouKLledl3Weqq-7ByrF77vTFW3yjNpLVSJzPUMwk4UkissuCtssewQqSBAkbYvm_t9bpApQw3xuZtAdvUBNENyPDZjysgprkpt9J0Ll9dwj91GHM9rCQ6X3niyZHpud9Xin1L5DYyk25fv5TDt4y_6PHQ0cppgfvI5EH1-EPK4VZBhxhSr1kbrpS4lsjfpMosXlcfh9G2_aRNndxJ-nNp0F1aqm6SBHXp6hZa1TZqZsG2lKb2EykM4u1R9v4zX_lq7)
 
+```
 @startuml
 title Personalisation Engine Component Diagram
 
@@ -155,3 +156,4 @@ CGF -> LE
 LAP -> LAPI
 X -> LAP
 @enduml
+```
