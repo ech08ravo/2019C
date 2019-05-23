@@ -147,7 +147,7 @@ Other_Critiquers --> (Discussion) : participates
 @enduml
 ```
 
-##Use Case for IoT
+## Use Case for IoT
 
 This Use Case Diagram attempts to show the interactions that occur between the learner and the learning environment within mobile devices. The xAPI tracks the learner's actions as he interacts with different devices such as his Smartphone, his Tablet and his Personal Computer. The xAPI then feeds all the tracked data into the Learning Analytics Platform. The Instrutor accesses the Learning Analytics Platform to monitor the learner's behavior within the mobile devices. 
 
