@@ -106,31 +106,55 @@ T <--up--> LEP
 ```
 
 
-## Component Diagram 3 based on the "Personalisation Engine"
+## Personalisation Engine Component Diagram
 
-This diagram represents the components within the Personalisation Engine. The Course Designer is the main human actor at the controller layer here because he is the one interacting with the Personalisation Engine setting the boundaries of the intended course design. He will also set the learning objectives and the pedagogical patterns he considers suitable for the course. The next component is the Product Layer which contains the Learning Environment where the course will be deployed. 
+This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Pattenrs Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
 
-![Component diagram #3](https://www.plantuml.com/plantuml/img/LP2nQiD038RtUmhXpfcwbn3Rco47yHOwg3vnN7kMWavEAANltdC2mHs5Vdryl_R5K6sPinkJPO9MveimiK6NC2hEyFBgBZXzOIHeF6aHnfmAMXA6dcDYQW0B-1v-t7aWL4uSuVZnIPEbAnKOHVBx6XcEepjx2XWbfWapU3GZvKt4-nevaS515WweQNj_EepkrsriLC8o6GpuJVgG65Q9vcdHypMfy5pxD0-57luXMc5JoPbqGsdlb7MvQ27egAJ8TNSdjDqAg95Ta1lltcfnLxi_fy7jYSFwq3y0)
+![Personalisation Engine Component Diagram](https://www.plantuml.com/plantuml/img/RLF1QkCm4BtFLuXSUielB4rjjmG45QqX1TE3OaszsigZ8CbjmxB_lYCv2GvjJY_Cp7ipxyctCUcGfj51iicXK1YY9-rirCbw4WqDbb1KVZnuGagYjde8UWGuwFvT3oXMbQSKl7COXDH732kXewYa-0jTBauXegWnse6uzbgADVm3C3hflURYwcVHmgEQp2DH1x8qYCVz7-oJ_S0eMkzTOPEFBNGAZHxyO7ljXD8fOQ15YrBSyen9tFc9Z0vsEVzyrouKDhp7CTcUXvnERpwCOai9-UQysYouKLledl3Weqq-7ByrF77vTFW3yjNpLVSJzPUMwk4UkissuCtssewQqSBAkbYvm_t9bpApQw3xuZtAdvUBNENyPDZjysgprkpt9J0Ll9dwj91GHM9rCQ6X3niyZHpud9Xin1L5DYyk25fv5TDt4y_6PHQ0cppgfvI5EH1-EPK4VZBhxhSr1kbrpS4lsjfpMosXlcfh9G2_aRNndxJ-nNp0F1aqm6SBHXp6hZa1TZqZsG2lKb2EykM4u1R9v4zX_lq7)
 
 ```
 @startuml
-Title Component Diagram #3
-package "Personalisation Engine" as PE {
+title Personalisation Engine Component Diagram
+
+package "Controller Layer" as CL {
+[ "Course Designer"] as CD
+}
+
+database "Personalisation Engine" as PE {
 [Learning Objectives Tool] as LOT
 [Pedagogical Patterns Tool] as PPT
 [Set Boundaries Tool] as SBT
+[Learning Analytics Platform Integration] as LAPI
+[Repository Integration] as RI
+[Course Generation Function] as CGF
+[AI] as AI
+}
+
+database "Data Layer" as DL {
+[Web Engine] as WE
+[xAPI] as X
+[Course Cloud Depository] as CCD
 }
 
 package "Product Layer" as PL {
 ["Learning Environment"] as LE 
 }
 
-package "Controller Layer" as CL {
-[ "Course Designer"] as CD
+package "Tools Layer" as TL {
+[Learning Analytics Platform] as LAP
 }
 
-CL -down-> PE
+' Layout PL under CL
+CL -[hidden]- PE
+' Layout TL under DL
+DL -[hidden]- TL
 PE -down-> PL
+CL-> PE
+CCD -> RI
+WE -> RI
+CGF -> LE
+LAP -> LAPI
+X -> LAP
 @enduml
 ```
 
