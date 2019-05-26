@@ -74,12 +74,12 @@ This Learning Analytics Platform Interaction Diagram aligns with:
 
 
 
-![Interactions Diagram #1 for LA](https://www.plantuml.com/plantuml/img/VP6nReGm44HxVyMAnbL-W28wH2YGA2mgsWti4Ii-4taN9Vnz5dD8A4MwrSxppDYsrfeR2oPP7y4OyH88sYYKS1I_H7ZpE2Tym7r9q16cwECCLSImYHyPN41HwG76w05bYZQof7MV2q26rb1KrmsAdygrUJM0cL3m7PcW-CSpmrtbBhIZn8k2dZ6tQ-Bi8sNGDHUk3iiwGKzV2tjjicMYxi-EEPIEWfqn7RoyGjT02VvvSuPlBnz6TweCAjo99ZR30POW2dqoXCF7CXolTHALAu4rYQx8tawpAhSZJjEoPrw3BATGzt-5zccfBN0SYLbTCKwmxiDXUgCuvV-prlu2)
+![Interactions Diagram #2 for LA](https://www.plantuml.com/plantuml/img/VP6nRiCm34HtVSN17JfbwPYXYE5cCE11o9ILjHbNg2CL8eqsVrzQTe2WGpU2ztHtaWwYb7M-Jivfq8dHHkLClOOK1M-1nanNFBrWXuufnn17r96ccuPUu2VIIyfNE6T7KaRLHj4yBtC54hIEe_dUKFtKlYshCzn0IkyaZEeVpm9tjN-WFMT91WQXfH-ESGoH2-YF3rmpfNd0YR-I16joAqHpkdSieRmMx9phi7j5TyGUORkxu3leXxETAMSJBio3kFCAxg46VGgcrUTPiBtNHjH-3x4aVaIMTfPL-mNnbbOyongQxa9p-YkqcwMreBvd4NEbE61UXjNqm76m7_m5)
 
 ```
 @startuml
 
-title Interaction Diagram for Learning Analytics Platform 
+title Interactions Diagram #2 - Learning Analytics Platform 
 
 actor "Instructor" as I
 entity "xAPI" as X 
