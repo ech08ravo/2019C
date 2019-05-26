@@ -11,7 +11,7 @@ The AI Adaptive LD System Interactions Diagram aligns with:
 * The AI Adaptive LD System Use Scenario model found [*here*](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Use-cases.md#ai-adaptive-ld-system-use-scenario-model)
 * The AI Adaptive LD System Component model found [*here*](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Components.md#component-diagram-1-based-on-use-case-scenario-adaptive-ld-system)
 
-![I Adaptive LD System Interactions Diagram](https://www.plantuml.com/plantuml/img/ZPHFQzmm4CNl-XHYUywXrr1A7Di5WmjcjyLxrLeJhq2Mp4XUwc_VaVmtoIRaPfv-ysRcIVZ9UO5-w3HZNdaDl30UK3HUMUDufaIBekFVlZD6caL-IEs03dW6JhK6yC25usd6BdOmKk383nMWiqPevKGmuRbfbO78LJcJmekB88F5ADLsaFm8lNMA6eoJONfasKhMSDcxrFckMma2ZJ8j0JU5rdHWVAJAV9duD3eFtUk9JzboMXZdSGZVyQ1Oz6WyqoLhhF5eDJ_yIweYQcT6dPJVZv3GrgDN3IsgXN-ns4tLISNOAUCFFyDU_94BAO_WQFq672i-qCiFz3GQLJdf3lpp58IY0vBMYiPg3OqF4GRznyCaI-LwBSP59hpEtz3rPtGPw1Oe5k5XkZzMnfDYuxT09oBM5skv1ArkW8cHlwrHApNxb9lFhhfSgwU7EPTCcKQzHtjJ4lv0SpqDVM_HpuRda1Dr0VVN0GOtpiwnBAccEWhLRTC4wXckugQe1mlGalOyLW3MYzwdwEWPDDTV5XCfLPXIwEtMwYq_XCPsz4pbFMv_YPyQ1kHBZkzolGkz2VWUmzWJjQ0_nNy0)
+![I Adaptive LD System Interactions Diagram](https://www.plantuml.com/plantuml/img/ZPHFQzmm4CNl-XHYUywXrr1A7Di5WmjcjyLxrLeJhq2Mp4XUwc_VaVmtoIRaPfv-ysRcIVZ9UO5-w3HZNdaDl30UK3HUMUDufaIBekFVlZD6caL-IEs03dW6JhK6yC25usd6BdOmKk383nMWiqPevKGmuRbfbO78LJcJmekB88F5ADLsaFm8lNMA6eoJONfasKhMSDcxrFckMma2ZJ8j0JU5rdHWVAJAV9duD3eFtUk9JzboMXZdSGZVyQ1Oz6WyqoLhhF5eDJ_yIweYQcT6dPJVZv3GrgDN3IsgXN-ns4tLISNOAUCFFyDU_94BAO_WQFq672i-qCiFz3GQLJdf3lpp58IY0vBMYiPg3OqF4GRznyCaI-LwBSP59hpEtz1raAFxUxWCSWkKYl0mNHyhuqcnyLkU4n7hYxLSWbOtmCJ8tzQebPfzoirdLrskrTExd4kcIAFUexqf2N-WkPw6lhVePyDpY8cwWFlh08CRP-TObbHJ7MNgjca2zGnNSLFKWmLe2NiUAm3hFUz3TFGAckilYucKAamfz7PfzPOVGcCxUgNo7hU_mqyD0_8bntUvteNU17oFOUo9Mj2FuZy0)
 
 ```
 
@@ -37,7 +37,7 @@ CD -> PE : setBoundaries
 PE -> CCR : collectData
 PE <-CCR : displayData
 PE -> WE : collectData
-WE <-CCR : displayData
+WE ->PE : displayData
 PE -> LE : generateCourse
 LE -> I : displayInstructorCourseData
 I -> LE : deliverAndMonitorCourse
