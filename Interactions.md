@@ -60,7 +60,7 @@ L -> LE : actionAdditionalResources
 ```
 
 
-## Learning Analytics Platform Interactions Diagram 
+## Interactions Diagram 2 based on Learning Analytics Platform  
 
 This diagram shows the interactions that occur within the Learning Analytics Platform.
 The learner interacts with the Learning Environment producing a set of actions which are fed to the xAPI. 
