@@ -76,7 +76,7 @@ This Learning Analytics Platform Interaction Diagram aligns with:
 
 ![Interactions Diagram #1 for LA](https://www.plantuml.com/plantuml/img/VP6nReGm44HxVyMAnbL-W28wH2YGA2mgsWti4Ii-4taN9Vnz5dD8A4MwrSxppDYsrfeR2oPP7y4OyH88sYYKS1I_H7ZpE2Tym7r9q16cwECCLSImYHyPN41HwG76w05bYZQof7MV2q26rb1KrmsAdygrUJM0cL3m7PcW-CSpmrtbBhIZn8k2dZ6tQ-Bi8sNGDHUk3iiwGKzV2tjjicMYxi-EEPIEWfqn7RoyGjT02VvvSuPlBnz6TweCAjo99ZR30POW2dqoXCF7CXolTHALAu4rYQx8tawpAhSZJjEoPrw3BATGzt-5zccfBN0SYLbTCKwmxiDXUgCuvV-prlu2)
 
-'''
+```
 @startuml
 
 title Interaction Diagram for Learning Analytics Platform 
@@ -99,7 +99,7 @@ I -> LAP : accesses and uses data
 
 @enduml
 
-'''
+```
 
 ## Interactions Diagram 3 based on Use Case Scenario "Adaptive LD with Design Critique Integrated"
 
