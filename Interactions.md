@@ -101,7 +101,8 @@ I -> LAP : accesses and uses data
 
 '''
 
-## Course Set Up Interaction Diagram
+## Interactions Diagram 3 based on Use Case Scenario "Adaptive LD with Design Critique Integrated"
+
 This sequence diagram model show actors add resources and activities into a Cloud Repository on an ongoing basis. When a course needs to be designed the Course Designer enters in course details such as subjects, pedagogy and course duration into the Personalisation Engine. The Personalisation Engine then searches through both the Cloud Repository and the Web to find suitable resources and activities to meet the criteria as entered by the Course Designer into the Personalisation Engine. The Course Designer then reviews and approves what the engine retreives. Once approved, the course is set up as a prototype. At this point the Community of Practice, Teachers, Students, Designers and Experts have the opportunity to conduct a design critique. Once adjustments / improvements are made to the design, the Course Designer gives a final approval and the Personalisation Engine generates the course in the Learning Environment.
 
 This Course Set Up Interaction Diagram aligns with:
