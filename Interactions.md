@@ -11,17 +11,17 @@ The AI Adaptive LD System Interactions Diagram aligns with:
 * The AI Adaptive LD System Use Scenario model found [*here*](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Use-cases.md#ai-adaptive-ld-system-use-scenario-model)
 * The AI Adaptive LD System Component model found [*here*](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Components.md#component-diagram-1-based-on-use-case-scenario-adaptive-ld-system)
 
-![I Adaptive LD System Interactions Diagram](https://www.plantuml.com/plantuml/img/ZPJTQjmm48NlzHHYx_C2fPGujWi65KmtnNkhjQPUWImPQRp4Rz-H_Djq4tfdZhuvCtCa_1nGUXnxmnXgDC2pYcTA3gZlm4N1prD0w7bb4RniKJiRUA5bvsNF6IF5UNxAtUW3y0A2xYpu4vU1vmMxkj4gwIT-gi47PwNHGKOBNjfEMqXSNJ8bKLub6Qn6kN6Z8hl11KqDfjcG78kDRE1wT6dAGpS1qbjjEmBksZlRWyL4YNATU5dhhudFnNfQsO1-ZD_fe5hrPBpGWhNEedU6dzwokahQXL4dZSSHCjfwGjtIeaRYR-VxkJgh6MFdWZzzYulnBrmgzHC2xTz2ODK7klX0pvDHNP8U05_c93GTaBHLjCuOQ35c6FMlJxEiT1YCd5QPyAPyHpUVqIBI7L0k4c6-G2RIIRNpUw8paUghhLo1eVVcCwj-EAitQl4Hky-XMcpLyxjSIkPCapvuTzSANg6zdSTXS1uNmqlCYRf0-1N0HpVEBgaig-Sw2ZNiqqJg1Mxohga7Yz2QzZ9M1BQRFgOOw1sqj-_EPqhfEAKq-wqrUtuUMjVJErMFkECbVcgOvyN_EVwJwqFeNS2F6CQUgGNzFlu0)
+![I Adaptive LD System Interactions Diagram](https://www.plantuml.com/plantuml/img/ZPHFQzmm4CNl-XHYUywXrr1A7Di5WmjcjyLxrLeJhq2Mp4XUwc_VaVmtoIRaPfv-ysRcIVZ9UO5-w3HZNdaDl30UK3HUMUDufaIBekFVlZD6caL-IEs03dW6JhK6yC25usd6BdOmKk383nMWiqPevKGmuRbfbO78LJcJmekB88F5ADLsaFm8lNMA6eoJONfasKhMSDcxrFckMma2ZJ8j0JU5rdHWVAJAV9duD3eFtUk9JzboMXZdSGZVyQ1Oz6WyqoLhhF5eDJ_yIweYQcT6dPJVZv3GrgDN3IsgXN-ns4tLISNOAUCFFyDU_94BAO_WQFq672i-qCiFz3GQLJdf3lpp58IY0vBMYiPg3OqF4GRznyCaI-LwBSP59hpEtz3rPtGPw1Oe5k5XkZzMnfDYuxT09oBM5skv1ArkW8cHlwrHApNxb9lFhhfSgwU7EPTCcKQzHtjJ4lv0SpqDVM_HpuRda1Dr0VVN0GOtpiwnBAccEWhLRTC4wXckugQe1mlGalOyLW3MYzwdwEWPDDTV5XCfLPXIwEtMwYq_XCPsz4pbFMv_YPyQ1kHBZkzolGkz2VWUmzWJjQ0_nNy0)
 
 ```
 
 @startuml
 
-title AI Adaptive LD System Interactions Diagram 
+title Interactions Diagram #1
 
 actor "Course Designer" as CD
 boundary "Personalisation Engine" as PE
-database "Course Cloud Depository" as CCD
+database "Course Cloud Repository" as CCR
 Database "Web Engine" as WE
 boundary "Learning Environment" as LE
 actor "System Designer" as SD
@@ -30,14 +30,14 @@ actor "Learner" as L
 control "xAPI" as X
 entity "Learning Analytics Platform" as LAP
 
-SD -> CCD : addResources
-I -> CCD : addResources
-L -> CCD : addResources
+SD -> CCR : addResources
+I -> CCR : addResources
+L -> CCR : addResources
 CD -> PE : setBoundaries
-PE -> CCD : collectData
-PE <-CCD : displayData
+PE -> CCR : collectData
+PE <-CCR : displayData
 PE -> WE : collectData
-WE <-CCD : displayData
+WE <-CCR : displayData
 PE -> LE : generateCourse
 LE -> I : displayInstructorCourseData
 I -> LE : deliverAndMonitorCourse
@@ -49,8 +49,8 @@ X -> LAP : processAndMonitorUserBehaviour
 LAP -> PE : displayUserAnalytics
 PE -> WE : searchForAdditionalResources
 WE -> LE : recommendAdditionalResources
-PE -> CCD : searchForAdditionalResources
-CCD -> LE : recommendAdditionalResources
+PE -> CCR : searchForAdditionalResources
+CCR -> LE : recommendAdditionalResources
 LE -> L : displayAdditionalResources
 L -> LE : actionAdditionalResources
 
