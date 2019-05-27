@@ -149,13 +149,7 @@ Other_Critiquers --> (Discussion) : participates
 
 ## Use Case Model for the Internet of Things
 
-This Use Case Model attempts to show the interactions that occur between the learner and the learning environment when they use different mobile devices. 
-- The Learning Environment is dislayed in the learner's mobile devices screens
-- The xAPI tracks the learner's actions as they interact with different devices such as their Smartphone, their Tablet and/or their Personal Computer. 
-- The xAPI then feeds all the tracked data into the Learning Analytics Platform. 
-- The Learning Analytics Platform feeds the tracked data to the Personalisation Engine.
-- The Personalisation Engine adapts course content based on the information gathered by the Learning Analytics Platform and deploys it into the Learning Environment.
-- The Instructor accesses the Learning Analytics Platform to monitor the learner's behavior within the mobile devices. 
+This Use Case Model attempts to show the interactions that occur between the learner and the learning environment when they use different mobile devices. The Learning Environment is dislayed in the learner's mobile devices screens. The xAPI tracks the learner's actions as they interact with different devices such as their Smartphone, their Tablet and/or their Personal Computer. The xAPI then feeds all the tracked data into the Learning Analytics Platform. The Learning Analytics Platform feeds the tracked data to the Personalisation Engine. The Personalisation Engine adapts course content based on the information gathered by the Learning Analytics Platform and deploys it into the Learning Environment. The Instructor accesses the Learning Analytics Platform to monitor the learner's behaviour within the mobile devices. 
 
 
 ![Use Case Model for IoT](https://www.plantuml.com/plantuml/img/ZPBFQiCm3CRlVWgnKtl82vGnMaeFWHqAwyv5YvNMp963fOoLiNUVcdHTj_vX5sDiVJzz-j1K5BDsJNGQD18y2y4SxQXJXZAjN8lLAsu8xafMoamAgORLDl16xW05lf_NgLuFp_01RlJK6BRT9gQn6wtm9PBQPKbP4cE4UMhQpeHZz-dS8w4HCXJ50vmAOT89oU_l0-hIrpdyKEL6xxDbEORxeclFMcYs0GMmqf1O_fOUszqkkzJwig9tsjksg61ccfs6Ic0PKItoneGraHVevUJ1eo84rkHA5irTfId_Xu9LHMBJ0xA7VGmzoRAuAIiYrNewKH3S-uS5RqAVr-3knzNLoaCqntOBVWivSKEypnCzjYfG9LiVrjwafpQcdK3GWUokQ0VmXRsRW0_IHZH6OZSbzhRNNm00)
