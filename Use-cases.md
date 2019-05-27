@@ -147,7 +147,7 @@ Other_Critiquers --> (Discussion) : participates
 @enduml
 ```
 
-Use Case Model for the Internet of Things
+## Use Case Model for the Internet of Things
 
 This Use Case Model attempts to show the interactions that occur between the learner and the learning environment when they use different mobile devices. 
 - The Learning Environment is dislayed in the learner's mobile devices screens
