@@ -208,8 +208,10 @@ Instructor --> (Learning Analytics Platform) :accesses and uses data
 
 ## Course Design with Smart Functonality
 
+The Learner enters the Learning Environment interface and inputs constraints such as duration, requirements, interests etc into the Personalisation Engine (with AI) to generate a bespoke course. The Personalisation Engine gathers data from the Web and the Course Cloud Repository, which is constantly updated and reviewed by a Course Designer and a Community of Practice. The Learner actions the course and the user experience is logged by xAPI, the data is stored in a learning record store on the Learning Analytics Platform which is analysed by the AI in the Personalisation Engine. The Personalisation Engine then updates the course based on the Learners needs.
 
-![Use Case Diagram for Course Design with Smart Functonality](https://www.plantuml.com/plantuml/img/XP51IyH038Nl-HKvRW_z2sMbNK4eRD63np9sOmrqCfB9g8lutntRwctmDhptlKaUEKPpQial0CQs4BOXQIJiAF8i-CxsWWy-8tYRPB8WRc6x0cpOk66aw2AsNLQzJvA1yVmy3kecuubMxpn0Jqvtj0TGcip9d2UkEiiydkIDDOWdCVn4E0oaSHqOdN4GFCdCGbLsjkaL73vkXhiAlW3wkcwmbDZTtnJaRN1Jbf0kU4-l8R85lLRGTYMdl4yfy4_YaPvobxyoTREtAQSQ_27onqUIotgp_V4D)
+![Use Case Diagram for Course Design with Smart Functonality](https://www.plantuml.com/plantuml/img/XPB1QiCm38RlUWeTwqFUO9IMf8D1e6Oxx1YyLCqCiLniULiOU_SvIGEx93lPwF_a_xViGnGJ9BaUGApqXALF8H9M56t7-6db7LzSHl0nSIkUJMzb09YnPiOee8bOLhdgNE8CDETheuDfnROqQMSDDPbmHsk0GAqOxhBZLBVSDIV-iC6p8nRyHjXf2d4oZ4QiPpnnPvbKLcPt1Jy0TL7iSGszgmiEEGREbTwd2pxJpKShFWmAocfDMG-orl1FnokzgOth_KsyR8hzxkkedzHcrqXayt6P3ba6YyVC3_af8khUoDK7D_floWzRKuK3yIN_cLy0)
+
 ```
 @startuml
 
@@ -222,7 +224,6 @@ Learner as L
 rectangle Learning_Environment { 
 (Personalisation Engine) 
 (Course)
-(xAPI)
 }
 
 L--> (Personalisation Engine)
@@ -235,10 +236,13 @@ CD --> (Cloud Repository)
 
 
 (Personalisation Engine) --> (Web) 
-
+(Personalisation Engine) -> (Course)
 (Course)->(xAPI)
 (Personalisation Engine) -> xAPI
 
+
+xAPI -> (Learning Analytics Platform) 
+(Learning Analytics Platform) <-> (Personalisation Engine)
 
 @enduml
 ```
