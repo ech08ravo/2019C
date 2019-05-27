@@ -106,30 +106,94 @@ T <--up--> LEP
 ```
 
 
-## Component Diagram 3 based on the "Personalisation Engine"
+## Personalisation Engine Component Diagram
 
-This diagram represents the components within the Personalisation Engine. The Course Designer is the main human actor at the controller layer here because he is the one interacting with the Personalisation Engine setting the boundaries of the intended course design. He will also set the learning objectives and the pedagogical patterns he considers suitable for the course. The next component is the Product Layer which contains the Learning Environment where the course will be deployed. 
+This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Pattenrs Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
 
-![Component diagram #3](https://www.plantuml.com/plantuml/img/LP2nQiD038RtUmhXpfcwbn3Rco47yHOwg3vnN7kMWavEAANltdC2mHs5Vdryl_R5K6sPinkJPO9MveimiK6NC2hEyFBgBZXzOIHeF6aHnfmAMXA6dcDYQW0B-1v-t7aWL4uSuVZnIPEbAnKOHVBx6XcEepjx2XWbfWapU3GZvKt4-nevaS515WweQNj_EepkrsriLC8o6GpuJVgG65Q9vcdHypMfy5pxD0-57luXMc5JoPbqGsdlb7MvQ27egAJ8TNSdjDqAg95Ta1lltcfnLxi_fy7jYSFwq3y0)
+![Personalisation Engine Component Diagram](https://www.plantuml.com/plantuml/img/RLF1QkCm4BtFLuXSUielB4rjjmG45QqX1TE3OaszsigZ8CbjmxB_lYCv2GvjJY_Cp7ipxyctCUcGfj51iicXK1YY9-rirCbw4WqDbb1KVZnuGagYjde8UWGuwFvT3oXMbQSKl7COXDH732kXewYa-0jTBauXegWnse6uzbgADVm3C3hflURYwcVHmgEQp2DH1x8qYCVz7-oJ_S0eMkzTOPEFBNGAZHxyO7ljXD8fOQ15YrBSyen9tFc9Z0vsEVzyrouKDhp7CTcUXvnERpwCOai9-UQysYouKLledl3Weqq-7ByrF77vTFW3yjNpLVSJzPUMwk4UkissuCtssewQqSBAkbYvm_t9bpApQw3xuZtAdvUBNENyPDZjysgprkpt9J0Ll9dwj91GHM9rCQ6X3niyZHpud9Xin1L5DYyk25fv5TDt4y_6PHQ0cppgfvI5EH1-EPK4VZBhxhSr1kbrpS4lsjfpMosXlcfh9G2_aRNndxJ-nNp0F1aqm6SBHXp6hZa1TZqZsG2lKb2EykM4u1R9v4zX_lq7)
 
 ```
 @startuml
-Title Component Diagram #3
-package "Personalisation Engine" as PE {
+title Personalisation Engine Component Diagram
+
+package "Controller Layer" as CL {
+[ "Course Designer"] as CD
+}
+
+database "Personalisation Engine" as PE {
 [Learning Objectives Tool] as LOT
 [Pedagogical Patterns Tool] as PPT
 [Set Boundaries Tool] as SBT
+[Learning Analytics Platform Integration] as LAPI
+[Repository Integration] as RI
+[Course Generation Function] as CGF
+[AI] as AI
+}
+
+database "Data Layer" as DL {
+[Web Engine] as WE
+[xAPI] as X
+[Course Cloud Depository] as CCD
 }
 
 package "Product Layer" as PL {
 ["Learning Environment"] as LE 
 }
 
-package "Controller Layer" as CL {
-[ "Course Designer"] as CD
+package "Tools Layer" as TL {
+[Learning Analytics Platform] as LAP
 }
 
-CL -down-> PE
+' Layout PL under CL
+CL -[hidden]- PE
+' Layout TL under DL
+DL -[hidden]- TL
 PE -down-> PL
+CL-> PE
+CCD -> RI
+WE -> RI
+CGF -> LE
+LAP -> LAPI
+X -> LAP
+@enduml
+```
+
+## Component Diagram 4 based on the Internet of Things
+
+This component model outlines the key system elements for the Internet of Things. At the Devices level, the Learner will utilise a device/series of devices including smartphones, tablets or personal computer to access the course via the internet. This activates the LMS Layer whereby components including data access, course pages and deployment options are provided back to the Learner device, through the internet. This interaction is reciprocal with the Devices layer where data and access is fed back to Learner devices upon request.
+
+Within the internal system of the LMS itself, the authoring tool and formatting support such as SCORM or Tin Can will offer monitoring or modification options to the Instructor.
+
+The Learning Analytics Platform consists of the xAPI data storage and the Analytics processor to to process the data for the Instructor.
+
+![component diagram #5](https://www.plantuml.com/plantuml/img/VL91QiCm4Bph5KjElVW7fSJO10mfCTYtKCp6LX9HMMiakMq8-NjNKkhI7Eg3iMR6gvcHriwZzVEeXLTUIwYnVyUJT911PRoqHdgW8xHdPKuE2XedCj9uA1MUB8vYIdfObV93zT9rMxn8kuAh07xwHR-lfNLaKCSPCqz-0tHG5u-wPcG_qvbNKT3KZu8M3rhwIBRY9dfDy_3hzSeG24C3Mzg-DZz6zWNDreLud2t-MwJ1-n8zGjwpzOIN-HsNawRB6BRSJLwHkTExm2P9FlipMIu6MY8TwRnDr8RiYDu7hfcdYQpFe5K62ZHHjscYJWNRH-mbiDUkMbQiOA0IDn03-pkW2t4aMiCJkvnhl7ZLkwxMw8-yrH9peQ2s539HwZc_f_tAwmeY4hwugp_71jb0doPxMUeKIw_FYNfAllZ520l_yVGmEibV6x6MPk3xzWq0)
+
+```
+@startuml
+title Packages - Internet of Things Component Diagram
+package "Devices_Layer" {
+    component [Personal Computer] as PC
+    component [Smartphone] as SP
+    component [Tablet] as T
+}
+cloud Internet {
+}
+ 
+node "LMS" {
+    [Course Pages] as CP
+    [Data Access] as DA
+    [Deployment Options] as DO    
+    [Authoring Tool] as AT
+    [Formatting Support- Tin Can] as FS
+    interface LMS_Interface as LMSI
+} 
+database "Learning_Analytics_Platform" {
+    [Analytics Processor] as AP
+    [xAPI ] as xAPI
+}
+Devices_Layer -down-> Internet
+Internet <-down-( LMSI
+LMS <--> Learning_Analytics_Platform
+Devices_Layer <--> LMS
 @enduml
 ```

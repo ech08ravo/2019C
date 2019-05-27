@@ -4,15 +4,7 @@
 
 ## AI Adaptive LD System Use Scenario Model
 
-The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users.
-- The System Designer will contribute to the Courses/Environments Cloud Depository and provides technical support to the Learning Environment.
-- The Course Designer will use the Personalisation Engine user interface to input requirements such as learning objectives, pedagogical patterns, monitoring needs, learning platform, duration and/or activities.
-- The Personalisation Engine will search for information through the Courses/Environments Cloud Depository and web.
-- The Personalisation Engine will then feed back to the Course Designer and generate a Learning Environment appropriate to the boundaries set.
-- The Course Designer will review and approve or modify the Learning Environment produced.
-- The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Depository and Personalisation Engine.
-- The Instructor is able to access the Learning Analytics Platform to make teaching and learning decisions.
-- To reflect the democratic process of learning design, the System Designer, Instructor and Learner are able to contribute to the Courses/Environments Cloud Repository.
+The adaptive course design system offers automated and authoring tools for the designer to adapt the design to the needs of the users. The System Designer will contribute to the Courses/Environments Cloud Depository and provides technical support to the Learning Environment. The Course Designer will use the Personalisation Engine user interface to input requirements such as learning objectives, pedagogical patterns, monitoring needs, learning platform, duration and/or activities. The Personalisation Engine will search for information through the Courses/Environments Cloud Depository and web. The Personalisation Engine will then feed back to the Course Designer and generate a Learning Environment appropriate to the boundaries set. The Course Designer will review and approve or modify the Learning Environment produced. The Instructor and and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform which feeds back into the Courses/Environments Cloud Depository and Personalisation Engine. The Instructor is able to access the Learning Analytics Platform to make teaching and learning decisions. To reflect the democratic process of learning design, the System Designer, Instructor and Learner are able to contribute to the Courses/Environments Cloud Repository.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/ZLDBIyD04BxlhvYZFHJlHSHGFHGKYY8UosPtZ0l9J9YPL8lutzqq1LzfpMbX-LxxpUoLcXVhcjevIrOZ52ieecyjRH5kh-5XfuODF2h2Gq3oaXZkE6Bj18DvglQKpG7s3kviZQ9ClaxgBJ713LM9S0ONyyYlDB-4ioSiPoU1ageNwv5BxaHHpszecuIfGJA5PSrTX7jiMPEnx4vfpNkLM_H2YIhu9ZDpNzT59kui1OLrxUsPfJaGZwYwSSM1yrQiLtsYuVpfFsRqNuwkdLw4-t3383RNgAaYb270n1eNWSaabPsXWZ6CYus_VT4ARrFiYHXUGBksPJ5mW_KlYMFJMYZcO2Lt5FEYPIst8ZNfGivtqZplOzvNKV0KeM7g7wH_o5Dh01zZNy1nzx59PLe8gDd0xN7_z9N8K7om8NFWklObYxVVzAcXaIfVvSeIWNDNI37_wKy0)
 
@@ -43,12 +35,7 @@ Learner --> (Courses/Environments Cloud Repository) :engages in
 
 ## Personalisation Engine Use Case Model
 As Learning Design research shows that the context of learning and the need for systems to be flexible, adaptive and user friendly, the Course Designer will input boundaries or design requirements into the Personalisation Engine.
-The Course designr can engage with the Personalisation user interface to determine one or all of the following:
-- Learning objectives
-- Monitoring needs
-- Pedagogical patterns
-- Learning platform
-Based on the set of boundaries and requirements set, the Personalisation Engine will then generate a learning course and environment appropriate to the learning context for the Course Designer to review.
+The Course designr can engage with the Personalisation user interface to determine one or all of the followingg criterias: learning objectives, monitoring needs, pedagogical patterns and learning platform. Based on the set of boundaries and requirements set, the Personalisation Engine will then generate a learning course and environment appropriate to the learning context for the Course Designer to review.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/XT51IyD040NW-_wAEIQ7DdSFqf1u49fsYUYrhCcu7KbcP7TI1F6_kv5MX0QzxEaRtdli9geBEes3CKew85WCKTWD59sICDon9qPuZ0YLIqyZFIOSi5F7_lhWS3xu09DjqGKczh1_VasUJXXpMArk8Qk45LbpapN2f19cjKFiB-2zjFT5Ex7IY4bPx9qNJvqRm3fL37oHzHI-W_zMvHnFIXZXgItADl_LpWvENoICPxfj7eeQJzIbjiPy6bF9528UQepa6GEirxDQsdRJ7KLYob01uhT9bs-lDY-pnJd_jFdPOim6kKyV-mK0)
 
@@ -76,12 +63,7 @@ Course_Designer ..> (Learning Platform)
 
 # Adaptive LD with Design Critique Integrated Use Case Model
 
-In a Learning Design with integrated Design Critique process, the following would apply:
-- The Course Designer engages with th Personalisation Engine user interface
-- The Personalisation Engine will generate a Learning Environment
-- The various stakeholders and designers will engage in a design critique based on the Proposed Learning Environment
-- If approved, it will then be deployed as a Learning Environment for the Instructor and Learners to engage in
-- If not approved, adjustments will be made by the Course Designer using the Personalisation Engine and re-proposed for critique until approved.
+In a Learning Design with integrated Design Critique process, the Course Designer engages with th Personalisation Engine user interface. Additionally, the Personalisation Engine will generate a Learning Environment and the various stakeholders and designers will engage in a design critique based on the Proposed Learning Environment. If approved, it will then be deployed as a Learning Environment for the Instructor and Learners to engage in. If not approved, adjustments will be made by the Course Designer using the Personalisation Engine and re-proposed for critique until approved.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/ZLD1Ri8m4Bpx5Nia1pw0gWgKz10fI95GrIDoawtPAbcdzeOgelrxdK0fq22uH8vtTcOyQy-zQ2TjNIab91N2ejIDq1OXI-2JP0C9UZ8CiIEXZnOXPK7Zj609pnuXrk6pj2K6XbNd1UlrlWCTQ0-hHCMsTHxFTkD4fUp5jONOOIDL6Mftg6QXfQvR9kdiM-vq8LJWq9OhvR0GpQPtcgxtWh03fIOvEczPL-Ira6LuOaEC4JnCfuymYIlRbk4iZVKKDBi8RdMyu6jq7JD0ScS3NmXYC4ziGdbBpdADB47X-zJk8OP5qpYxrHNirEGYsbxPaTb8pxqetrilFP4FDax_u0Hq88jwgLjs1ikNaYCcfkVCVyjVXgQotRX6k099G7sD2C4CsMY37eZtgB6fgFYk_YFgB9TnnD7zlt8_mIlZdHKR6wBqAixlyPFU2nezStQjeER8PNYRFm00)
 
@@ -128,17 +110,9 @@ L --> (Cloud Depository)
 
 ## Design Critique Use Case Model
 
-Users:
-- Presenter (Course Designer who has the most in depth and context specific knowledge of the model)
-- Facilitator (System Designer who establishes the key goals to assess the design against)
-- Note-taker (Instructor)
-- Community of Practice (includes developers, other product managers, stakeholders, pilot students, learning experts, etc)
+Users include the presenter, facilitator, note-taker and community of practice. The critique Presenter role is assumed by the Course Designer who has the most in depth and context specific knowledge of the model. The critique Facilitator role is assumed by the System Designer who establishes the key goals to assess the design against. The crtitique note-taker can be the Instructor or another participant at the critique. The Community of Practice includes developers, other product managers, stakeholders, pilot students, learning experts and any independent stakeholders invited.
 
-Use case could involve the broader categories of:
-- Facilitate: sets agenda, location, goals to critique against, models to be presented, invite critiquers, set key roles
-- Critique Goals: these are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals
-- Discussion: includes ways of discussing that is separate to a brainstorm or giving general feedback. Could include looking at use case scenarios, clarifying questions, avoiding using absolutes, design alternatives (but not problem solving)
-- Post-meeting Actions: presenting feedback notes to keep everyone in the loop, publishing actionable tasks for follow up
+Use case involves the Facilitator setting an agenda, location, goals to critique against, models to be presented, invite critiquers and key roles. The Facilitator also estalishes critique Goals which are the goals established by numerous stakeholders of the business and design process, learning goals, UX and/or UI design goals. Learning critique sessions will involves a discussion that looks at use case scenarios, clarifying questions, avoiding using absolutes and design alternatives. This is different to problem-solving and separate to that of a brainstorm or giving general feedback. Post-meeting actions include presenting feedback notes to keep everyone in the loop and publishing actionable tasks for follow up.
 
 ![Submit Rule](https://www.plantuml.com/plantuml/img/XPDDRy8m38Rl-HKvmW5nvp1H5J5LsWSJGzeDXTIKY92ms6L2q_xx77NjMjPgbofr7jlnQtkEf0AL9oi46R8W5u2cS38DXinx2NA385F5dqUV0rC1D2bNDEIs8J_5QAcqiOOKmLXEWYaEDBcJeuQuzyhYMDmQMkZ2e2uHZNUCjNvQoCeZoKGJcsEiJihSVxZ8F7Yj8Z1zzTuEKgi028uWJ3DtYPVH8od0vQhlaRNRcjGH3jxc48OhQbu2AZZZYl_9pTjqazNortH7WffChGfcVurHNqh0MebUDh5Sd-FIBZ3CNBp9PR93RqiQnk8ah3KuJkuZr6d4BxO4o7TA7-MJhu8DS9L5xNYICe8Jarz2hA_8vssb0kix-TlnNgJTtvaqZZNcCyeJ0B5E8lLbGBXnkct5x5mD1Bl5MKUHEQHGQl8_3crPPcVU6wFDEUOHptI0qAn2m1vUTXp4dCUCr-uR)
 
