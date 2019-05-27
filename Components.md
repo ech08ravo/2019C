@@ -7,17 +7,7 @@ Component diagrams can also be described as a static implementation view of a sy
 A single component diagram cannot represent the entire system but a collection of diagrams is used to represent the whole. As such there are several Component Diagrams below illustrating this system.
 
 ## Component Diagram 1 based on Use Case Scenario "Adaptive LD System"
-This Component Diagram shows the different layers that the system architecture is composed of and it was modelled based on the Use Case Scenario called "Adaptive LD System". 
-
-1. The "Controller Layer" reflects the different human actors involved in decision-making processes (Instructors, Course Designer, Learner, System Designer) and also Stakeholders which do not appear in the Use Case because they do not interact with the system directly but are part of its architecture at a meta-level.
-
-1. The "Personalisation Layer" represents all the components within the Personalisation Engine and these components are the ones the engine feeds from to personalise content and are also the one human actors input into the engine to set boundaries for course generation: Learning Objectives, Monitoring Needs, Pedagogical Patterns, and Monitorable Learning Scripts.
-
-1. The "Tools Layer" involves all the external tools the system feeds from to adapt content and it's composed of: the AI, the Web-search Engine and the Learning Analytics Platform.
-
-1. The "Product Layer" represents the Learning Environment which is the ultimate end-product the system generates. 
-
-2. The "Data Layer" respresents the components that are involved with tracking and storing xAPI and Cloud Repository.
+This Component Diagram shows the different layers that the system architecture is composed of and it was modelled based on the Use Case Scenario called "Adaptive LD System". The "Controller Layer" reflects the different human actors involved in decision-making processes (Instructors, Course Designer, Learner, System Designer) and also Stakeholders which do not appear in the Use Case because they do not interact with the system directly but are part of its architecture at a meta-level. The "Personalisation Layer" represents all the components within the Personalisation Engine and these components are the ones the engine feeds from to personalise content and also the human actors' input into the engine to set boundaries for course generation: Learning Objectives, Monitoring Needs, Pedagogical Patterns, and Monitorable Learning Scripts. The "Tools Layer" involves all the external tools the system feeds from to adapt content and it's composed of: the AI, the Web-search Engine and the Learning Analytics Platform. The "Product Layer" represents the Learning Environment which is the ultimate end-product the system generates. The "Data Layer" represents the components that are involved with tracking and storing xAPI and Cloud Repository.
 
 ![Component Diagram based on Use Case Scenario](https://www.plantuml.com/plantuml/img/LL9DJyCm3BtdLqJZl0D_06rgTvXKe6ALE4mxU8tf0gazEUwWGlntqZ5OE3x7xoClMKG5qQ4FnZHU0zg2-oCJajhIGoVGsvjRG-pGpWec5Gu1nLOmeimiH5jKzjDi2nuaeYqn-evGTcQxKNZ30mU74XEi4EHoC4R5FbzTKrGPMkK4lYvUTQ8nGV0Hr3DbXZMU7S-2dZhxk7_5Llq99vjx9fzqfla3efj6DJhekFCj15k3AWfbcx1FT_xJshJYZtfDqJ27c7atP-lbEl6VSMytYTSUx8ewJxZBCYrJyb5zcz86q1UM_gfPWa8cMVxq5tXmzWcF7ATKOnBxMDRhh0zXbohAU_XVmufENfZwz78JowHtcJj-f_dTr9YPMll5JMMQAoehKsQxbJ4B99T-n3S0)
 
@@ -106,9 +96,9 @@ T <--up--> LEP
 ```
 
 
-## Component Diagram 3 based on Personalisation Engine 
+## Component Diagram 3 based on the "Personalisation Engine"
 
-This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Pattenrs Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
+This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Patterns Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
 
 ![Personalisation Engine Component Diagram](https://www.plantuml.com/plantuml/img/RLF1QkCm4BtFLuXSUielB4rjjmG45QqX1TE3OaszsigZ8CbjmxB_lYCv2GvjJY_Cp7ipxyctCUcGfj51iicXK1YY9-rirCbw4WqDbb1KVZnuGagYjde8UWGuwFvT3oXMbQSKl7COXDH732kXewYa-0jTBauXegWnse6uzbgADVm3C3hflURYwcVHmgEQp2DH1x8qYCVz7-oJ_S0eMkzTOPEFBNGAZHxyO7ljXD8fOQ15YrBSyen9tFc9Z0vsEVzyrouKDhp7CTcUXvnERpwCOai9-UQysYouKLledl3Weqq-7ByrF77vTFW3yjNpLVSJzPUMwk4UkissuCtssewQqSBAkbYvm_t9bpApQw3xuZtAdvUBNENyPDZjysgprkpt9J0Ll9dwj91GHM9rCQ6X3niyZHpud9Xin1L5DYyk25fv5TDt4y_6PHQ0cppgfvI5EH1-EPK4VZBhxhSr1kbrpS4lsjfpMosXlcfh9G2_aRNndxJ-nNp0F1aqm6SBHXp6hZa1TZqZsG2lKb2EykM4u1R9v4zX_lq7)
 
@@ -160,11 +150,7 @@ X -> LAP
 
 ## Component Diagram 4 based on the Internet of Things
 
-This component model outlines the key system elements for the Internet of Things. At the Devices level, the Learner will utilise a device/series of devices including smartphones, tablets or personal computer to access the course via the internet. This activates the LMS Layer whereby components including data access, course pages and deployment options are provided back to the Learner device, through the internet. This interaction is reciprocal with the Devices layer where data and access is fed back to Learner devices upon request.
-
-Within the internal system of the LMS itself, the authoring tool and formatting support such as SCORM or Tin Can will offer monitoring or modification options to the Instructor.
-
-The Learning Analytics Platform consists of the xAPI data storage and the Analytics processor to to process the data for the Instructor.
+This component model outlines the key system elements for the Internet of Things. At the Devices level, the Learner will utilise a device/series of devices including smartphones, tablets or personal computer to access the course via the internet. This activates the LMS Layer whereby components including data access, course pages and deployment options are provided back to the Learner device, through the internet. This interaction is reciprocal with the Devices layer where data and access is fed back to Learner devices upon request. Within the internal system of the LMS itself, the authoring tool and formatting support such as Tin Can will offer monitoring or modification options to the Instructor. The Learning Analytics Platform consists of the xAPI data storage and the Analytics processor to process the data for the Instructor.
 
 ![component diagram #5](https://www.plantuml.com/plantuml/img/VL91QiCm4Bph5KjElVW7fSJO10mfCTYtKCp6LX9HMMiakMq8-NjNKkhI7Eg3iMR6gvcHriwZzVEeXLTUIwYnVyUJT911PRoqHdgW8xHdPKuE2XedCj9uA1MUB8vYIdfObV93zT9rMxn8kuAh07xwHR-lfNLaKCSPCqz-0tHG5u-wPcG_qvbNKT3KZu8M3rhwIBRY9dfDy_3hzSeG24C3Mzg-DZz6zWNDreLud2t-MwJ1-n8zGjwpzOIN-HsNawRB6BRSJLwHkTExm2P9FlipMIu6MY8TwRnDr8RiYDu7hfcdYQpFe5K62ZHHjscYJWNRH-mbiDUkMbQiOA0IDn03-pkW2t4aMiCJkvnhl7ZLkwxMw8-yrH9peQ2s539HwZc_f_tAwmeY4hwugp_71jb0doPxMUeKIw_FYNfAllZ520l_yVGmEibV6x6MPk3xzWq0)
 
