@@ -51,6 +51,6 @@
 
 # Notes from the meeting recording (Knowledge Manager)
 
-**Link to [recordingMeeting07.05](http://webconf.ucc.usyd.edu.au/rr98hyjpp6so/)**
+**Link to [recordingMeeting07.05](http://webconf.ucc.usyd.edu.au/p5m8nyalfpii/)**
 
 **TheEnd**
