@@ -150,11 +150,7 @@ X -> LAP
 
 ## Component Diagram 4 based on the Internet of Things
 
-This component model outlines the key system elements for the Internet of Things. At the Devices level, the Learner will utilise a device/series of devices including smartphones, tablets or personal computer to access the course via the internet. This activates the LMS Layer whereby components including data access, course pages and deployment options are provided back to the Learner device, through the internet. This interaction is reciprocal with the Devices layer where data and access is fed back to Learner devices upon request.
-
-Within the internal system of the LMS itself, the authoring tool and formatting support such as Tin Can will offer monitoring or modification options to the Instructor.
-
-The Learning Analytics Platform consists of the xAPI data storage and the Analytics processor to process the data for the Instructor.
+This component model outlines the key system elements for the Internet of Things. At the Devices level, the Learner will utilise a device/series of devices including smartphones, tablets or personal computer to access the course via the internet. This activates the LMS Layer whereby components including data access, course pages and deployment options are provided back to the Learner device, through the internet. This interaction is reciprocal with the Devices layer where data and access is fed back to Learner devices upon request. Within the internal system of the LMS itself, the authoring tool and formatting support such as Tin Can will offer monitoring or modification options to the Instructor. The Learning Analytics Platform consists of the xAPI data storage and the Analytics processor to process the data for the Instructor.
 
 ![component diagram #5](https://www.plantuml.com/plantuml/img/VL91QiCm4Bph5KjElVW7fSJO10mfCTYtKCp6LX9HMMiakMq8-NjNKkhI7Eg3iMR6gvcHriwZzVEeXLTUIwYnVyUJT911PRoqHdgW8xHdPKuE2XedCj9uA1MUB8vYIdfObV93zT9rMxn8kuAh07xwHR-lfNLaKCSPCqz-0tHG5u-wPcG_qvbNKT3KZu8M3rhwIBRY9dfDy_3hzSeG24C3Mzg-DZz6zWNDreLud2t-MwJ1-n8zGjwpzOIN-HsNawRB6BRSJLwHkTExm2P9FlipMIu6MY8TwRnDr8RiYDu7hfcdYQpFe5K62ZHHjscYJWNRH-mbiDUkMbQiOA0IDn03-pkW2t4aMiCJkvnhl7ZLkwxMw8-yrH9peQ2s539HwZc_f_tAwmeY4hwugp_71jb0doPxMUeKIw_FYNfAllZ520l_yVGmEibV6x6MPk3xzWq0)
 
