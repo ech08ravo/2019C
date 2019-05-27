@@ -150,19 +150,20 @@ Other_Critiquers --> (Discussion) : participates
 Use Case Model for the Internet of Things
 
 This Use Case Model attempts to show the interactions that occur between the learner and the learning environment when they use different mobile devices. 
+- The Learning Environment is dislayed in the learner's mobile devices screens
 - The xAPI tracks the learner's actions as they interact with different devices such as their Smartphone, their Tablet and/or their Personal Computer. 
 - The xAPI then feeds all the tracked data into the Learning Analytics Platform. 
 - The Learning Analytics Platform feeds the tracked data to the Personalisation Engine.
 - The Personalisation Engine adapts course content based on the information gathered by the Learning Analytics Platform and deploys it into the Learning Environment.
-- The Instrutor accesses the Learning Analytics Platform to monitor the learner's behavior within the mobile devices. 
+- The Instructor accesses the Learning Analytics Platform to monitor the learner's behavior within the mobile devices. 
 
-![Use Case Model for IoT](https://www.plantuml.com/plantuml/img/ZLBDQW8n4BxdAUQeXts1KeeY7XPw4BHdcIQpQsXsicHcsqhfkpSRfTLgfPSGcEzlFiRCH37fq0LZr6iWU1A21UQdYGdgk369h2AtULIpKcBIRMoscvtdLk03p6JTPOL-5vccPhB1vq2QFojA4Xa3B6BN3vauDP_6F19cXGHLzG2dHBWRXEHyV9IwDheKFwBCv7s-ggTmNmtzXOKcj2y2QDL7bj_GRxlRi6lMrnabQOcTgu9vvkpLMu5LGCtbTfdO43c1GYS73XN1iqPJisWQhCRq7nMqbYHl3yWEnXgAKkxY9gqArEZfHbvmp0zBRdtfwv3k9zMVoCh5DpxBkUHNdo9tn6EZwB1N0Hlp0R6Mc8xw4FS2NW_QPaRioXb-0G00)
+
+![Use Case Model for IoT](https://www.plantuml.com/plantuml/img/ZPBFQiCm3CRlVWgnKtl82vGnMaeFWHqAwyv5YvNMp963fOoLiNUVcdHTj_vX5sDiVJzz-j1K5BDsJNGQD18y2y4SxQXJXZAjN8lLAsu8xafMoamAgORLDl16xW05lf_NgLuFp_01RlJK6BRT9gQn6wtm9PBQPKbP4cE4UMhQpeHZz-dS8w4HCXJ50vmAOT89oU_l0-hIrpdyKEL6xxDbEORxeclFMcYs0GMmqf1O_fOUszqkkzJwig9tsjksg61ccfs6Ic0PKItoneGraHVevUJ1eo84rkHA5irTfId_Xu9LHMBJ0xA7VGmzoRAuAIiYrNewKH3S-uS5RqAVr-3knzNLoaCqntOBVWivSKEypnCzjYfG9LiVrjwafpQcdK3GWUokQ0VmXRsRW0_IHZH6OZSbzhRNNm00)
 
 ```
 @startuml
-
 title Use Case for IoT
-rectangle Internet_of_Things { 
+package "Internet of Things" as Internet_of_Things { 
 (Smartphone)
 (Tablet)
 (Personal Computer)
@@ -179,8 +180,9 @@ Learner --> (Personal Computer) :uses
 Instructor --> (Learning Analytics Platform) :accesses and uses data
 
 (Learning Analytics Platform) -left-> (Personalisation Engine) :feeds data into
-(Personalisation Engine) -down-> (Learning Environment) :adapts content and deploys it into
+(Personalisation Engine) -up-> (Learning Environment) :adapts content and deploys it into
 
+(Learning Environment) -up-> Internet_of_Things : displays on
 @enduml
 
 ```
