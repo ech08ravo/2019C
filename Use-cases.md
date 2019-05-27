@@ -151,6 +151,8 @@ Other_Critiquers --> (Discussion) : participates
 
 This Use Case Model attempts to show the interactions that occur between the learner and the learning environment when they use different mobile devices. The Learning Environment is dislayed in the learner's mobile devices screens. The xAPI tracks the learner's actions as they interact with different devices such as their Smartphone, their Tablet and/or their Personal Computer. The xAPI then feeds all the tracked data into the Learning Analytics Platform. The Learning Analytics Platform feeds the tracked data to the Personalisation Engine. The Personalisation Engine adapts course content based on the information gathered by the Learning Analytics Platform and deploys it into the Learning Environment. The Instructor accesses the Learning Analytics Platform to monitor the learner's behaviour within the mobile devices. 
 
+This model is not linked to any other models.
+
 
 ![Use Case Model for IoT](https://www.plantuml.com/plantuml/img/ZPBFQiCm3CRlVWgnKtl82vGnMaeFWHqAwyv5YvNMp963fOoLiNUVcdHTj_vX5sDiVJzz-j1K5BDsJNGQD18y2y4SxQXJXZAjN8lLAsu8xafMoamAgORLDl16xW05lf_NgLuFp_01RlJK6BRT9gQn6wtm9PBQPKbP4cE4UMhQpeHZz-dS8w4HCXJ50vmAOT89oU_l0-hIrpdyKEL6xxDbEORxeclFMcYs0GMmqf1O_fOUszqkkzJwig9tsjksg61ccfs6Ic0PKItoneGraHVevUJ1eo84rkHA5irTfId_Xu9LHMBJ0xA7VGmzoRAuAIiYrNewKH3S-uS5RqAVr-3knzNLoaCqntOBVWivSKEypnCzjYfG9LiVrjwafpQcdK3GWUokQ0VmXRsRW0_IHZH6OZSbzhRNNm00)
 
@@ -183,7 +185,7 @@ Instructor --> (Learning Analytics Platform) :accesses and uses data
 
 ## Course Design with Smart Functonality
 
-The Learner enters the Learning Environment interface and inputs constraints such as duration, requirements, interests etc into the Personalisation Engine (with AI) to generate a bespoke course. The Personalisation Engine gathers data from the Web and the Course Cloud Repository, which is constantly updated and reviewed by a Course Designer and a Community of Practice. The Learner actions the course and the user experience is logged by xAPI, the data is stored in a learning record store on the Learning Analytics Platform which is analysed by the AI in the Personalisation Engine. The Personalisation Engine then updates the course based on the Learners needs.
+This is a proposed use case for an automated course generation platform that is activated by the Learner rather than a Course Designer. It relies predominantly on AI to create content and to make adjustements as it learns from user behaviour. The Learner enters the Learning Environment interface and inputs constraints such as duration, requirements, interests etc into the Personalisation Engine (with AI) to generate a bespoke course. The Personalisation Engine gathers data from the Web and the Course Cloud Repository, which is constantly updated and reviewed by a Course Designer and a Community of Practice. The Learner actions the course and the user experience is logged by xAPI, the data is stored in a learning record store on the Learning Analytics Platform which is analysed by the AI in the Personalisation Engine. The Personalisation Engine then updates the course based on the Learners needs.
 
 ![Use Case Diagram for Course Design with Smart Functonality](https://www.plantuml.com/plantuml/img/XPB1QiCm38RlUWeTwqFUO9IMf8D1e6Oxx1YyLCqCiLniULiOU_SvIGEx93lPwF_a_xViGnGJ9BaUGApqXALF8H9M56t7-6db7LzSHl0nSIkUJMzb09YnPiOee8bOLhdgNE8CDETheuDfnROqQMSDDPbmHsk0GAqOxhBZLBVSDIV-iC6p8nRyHjXf2d4oZ4QiPpnnPvbKLcPt1Jy0TL7iSGszgmiEEGREbTwd2pxJpKShFWmAocfDMG-orl1FnokzgOth_KsyR8hzxkkedzHcrqXayt6P3ba6YyVC3_af8khUoDK7D_floWzRKuK3yIN_cLy0)
 
