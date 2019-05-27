@@ -100,6 +100,10 @@ T <--up--> LEP
 
 This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Patterns Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
 
+The Personalisation Engine Component Diagram aligns with:
+
+The Personalisation Engine Use Case Model found [*here*](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Use-cases.md#personalisation-engine-use-case-model)
+
 ![Personalisation Engine Component Diagram](https://www.plantuml.com/plantuml/img/RLF1Rjim3BthAuXSTiel34rjjmWWe49g80MC7XYRyxJ9L239tO9X_pvAILC7tIal8FaU-Pvy5nE6D4zE9PiSWQ4GFQEp4PFr30sFbWagFnqz4oUeBOu19wMEsF_4aM1LUKx1EqS1D9ueh00ZL1h-g2uNvn09QefsPAczbcAj_YerOC83Id7rVz72OvhCema3MnxXwV23-cJVA4BhlIji-gbLdQ41Hp_Q7XqOJ8a2BrgCaPPdId3lPnumsENyytsxKDZ87gTaUnbocBxvCC6M4ydDURMpuCPiLRUZeuys-N3wrB2JykNmHvAhprSzpDnVMwh71zLjjWLljhTsr88MLjR5oZqTBhwKcNsZkj-oH_dpSfMhd9y7-5Zjh5Njii0rC1FyCFTf8M6AnEfgGiDlDdYU9F1pOhg16ufiNbmGjFecfiyclXkNMRxaGJ-dB2jnoBkfj987i-w-ss4WVbrBx1zTxNjNhLLzqzLg9UzZFVXVlFugR4AIVnib5uCWoM7VN80Odf5kb6nHK4xnvOBK7V4WNy4_)
 
 ```
