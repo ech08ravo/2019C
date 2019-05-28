@@ -54,6 +54,11 @@ DL -down-> PL
 This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
 The System designer manages and adds to the Cloud Repository and Learning Analytics Platform. The Instructor is able to both use and add to the Learning Analytics Platform data. 
 
+The Learning Analytics Platform Component Diagram aligns with:
+
+The Learning Analytics Platform Interactions Diagram found [*here*](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/blob/master/Interactions.md#interactions-diagram-2-based-on-learning-analytics-platform)
+
+
 ![component diagram #2](https://www.plantuml.com/plantuml/img/RPB1JiCm38RlVWghdBi3nscQLjeALUgXeaCS48VGULr4wbH92fictXqtZ0aaUahzVqw_Ejdue5oO1WDR7GnXReVHCd70GglUgG5lRW56rRsfdZ2fIJdMt6F6ofo2xZmsHeMzTKE2ocDTDdX6w8oTTfXK7CW9Y9sL5OU8I17FWF8yvn5xeD5w7QmxlSnvNXVVQLQ9pUGyuJqnEIL41B8gB-0J09wVw1LRCUeEM7AlcMB-r9OmvtTsufrofr_M9RzhPtduSQdBtrX3pblHrLu5RVcoPmGR0NFv2MSD9iUigMBr291reeL9U_A11Yp8wrvSOzeMrpWANChrjLgn3swQrp7O0ipZItVsWzFr_CcclBw9wHokKaFxaE8H4ThYcihCS8c3OZaa3pMcJlU7S6d3nM8Q5ukrD2rbeiPG5nuzkV8uajF47HKgADZ-wTh-ruKNS9McqvX6i84DyMw-Fry0)
 
 ```
