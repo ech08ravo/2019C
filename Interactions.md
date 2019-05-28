@@ -150,7 +150,45 @@ PE -> LE : Set up course in Learning Environment
 @enduml
 ```
 
+## Interactions Diagram 4 based on Personalisation Engine 
+
+This Interactions Diagram demonstrates interactions between components, users and the Personalisation Engine. The Course Designer inputs requirements to the Personalisation Engine, which searches the Cloud Repository and Web and returns a recommendation. The Course Designer is then able to approve or amend  design and create the Learning Environment. Once the Learning Environment is being utilised by Instructors and Students, data is fed back to the Personalisation Engine through xAPI and the Learning Analytics Platform so that it may make recommendations for improvements or for future course considerations. 
+
+![Interactions Diagram #4 for PE](http://www.plantuml.com/plantuml/img/RPBDYjj048JlynIDSqXoMFQIamzXXRG1WGF68TZNNgdj7LQQSRfdalZjK_gn44jyCbMbwkvFUhB4cdBVkUHJ9rI79CfDyZ4OLPuloZrz-48Fj1Ur6BZpneDBp-7YWv1p3l6ej2bZLXEgnFmbY6w8ZShAjPpuXM5i_jymvlRFgrpPnTpIGQxHF9flKzDXbJZAooWULzfEM8CF5oemufPyWzQEqpbgFsPtnTv9m9KtslmjzlKedcZQVdvST8hUnJfOqep_aruxLrRqy1NhqXQehZaPgVpANgL7jpaOiCi3x1yeR5xbhXtNqd595MrhTFQXnURc80r61UCxlua1GXDxLBSZiNdwRfXUNAyQVoFoAIhn4B7FnA6bHeKJPk2tMz9-Vgr6VtnwTT3Wd62SHLfpfocufOJGcr4tmVXeD7qASm88jsIW8Ui8TcDNBwD-6jmKwSxkyHitllE9an0lk5g7iZlAOOcf1m-2rpi82WWB0z2AIhuVhf-WqoETSyegr8nVeCtL0Fo-kfwlG3KtZHZ28xDiCj_nX3cvx_u1)
+
+```
+@startuml
+title Interactions Diagram #4 - Personalisation Engine 
 
 
+actor "Course Designer" as CD
+database "Personalisation Engine" as PE
+database "Cloud Repository" as CR
+database "Web" as W
+database "Learning Analytics Platform" as LAP
+entity "xAPI" as X 
+actor "Learner" as L
+actor "Instructor" as I
+
+CD -> PE : Inputs requirements
+PE -> CR : Searches
+PE -> W : Searches
+W -> CR : Adds findings
+CR -> CD : Makes Recommendation
+CD -> LE : Approves (or amends) and creates
+
+
+
+L -> LE : interacts with
+LE -> X : feeds
+X -> LE: tracks learner's actions
+X -> LAP: stores learner's data
+I -> LE : Uses to Instruct/Facilitate as required
+LAP -> PE :feeds data to
+PE -> CD : Makes recomendations for improvements / future courses
+LAP -> CR :feeds data to
+I -> LAP : accesses and uses data
+@enduml
+```
 
 
