@@ -11,7 +11,7 @@ This README.md provides weekly project updates and instructions on how to naviga
 
 ## System design overview
 
-This week we are working on three issues ([#32](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32), [#33](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/33) and [#57](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/57)) related to developing ideas for automating course design, integrating Design Critique into a scalable, distributed Learning Design and Authoring process and integrating Smart Functionality that learns from user behaviour and adapts the course based on individual user needs.
+We have responded to three issues ([#32](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/32), [#33](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/33) and [#57](https://github.sydney.edu.au/crli/EDPC5022-2019-TeamC/issues/57)) related to developing ideas for automating course design, integrating Design Critique into a scalable, distributed Learning Design and Authoring process and integrating Smart Functionality that learns from user behaviour and adapts the course based on individual user needs.
 
 You can explore our designs in the following sections.
 
