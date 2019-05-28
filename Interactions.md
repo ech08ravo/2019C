@@ -157,6 +157,7 @@ This Interactions Diagram demonstrates interactions between components, users an
 ![Interactions Diagram #4 for PE](http://www.plantuml.com/plantuml/img/RPBDYjj048JlynIDSqXoMFQIamzXXRG1WGF68TZNNgdj7LQQSRfdalZjK_gn44jyCbMbwkvFUhB4cdBVkUHJ9rI79CfDyZ4OLPuloZrz-48Fj1Ur6BZpneDBp-7YWv1p3l6ej2bZLXEgnFmbY6w8ZShAjPpuXM5i_jymvlRFgrpPnTpIGQxHF9flKzDXbJZAooWULzfEM8CF5oemufPyWzQEqpbgFsPtnTv9m9KtslmjzlKedcZQVdvST8hUnJfOqep_aruxLrRqy1NhqXQehZaPgVpANgL7jpaOiCi3x1yeR5xbhXtNqd595MrhTFQXnURc80r61UCxlua1GXDxLBSZiNdwRfXUNAyQVoFoAIhn4B7FnA6bHeKJPk2tMz9-Vgr6VtnwTT3Wd62SHLfpfocufOJGcr4tmVXeD7qASm88jsIW8Ui8TcDNBwD-6jmKwSxkyHitllE9an0lk5g7iZlAOOcf1m-2rpi82WWB0z2AIhuVhf-WqoETSyegr8nVeCtL0Fo-kfwlG3KtZHZ28xDiCj_nX3cvx_u1)
 
 ```
+
 @startuml
 title Interactions Diagram #4 - Personalisation Engine 
 
@@ -189,6 +190,7 @@ PE -> CD : Makes recomendations for improvements / future courses
 LAP -> CR :feeds data to
 I -> LAP : accesses and uses data
 @enduml
+
 ```
 
 
