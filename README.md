@@ -4,10 +4,12 @@ Our group project seeks to envision and design future learning design environmen
 
 In this project we explore possible systems and tools that designers might use to design and create the learning environments of the future. We have approached this design problem by exploring the methods and technologies that designers might need to support their work.
 
-To address these questions, we have produced multiple design prototypes that can be explored in our repo. 
+To address these questions, we have produced multiple design prototypes based on the following assumptions:
 
-This README.md provides weekly project updates and instructions on how to navigate through the repo.
+* We foster a participatory culture of design where people are able to draft, share, critique and refine their learning designs through an extended process of collaboration.
+* We believe in democratise learning design, incorporating end-users as contributors.
 
+We invite you to explore this README.md to check our weekly project updates and instructions on how to navigate through the repo.
 
 ## System design overview
 
