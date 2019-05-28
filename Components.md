@@ -6,7 +6,7 @@ Component diagrams can also be described as a static implementation view of a sy
 
 A single component diagram cannot represent the entire system but a collection of diagrams is used to represent the whole. As such there are several Component Diagrams below illustrating this system.
 
-## Component Diagram 1 based on Use Case Scenario "Adaptive LD System"
+## Component Diagram 1 based on Use Case Scenario Adaptive LD System
 This Component Diagram shows the different layers that the system architecture is composed of and it was modelled based on the Use Case Scenario called "Adaptive LD System". The "Controller Layer" reflects the different human actors involved in decision-making processes (Instructors, Course Designer, Learner, System Designer) and also Stakeholders which do not appear in the Use Case because they do not interact with the system directly but are part of its architecture at a meta-level. The "Personalisation Layer" represents all the components within the Personalisation Engine and these components are the ones the engine feeds from to personalise content and also the human actors' input into the engine to set boundaries for course generation: Learning Objectives, Monitoring Needs, Pedagogical Patterns, and Monitorable Learning Scripts. The "Tools Layer" involves all the external tools the system feeds from to adapt content and it's composed of: the AI, the Web-search Engine and the Learning Analytics Platform. The "Product Layer" represents the Learning Environment which is the ultimate end-product the system generates. The "Data Layer" represents the components that are involved with tracking and storing xAPI and Cloud Repository.
 
 The Component Diagram based on the Use Case Scenario "Adaptive LD System" aligns with:
@@ -53,7 +53,7 @@ DL -down-> PL
 @enduml
 ```
 
-## Component Diagram 2 based on the "Learning Analytics Platform"
+## Component Diagram 2 based on the Learning Analytics Platform
 
 This component diagram shows components of the Learning Analytics Platform. The Learning Analytics Platform is an automated authoring engine that collects and filters interaction data from the Instructor and Learner. The Instructor and Learner will engage with the Learning Environment, where the xAPI will collect user experience data and feed back to the Learning Analytics Platform. The Learning Analytics Platform feeds to the Personalisation Engine, which feeds to the Learning Environment.
 The System designer manages and adds to the Cloud Repository and Learning Analytics Platform. The Instructor is able to both use and add to the Learning Analytics Platform data. 
@@ -105,7 +105,7 @@ T <--up--> LEP
 ```
 
 
-## Component Diagram 3 based on the "Personalisation Engine"
+## Component Diagram 3 based on the Personalisation Engine
 
 This diagram represents the components of the Personalisation Engine. The Controller Level is linked to the Personalisation Level via the Course Designer. The Personalisation Engine contains the Set Boundary Tool, the Learning Objective Tool, the Pedagogical Patterns Tool, Course Generation Function, AI, Repository Integration and Learning Analytics Platform. The Web Engine and Course Cloud Repository feeds into the Repository Integration in the Personalisation Engine. User data stored by xAPI in the Data layer is processed in the Learning Analytics Platform which is viewed through the Learning Analytics Platform Integration in the Personalisation Engine. The Personalisation Engine interacts with the Product Layer which contains the Learning Environment through the Course Generation Function. 
 
